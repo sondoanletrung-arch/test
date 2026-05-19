@@ -1,0 +1,34 @@
+2026-05-15 04:17:58	-	modest_allen	-	36145230769244bd6fdc8b37f8031c25	d1ce98a1-1993-4fc6-a721-73053ace5696	nextflow run dev.nf
+2026-05-15 04:18:33	3.5s	nice_northcutt	OK	2c21408be7903c49ad7b7ca041231994	200a75fd-d72d-45cc-96f1-915ce147b8aa	nextflow run dev.nf
+2026-05-15 08:29:24	3.4s	romantic_kalam	ERR	568e1d14462b9d8c85aa0aefcffa8aac	50330939-771f-48c6-9937-07337b6957f8	nextflow run main.nf -with-conda
+2026-05-15 08:29:46	39s	happy_church	OK	568e1d14462b9d8c85aa0aefcffa8aac	b0612447-e62c-4462-9391-0e4e66c7c32e	nextflow run main.nf -with-conda
+2026-05-15 09:12:39	33.3s	clever_watson	OK	b1a5b41ef04a93a3899457750e7871c8	d19a8b2c-9100-46bf-9bb7-f157197fe583	nextflow run main.nf -with-conda
+2026-05-15 10:25:06	1m 14s	drunk_goodall	ERR	d06d51cd85e4ed87123e8517f9caf6fa	2ab90996-e292-482f-b9df-0a08e976bc74	nextflow run devSpades.nf -with-conda
+2026-05-15 10:29:52	1m 20s	amazing_blackwell	OK	964d110b61b837753e475f849b972043	afb73867-3694-423e-a39d-4ee238298545	nextflow run devSpades.nf -with-conda
+2026-05-18 01:55:58	3.6s	tiny_hilbert	ERR	8d4f9eaab667ccf354d92c64700d67cb	adc181fc-e2ea-4a5c-8c25-60c63a29e418	nextflow run devFastp.nf profile--docker
+2026-05-18 01:56:31	4s	sick_engelbart	ERR	8d4f9eaab667ccf354d92c64700d67cb	0ff5339f-2015-49cb-ba49-d2483c47c869	nextflow run devFastp.nf profile--conda
+2026-05-18 02:04:02	6.6s	sharp_curie	OK	8d4f9eaab667ccf354d92c64700d67cb	3b443e4b-ca70-4926-89bb-b743fef89ed5	nextflow run devFastp.nf -with-conda
+2026-05-18 02:06:07	3.3s	sharp_hawking	ERR	8d4f9eaab667ccf354d92c64700d67cb	1333f402-8f42-40bd-b73f-da4e306c4545	nextflow run devFastp.nf -with-singularity
+2026-05-18 02:36:58	3.7s	wise_koch	ERR	8d4f9eaab667ccf354d92c64700d67cb	95f6f488-204e-4119-9187-81fd6b45b087	nextflow run devFastp.nf -with-docker
+2026-05-18 02:39:06	12.4s	goofy_mahavira	OK	6d5f86c64a86c6ca686db5179e74f42f	cc2e6f14-ca2d-40dc-9160-b535fddab249	nextflow run devFastp.nf -with-docker
+2026-05-18 02:44:40	13.4s	magical_venter	OK	d51d6ff2fe901cc218d0cb2ca1745024	3e1f44d8-0a7a-4694-8e55-c89b77eb0e86	nextflow run devFastp.nf -with-docker
+2026-05-18 02:48:18	53.9s	desperate_goldstine	OK	a5ad131773a3d0023410264d6ec24a31	49ba8db6-2c50-4fcf-99bd-0787accafb54	nextflow run devSpades.nf -with-docker
+2026-05-18 03:01:41	2m 44s	furious_newton	OK	8982b64955aa341f7e353c2c5d7547ec	dbe2593b-1709-43ba-922e-d8a6d231c2d7	nextflow run devProkka.nf -with-docker
+2026-05-18 03:16:51	6.2s	chaotic_dalembert	OK	9f0c1def515fadfe123cf88c71af7bf8	88f3a338-5465-452f-98d3-e697e3282aa2	nextflow run devFastp.nf -with-docker
+2026-05-18 03:41:02	5.5s	tiny_volta	OK	d3370a985030bf90da313ff797cfa03c	a298ee6b-62f7-4e52-b190-782fc80d49c7	nextflow run devFastp.nf -with-docker
+2026-05-18 04:47:48	9.1s	shrivelled_colden	ERR	5864486a818309403514f497ef64e7db	51f4fda3-32f8-4097-bf72-794ec62944e3	nextflow run devFastp.nf -with-docker
+2026-05-18 04:51:50	7.2s	thirsty_carson	OK	3a66a593843206ab1d6b18416a471837	9ba7d0e4-971f-4369-a2fd-99d2690c2b78	nextflow run devFastp.nf -with-docker
+2026-05-18 06:58:00	43.3s	nasty_waddington	OK	3fe75239a5e659473d2c4be75347710b	faac087f-f058-4da3-8c72-d82a6869dd07	nextflow run fastp+spades.nf -with-docker
+2026-05-18 08:30:29	-	mad_noether	-	463bff7153eb381ff07271afd1ee5cd7	af138c33-64ae-4597-b861-1ea37ebf4908	nextflow run devProkka.nf -with-docker
+2026-05-18 08:31:13	48.4s	reverent_swanson	OK	44068d7498c46ca474ff50dc570e4022	f625ba41-d709-42e2-a32e-ef5a93ef884c	nextflow run devProkka.nf -with-docker
+2026-05-18 08:47:01	59.1s	infallible_pasteur	OK	40ee8ae0985067547c099a4c3a662a07	004d1d70-1163-438f-89b8-83f8a2349e00	nextflow run fastp+spades.nf -with-docker
+2026-05-18 10:10:51	-	prickly_ochoa	-	c4ab656ee52ddab76d348376c9c63edc	1c106c73-359f-4e35-bf99-1bbc807fbc99	nextflow run testmain.nf -with-docker
+2026-05-18 10:11:51	-	admiring_hypatia	-	be1f032ce6e92b06774ecb3ca76caaeb	ca51beac-847e-4839-b875-9111a118d744	nextflow run testmain.nf -with-docker
+2026-05-18 10:13:48	53.6s	kickass_lavoisier	OK	017adf77e98a70bddf25ecea0b342e78	4579909e-6213-4738-9b52-4a11c51d544a	nextflow run testmain.nf -with-docker
+2026-05-18 10:21:47	10.9s	irreverent_gutenberg	ERR	017adf77e98a70bddf25ecea0b342e78	0cf4542e-ab05-49da-97f8-00b115bd9c13	nextflow run testmain.nf -with-conda
+2026-05-18 10:25:56	6m 33s	gloomy_colden	OK	017adf77e98a70bddf25ecea0b342e78	b6ca5867-d204-4ff9-b709-7d4c3d136364	nextflow run testmain.nf -with-conda
+2026-05-19 01:47:04	-	voluminous_mcnulty	-	017adf77e98a70bddf25ecea0b342e78	0bd4a59c-bde9-4ad5-bc75-e6e1a0a8ced9	nextflow run testmain.nf -profile docker --input /workspaces/test/samplesheet.csv
+2026-05-19 01:51:47	1m 27s	festering_hilbert	OK	017adf77e98a70bddf25ecea0b342e78	eb49098a-b0b3-44f7-86c7-66f8547975a1	nextflow run testmain.nf -profile docker --input /workspaces/test/samplesheet.csv --output ./testest
+2026-05-19 01:59:50	54.4s	shrivelled_descartes	OK	017adf77e98a70bddf25ecea0b342e78	88a38ac3-8917-43e0-8591-306a7883d439	nextflow run testmain.nf -profile docker --input /workspaces/test/samplesheet.csv --outdir ./test
+2026-05-19 02:13:39	4.1s	kickass_lumiere	ERR	83610ff5cac5a5bcb81f1732fe6c6caf	e70a4fae-570c-4505-a63e-12dec7356961	nextflow run testmain.nf -profile docker --input /workspaces/test/samplesheet.csv --outdir ./test
+2026-05-19 02:23:00	59.7s	marvelous_mercator	OK	83610ff5cac5a5bcb81f1732fe6c6caf	5844faa7-c15c-4114-aaf2-073d84ab6be0	nextflow run testmain.nf -profile docker --input /workspaces/test/samplesheet.csv --outdir ./test

@@ -1,0 +1,144 @@
+[01:52:32] This is prokka 1.14.6
+[01:52:32] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[01:52:32] Homepage is https://github.com/tseemann/prokka
+[01:52:32] Local time is Tue May 19 01:52:32 2026
+[01:52:32] You are not telling me who you are!
+[01:52:32] Operating system is linux
+[01:52:32] You have BioPerl 1.7.8
+[01:52:32] System has 2 cores.
+[01:52:32] Will use maximum of 2 cores.
+[01:52:32] Annotating as >>> Bacteria <<<
+[01:52:32] Generating locus_tag from 'test.scaffolds.fa' contents.
+[01:52:32] Setting --locustag PHLKGFML from MD5 91540f65ed2499397d983ea53c10fd9d
+[01:52:32] Creating new output folder: test
+[01:52:32] Running: mkdir -p test
+[01:52:32] Using filename prefix: test.XXX
+[01:52:32] Setting HMMER_NCPU=1
+[01:52:32] Writing log to: test/test.log
+[01:52:32] Command: /opt/conda/bin/prokka --cpus 2 --outdir test --prefix test test.scaffolds.fa
+[01:52:32] Appending to PATH: /opt/conda/bin
+[01:52:32] Looking for 'aragorn' - found /opt/conda/bin/aragorn
+[01:52:32] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[01:52:32] Looking for 'barrnap' - found /opt/conda/bin/barrnap
+[01:52:32] Determined barrnap version is 000009 from 'barrnap 0.9'
+[01:52:32] Looking for 'blastp' - found /opt/conda/bin/blastp
+[01:52:42] Determined blastp version is 002016 from 'blastp: 2.16.0+'
+[01:52:42] Looking for 'cmpress' - found /opt/conda/bin/cmpress
+[01:52:42] Determined cmpress version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[01:52:42] Looking for 'cmscan' - found /opt/conda/bin/cmscan
+[01:52:42] Determined cmscan version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[01:52:42] Looking for 'egrep' - found /usr/bin/egrep
+[01:52:42] Looking for 'find' - found /usr/bin/find
+[01:52:42] Looking for 'grep' - found /usr/bin/grep
+[01:52:42] Looking for 'hmmpress' - found /opt/conda/bin/hmmpress
+[01:52:42] Determined hmmpress version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[01:52:42] Looking for 'hmmscan' - found /opt/conda/bin/hmmscan
+[01:52:42] Determined hmmscan version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[01:52:42] Looking for 'java' - found /opt/conda/bin/java
+[01:52:42] Looking for 'makeblastdb' - found /opt/conda/bin/makeblastdb
+[01:52:43] Determined makeblastdb version is 002016 from 'makeblastdb: 2.16.0+'
+[01:52:43] Looking for 'minced' - found /opt/conda/bin/minced
+[01:52:45] Determined minced version is 004002 from 'minced 0.4.2'
+[01:52:45] Looking for 'parallel' - found /opt/conda/bin/parallel
+[01:52:45] Determined parallel version is 20241122 from 'GNU parallel 20241122'
+[01:52:45] Looking for 'prodigal' - found /opt/conda/bin/prodigal
+[01:52:46] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[01:52:46] Looking for 'prokka-genbank_to_fasta_db' - found /opt/conda/bin/prokka-genbank_to_fasta_db
+[01:52:46] Looking for 'sed' - found /usr/bin/sed
+[01:52:46] Looking for 'tbl2asn' - found /opt/conda/bin/tbl2asn
+[01:52:46] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[01:52:46] Using genetic code table 11.
+[01:52:46] Loading and checking input file: test.scaffolds.fa
+[01:52:46] Wrote 217 contigs totalling 194727 bp.
+[01:52:46] Predicting tRNAs and tmRNAs
+[01:52:46] Running: aragorn -l -gc11  -w test\/test\.fna
+[01:52:46] 1 tRNA-Ile [191,267] 35 (gat)
+[01:52:46] 2 tRNA-Ala [310,385] 34 (tgc)
+[01:52:46] 3 tRNA-Thr [3698,3773] 34 (ggt)
+[01:52:46] 1 tRNA-Asn c[218,293] 34 (gtt)
+[01:52:46] Found 4 tRNAs
+[01:52:46] Predicting Ribosomal RNAs
+[01:52:46] Running Barrnap with 2 threads
+[01:52:47] 1 NODE_10_length_1061_cov_1.462527 2 16S ribosomal RNA (partial)
+[01:52:47] 2 NODE_3_length_4168_cov_1.682009 571 23S ribosomal RNA
+[01:52:47] 3 NODE_3_length_4168_cov_1.682009 3570 5S ribosomal RNA
+[01:52:47] Found 3 rRNAs
+[01:52:47] Skipping ncRNA search, enable with --rfam if desired.
+[01:52:47] Total of 7 tRNA + rRNA features
+[01:52:47] Searching for CRISPR repeats
+[01:52:47] Found 0 CRISPRs
+[01:52:47] Predicting coding sequences
+[01:52:47] Contigs total 194727 bp, so using single mode
+[01:52:47] Running: prodigal -i test\/test\.fna -c -m -g 11 -p single -f sco -q
+[01:52:47] Excluding CDS which overlaps existing RNA (rRNA) at NODE_3_length_4168_cov_1.682009:792..923 on - strand
+[01:52:48] Found 197 CDS
+[01:52:48] Connecting features back to sequences
+[01:52:48] Not using genus-specific database. Try --usegenus to enable it.
+[01:52:48] Annotating CDS, please be patient.
+[01:52:48] Will use 2 CPUs for similarity searching.
+[01:52:48] There are still 197 unannotated CDS left (started with 197)
+[01:52:48] Will use blast to search against /opt/conda/db/kingdom/Bacteria/IS with 2 CPUs
+[01:52:48] Running: cat test\/test\.IS\.tmp\.21\.faa | parallel --gnu --plain -j 2 --block 7971 --recstart '>' --pipe blastp -query - -db /opt/conda/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\/test\.IS\.tmp\.21\.blast 2> /dev/null
+[01:52:50] Deleting unwanted file: test/test.IS.tmp.21.faa
+[01:52:50] Deleting unwanted file: test/test.IS.tmp.21.blast
+[01:52:50] There are still 190 unannotated CDS left (started with 197)
+[01:52:50] Will use blast to search against /opt/conda/db/kingdom/Bacteria/AMR with 2 CPUs
+[01:52:50] Running: cat test\/test\.AMR\.tmp\.21\.faa | parallel --gnu --plain -j 2 --block 7611 --recstart '>' --pipe blastp -query - -db /opt/conda/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\/test\.AMR\.tmp\.21\.blast 2> /dev/null
+[01:52:52] Deleting unwanted file: test/test.AMR.tmp.21.faa
+[01:52:52] Deleting unwanted file: test/test.AMR.tmp.21.blast
+[01:52:52] There are still 189 unannotated CDS left (started with 197)
+[01:52:52] Will use blast to search against /opt/conda/db/kingdom/Bacteria/sprot with 2 CPUs
+[01:52:52] Running: cat test\/test\.sprot\.tmp\.21\.faa | parallel --gnu --plain -j 2 --block 7487 --recstart '>' --pipe blastp -query - -db /opt/conda/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > test\/test\.sprot\.tmp\.21\.blast 2> /dev/null
+[01:52:57] Modify product: Probable ATP-dependent DNA helicase YoaA => putative ATP-dependent DNA helicase YoaA
+[01:52:57] Modify product: Uncharacterized protein YdjI => putative protein YdjI
+[01:52:57] Modify product: UPF0098 protein YbhB => hypothetical protein
+[01:52:57] Modify product: UPF0438 protein YifE => hypothetical protein
+[01:52:57] Modify product: Uncharacterized protein YdiE => putative protein YdiE
+[01:52:58] Modify product: UPF0758 protein CT0611 => hypothetical protein
+[01:52:58] Modify product: Uncharacterized protein YgcP => putative protein YgcP
+[01:52:58] Modify product: Probable diguanylate cyclase DgcE => putative diguanylate cyclase DgcE
+[01:52:58] Cleaned 8 /product names
+[01:52:58] Deleting unwanted file: test/test.sprot.tmp.21.faa
+[01:52:58] Deleting unwanted file: test/test.sprot.tmp.21.blast
+[01:52:58] There are still 120 unannotated CDS left (started with 197)
+[01:52:58] Will use hmmer3 to search against /opt/conda/db/hmm/HAMAP.hmm with 2 CPUs
+[01:52:58] Running: cat test\/test\.HAMAP\.hmm\.tmp\.21\.faa | parallel --gnu --plain -j 2 --block 5044 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /opt/conda/db/hmm/HAMAP.hmm /dev/stdin > test\/test\.HAMAP\.hmm\.tmp\.21\.hmmer3 2> /dev/null
+[01:53:11] Deleting unwanted file: test/test.HAMAP.hmm.tmp.21.faa
+[01:53:11] Deleting unwanted file: test/test.HAMAP.hmm.tmp.21.hmmer3
+[01:53:11] Labelling remaining 118 proteins as 'hypothetical protein'
+[01:53:11] Found 66 unique /gene codes.
+[01:53:11] Fixed 2 duplicate /gene - cat_1 cat_2
+[01:53:11] Fixed 1 colliding /gene names.
+[01:53:11] Adding /locus_tag identifiers
+[01:53:11] Assigned 204 locus_tags to CDS and RNA features.
+[01:53:11] Writing outputs to test/
+[01:53:11] Generating annotation statistics file
+[01:53:11] Generating Genbank and Sequin files
+[01:53:11] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z test\/test\.err -i test\/test\.fsa 2> /dev/null
+[01:53:13] Deleting unwanted file: test/errorsummary.val
+[01:53:13] Deleting unwanted file: test/test.dr
+[01:53:13] Deleting unwanted file: test/test.fixedproducts
+[01:53:13] Deleting unwanted file: test/test.ecn
+[01:53:13] Deleting unwanted file: test/test.val
+[01:53:13] Repairing broken .GBK output that tbl2asn produces...
+[01:53:13] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < test\/test\.gbf > test\/test\.gbk
+[01:53:13] Deleting unwanted file: test/test.gbf
+[01:53:13] Output files:
+[01:53:13] test/test.tsv
+[01:53:13] test/test.gbk
+[01:53:13] test/test.log
+[01:53:13] test/test.gff
+[01:53:13] test/test.sqn
+[01:53:13] test/test.fna
+[01:53:13] test/test.tbl
+[01:53:13] test/test.err
+[01:53:13] test/test.txt
+[01:53:13] test/test.faa
+[01:53:13] test/test.fsa
+[01:53:13] test/test.ffn
+[01:53:13] Annotation finished successfully.
+[01:53:13] Walltime used: 0.68 minutes
+[01:53:13] If you use this result please cite the Prokka paper:
+[01:53:13] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[01:53:13] Type 'prokka --citation' for more details.
+[01:53:13] Share and enjoy!

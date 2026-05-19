@@ -1,0 +1,205 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+PHLKGFML_00001	CDS	429				hypothetical protein
+PHLKGFML_00002	CDS	180				hypothetical protein
+PHLKGFML_00003	CDS	861				hypothetical protein
+PHLKGFML_00004	CDS	339				hypothetical protein
+PHLKGFML_00005	CDS	231	ymoA			Modulating protein YmoA
+PHLKGFML_00006	CDS	114				hypothetical protein
+PHLKGFML_00007	CDS	216				hypothetical protein
+PHLKGFML_00008	CDS	411				hypothetical protein
+PHLKGFML_00009	CDS	306				hypothetical protein
+PHLKGFML_00010	CDS	441	klcA			Antirestriction protein KlcA
+PHLKGFML_00011	CDS	285				hypothetical protein
+PHLKGFML_00012	CDS	222				hypothetical protein
+PHLKGFML_00013	CDS	435				Single-stranded DNA-binding protein
+PHLKGFML_00014	CDS	312				hypothetical protein
+PHLKGFML_00015	CDS	537				hypothetical protein
+PHLKGFML_00016	CDS	141				hypothetical protein
+PHLKGFML_00017	CDS	366				hypothetical protein
+PHLKGFML_00018	CDS	564				hypothetical protein
+PHLKGFML_00019	CDS	1980	traI			Protein TraI
+PHLKGFML_00020	CDS	501				hypothetical protein
+PHLKGFML_00021	CDS	780				hypothetical protein
+PHLKGFML_00022	CDS	1164				hypothetical protein
+PHLKGFML_00023	CDS	261				hypothetical protein
+PHLKGFML_00024	CDS	3438				hypothetical protein
+PHLKGFML_00025	CDS	513				hypothetical protein
+PHLKGFML_00026	CDS	213				hypothetical protein
+PHLKGFML_00027	CDS	411				hypothetical protein
+PHLKGFML_00028	CDS	714				hypothetical protein
+PHLKGFML_00029	CDS	1152				hypothetical protein
+PHLKGFML_00030	CDS	1350				hypothetical protein
+PHLKGFML_00031	CDS	705				hypothetical protein
+PHLKGFML_00032	CDS	531				hypothetical protein
+PHLKGFML_00033	CDS	390				hypothetical protein
+PHLKGFML_00034	CDS	495				hypothetical protein
+PHLKGFML_00035	CDS	3051				hypothetical protein
+PHLKGFML_00036	CDS	1209				hypothetical protein
+PHLKGFML_00037	CDS	597				hypothetical protein
+PHLKGFML_00038	CDS	2196				hypothetical protein
+PHLKGFML_00039	CDS	654				hypothetical protein
+PHLKGFML_00040	CDS	231				hypothetical protein
+PHLKGFML_00041	CDS	1056	repA			Replication initiation protein
+PHLKGFML_00042	CDS	2088				hypothetical protein
+PHLKGFML_00043	CDS	951				hypothetical protein
+PHLKGFML_00044	CDS	1308				hypothetical protein
+PHLKGFML_00045	CDS	396				hypothetical protein
+PHLKGFML_00046	CDS	351				hypothetical protein
+PHLKGFML_00047	CDS	654				hypothetical protein
+PHLKGFML_00048	CDS	258	pemI			Antitoxin PemI
+PHLKGFML_00049	CDS	333	pemK	3.1.-.-		Endoribonuclease PemK
+PHLKGFML_00050	CDS	435	umuD	3.4.21.-	COG1974	Protein UmuD
+PHLKGFML_00051	CDS	1305	umuC		COG0389	Protein UmuC
+PHLKGFML_00052	CDS	210				hypothetical protein
+PHLKGFML_00053	CDS	219				hypothetical protein
+PHLKGFML_00054	CDS	684				hypothetical protein
+PHLKGFML_00055	CDS	273				hypothetical protein
+PHLKGFML_00056	CDS	1275				hypothetical protein
+PHLKGFML_00057	CDS	345				hypothetical protein
+PHLKGFML_00058	CDS	159				hypothetical protein
+PHLKGFML_00059	CDS	585				hypothetical protein
+PHLKGFML_00060	CDS	546				hypothetical protein
+PHLKGFML_00061	CDS	462				hypothetical protein
+PHLKGFML_00062	CDS	249				hypothetical protein
+PHLKGFML_00063	CDS	588				hypothetical protein
+PHLKGFML_00064	CDS	486				hypothetical protein
+PHLKGFML_00065	CDS	249				hypothetical protein
+PHLKGFML_00066	CDS	678	xerD			Tyrosine recombinase XerD
+PHLKGFML_00067	CDS	975	parM			Plasmid segregation protein ParM
+PHLKGFML_00068	CDS	444	stbB			Protein StbB
+PHLKGFML_00069	CDS	564				hypothetical protein
+PHLKGFML_00070	CDS	507				hypothetical protein
+PHLKGFML_00071	CDS	480				hypothetical protein
+PHLKGFML_00072	CDS	411				hypothetical protein
+PHLKGFML_00073	CDS	264				hypothetical protein
+PHLKGFML_00074	CDS	363				hypothetical protein
+PHLKGFML_00075	CDS	450				hypothetical protein
+PHLKGFML_00076	CDS	267				hypothetical protein
+PHLKGFML_00077	CDS	324				hypothetical protein
+PHLKGFML_00078	CDS	378			COG1662	IS1 family transposase IS1R
+PHLKGFML_00079	CDS	216				hypothetical protein
+PHLKGFML_00080	CDS	660	cat_1	2.3.1.28		Chloramphenicol acetyltransferase
+PHLKGFML_00081	CDS	378				hypothetical protein
+PHLKGFML_00082	CDS	285				hypothetical protein
+PHLKGFML_00083	CDS	645				hypothetical protein
+PHLKGFML_00084	CDS	786				IS21 family transposase IS1326
+PHLKGFML_00085	CDS	501				hypothetical protein
+PHLKGFML_00086	CDS	840	folP	2.5.1.15	COG0294	Dihydropteroate synthase
+PHLKGFML_00087	CDS	348	emrE		COG2076	Multidrug transporter EmrE
+PHLKGFML_00088	CDS	633	cat_2	2.3.1.28	COG0110	Chloramphenicol acetyltransferase
+PHLKGFML_00089	CDS	780	ant1	2.7.7.47		Streptomycin 3''-adenylyltransferase
+PHLKGFML_00090	CDS	237		1.5.1.3		Dihydrofolate reductase type 2
+PHLKGFML_00091	CDS	555	aacA4	2.3.1.82		Aminoglycoside N(6')-acetyltransferase type 1
+PHLKGFML_00092	CDS	801				hypothetical protein
+PHLKGFML_00093	CDS	396				hypothetical protein
+PHLKGFML_00094	tRNA	77				tRNA-Ile(gat)
+PHLKGFML_00095	tRNA	76				tRNA-Ala(tgc)
+PHLKGFML_00096	rRNA	2901				23S ribosomal RNA
+PHLKGFML_00097	rRNA	111				5S ribosomal RNA
+PHLKGFML_00098	tRNA	76				tRNA-Thr(ggt)
+PHLKGFML_00099	CDS	885				hypothetical protein
+PHLKGFML_00100	CDS	1476	msr(E)			ABC-F type ribosomal protection protein Msr(E)
+PHLKGFML_00101	CDS	405				hypothetical protein
+PHLKGFML_00102	CDS	567				hypothetical protein
+PHLKGFML_00103	CDS	219				hypothetical protein
+PHLKGFML_00104	CDS	981			COG3039	IS5 family transposase IS5
+PHLKGFML_00105	CDS	867				IS3 family transposase IS3
+PHLKGFML_00106	CDS	300				IS3 family transposase ISEc17
+PHLKGFML_00107	CDS	198				IS3 family transposase IS2
+PHLKGFML_00108	CDS	366				hypothetical protein
+PHLKGFML_00109	rRNA	1060				16S ribosomal RNA (partial)
+PHLKGFML_00110	CDS	171	purK	6.3.4.18	COG0026	N5-carboxyaminoimidazole ribonucleotide synthase
+PHLKGFML_00111	CDS	576	ygcP		COG1954	putative protein YgcP
+PHLKGFML_00112	CDS	318	srlA		COG3730	PTS system glucitol/sorbitol-specific EIIC component
+PHLKGFML_00113	CDS	474	yiaV		COG1566	Inner membrane protein YiaV
+PHLKGFML_00114	CDS	369				hypothetical protein
+PHLKGFML_00115	CDS	519				hypothetical protein
+PHLKGFML_00116	CDS	309	dgcE	2.7.7.65	COG2202	putative diguanylate cyclase DgcE
+PHLKGFML_00117	CDS	219	aroG	2.5.1.54	COG0722	Phospho-2-dehydro-3-deoxyheptonate aldolase, Phe-sensitive
+PHLKGFML_00118	CDS	705				IS6 family transposase IS26
+PHLKGFML_00119	CDS	288				hypothetical protein
+PHLKGFML_00120	CDS	495	ppiB	5.2.1.8	COG0652	Peptidyl-prolyl cis-trans isomerase B
+PHLKGFML_00121	CDS	495	mdtB			Multidrug resistance protein MdtB
+PHLKGFML_00122	CDS	243				hypothetical protein
+PHLKGFML_00123	CDS	654	yoaA	3.6.4.12	COG1199	putative ATP-dependent DNA helicase YoaA
+PHLKGFML_00124	CDS	498	rpoE		COG1595	ECF RNA polymerase sigma-E factor
+PHLKGFML_00125	CDS	210	epmB	5.4.3.-	COG1509	L-lysine 2,3-aminomutase
+PHLKGFML_00126	CDS	636	ydjI		COG0191	putative protein YdjI
+PHLKGFML_00127	CDS	297	def	3.5.1.88	COG0242	Peptide deformylase
+PHLKGFML_00128	CDS	189				hypothetical protein
+PHLKGFML_00129	CDS	333				hypothetical protein
+PHLKGFML_00130	CDS	264	gadX			HTH-type transcriptional regulator GadX
+PHLKGFML_00131	CDS	165	eutQ		COG4766	Ethanolamine utilization protein EutQ
+PHLKGFML_00132	CDS	297				hypothetical protein
+PHLKGFML_00133	CDS	546				hypothetical protein
+PHLKGFML_00134	CDS	267				hypothetical protein
+PHLKGFML_00135	CDS	228	fldA		COG0716	Flavodoxin 1
+PHLKGFML_00136	CDS	399	hyaE			Hydrogenase-1 operon protein HyaE
+PHLKGFML_00137	CDS	258				hypothetical protein
+PHLKGFML_00138	CDS	198	ylaC			Inner membrane protein YlaC
+PHLKGFML_00139	CDS	300				hypothetical protein
+PHLKGFML_00140	CDS	219				hypothetical protein
+PHLKGFML_00141	CDS	177	hyfG	1.-.-.-	COG3261	Hydrogenase-4 component G
+PHLKGFML_00142	CDS	192				hypothetical protein
+PHLKGFML_00143	CDS	219				hypothetical protein
+PHLKGFML_00144	CDS	213				hypothetical protein
+PHLKGFML_00145	CDS	522				hypothetical protein
+PHLKGFML_00146	CDS	339				hypothetical protein
+PHLKGFML_00147	CDS	276				hypothetical protein
+PHLKGFML_00148	CDS	174				hypothetical protein
+PHLKGFML_00149	CDS	168				hypothetical protein
+PHLKGFML_00150	CDS	453	rpoA	2.7.7.6	COG0202	DNA-directed RNA polymerase subunit alpha
+PHLKGFML_00151	tRNA	76				tRNA-Asn(gtt)
+PHLKGFML_00152	CDS	198				hypothetical protein
+PHLKGFML_00153	CDS	351				hypothetical protein
+PHLKGFML_00154	CDS	258	cadA	4.1.1.18	COG1982	Inducible lysine decarboxylase
+PHLKGFML_00155	CDS	141				hypothetical protein
+PHLKGFML_00156	CDS	213				hypothetical protein
+PHLKGFML_00157	CDS	234	yihP		COG2211	Putative 2,3-dihydroxypropane-1-sulfonate exporter
+PHLKGFML_00158	CDS	174				hypothetical protein
+PHLKGFML_00159	CDS	393				hypothetical protein
+PHLKGFML_00160	CDS	297				hypothetical protein
+PHLKGFML_00161	CDS	225	nohA		COG4220	Prophage DNA-packing protein NohA
+PHLKGFML_00162	CDS	261	dinJ		COG3077	Antitoxin DinJ
+PHLKGFML_00163	CDS	408	dgcP	2.7.7.65	COG2203	Diguanylate cyclase DgcP
+PHLKGFML_00164	CDS	408	rtcB	6.5.1.-	COG1690	RNA-splicing ligase RtcB
+PHLKGFML_00165	CDS	222				hypothetical protein
+PHLKGFML_00166	CDS	282	intA		COG0582	Prophage integrase IntA
+PHLKGFML_00167	CDS	429	uspC		COG0589	Universal stress protein C
+PHLKGFML_00168	CDS	300	atoS	2.7.13.3	COG0642	Signal transduction histidine-protein kinase AtoS
+PHLKGFML_00169	CDS	138	sra			Stationary-phase-induced ribosome-associated protein
+PHLKGFML_00170	CDS	387	lysP		COG0833	Lysine-specific permease
+PHLKGFML_00171	CDS	294				hypothetical protein
+PHLKGFML_00172	CDS	255	rplP		COG0197	50S ribosomal protein L16
+PHLKGFML_00173	CDS	327	rcsC	2.7.13.3		Sensor histidine kinase RcsC
+PHLKGFML_00174	CDS	198				hypothetical protein
+PHLKGFML_00175	CDS	174				hypothetical protein
+PHLKGFML_00176	CDS	234				hypothetical protein
+PHLKGFML_00177	CDS	267	ygfA	6.3.3.2	COG0212	5-formyltetrahydrofolate cyclo-ligase
+PHLKGFML_00178	CDS	240	nrdI		COG1780	Protein NrdI
+PHLKGFML_00179	CDS	393				hypothetical protein
+PHLKGFML_00180	CDS	252				hypothetical protein
+PHLKGFML_00181	CDS	252	aspC	2.6.1.1	COG1448	Aspartate aminotransferase
+PHLKGFML_00182	CDS	234				hypothetical protein
+PHLKGFML_00183	CDS	249	metC	4.4.1.13	COG0626	Cystathionine beta-lyase MetC
+PHLKGFML_00184	CDS	240	dacA	3.4.16.4	COG1686	D-alanyl-D-alanine carboxypeptidase DacA
+PHLKGFML_00185	CDS	222				hypothetical protein
+PHLKGFML_00186	CDS	417	ung	3.2.2.27	COG0692	Uracil-DNA glycosylase
+PHLKGFML_00187	CDS	192	ydiE		COG4256	putative protein YdiE
+PHLKGFML_00188	CDS	423				hypothetical protein
+PHLKGFML_00189	CDS	252	lldD	1.1.-.-	COG1304	L-lactate dehydrogenase
+PHLKGFML_00190	CDS	252				hypothetical protein
+PHLKGFML_00191	CDS	267	rbsD	5.4.99.62	COG1869	D-ribose pyranase
+PHLKGFML_00192	CDS	291				hypothetical protein
+PHLKGFML_00193	CDS	240				hypothetical protein
+PHLKGFML_00194	CDS	150				hypothetical protein
+PHLKGFML_00195	CDS	330	ssuD	1.14.14.5	COG2141	Alkanesulfonate monooxygenase
+PHLKGFML_00196	CDS	420	nikA		COG0747	Nickel-binding periplasmic protein
+PHLKGFML_00197	CDS	276				hypothetical protein
+PHLKGFML_00198	CDS	150	rimL	2.3.1.-	COG1670	Ribosomal-protein-serine acetyltransferase
+PHLKGFML_00199	CDS	249				hypothetical protein
+PHLKGFML_00200	CDS	159	flhA		COG1298	Flagellar biosynthesis protein FlhA
+PHLKGFML_00201	CDS	285				hypothetical protein
+PHLKGFML_00202	CDS	300	scpC	2.8.3.-	COG0427	Propionyl-CoA:succinate CoA transferase
+PHLKGFML_00203	CDS	297	yqjE		COG5393	Inner membrane protein YqjE
+PHLKGFML_00204	CDS	237	rpmB		COG0227	50S ribosomal protein L28

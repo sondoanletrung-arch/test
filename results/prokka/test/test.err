@@ -1,0 +1,2938 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:197 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 197 present
+DISC_FEATURE_COUNT:tRNA: 4 present
+DISC_FEATURE_COUNT:rRNA: 3 present
+DISC_COUNT_NUCLEOTIDES:217 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:204 features have inconsistent gene locations.
+NO_ANNOTATION:119 bioseqs have no features
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+FATAL: DISC_SUSPECT_RRNA_PRODUCTS:1 rRNA product names contain suspect phrase
+ONCALLER_COMMENT_PRESENT:217 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:6 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:217 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:217 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:217 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:217 sequences do not include structured comments.
+MISSING_PROJECT:414 sequences do not include project.
+FATAL: RRNA_NAME_CONFLICTS:1 rRNA product names are not standard. Correct the names to the standard format, eg "16S ribosomal RNA"
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+SEQ_ID_PHRASES:Sequence Ids contain unacceptable phrases (cov_, length, node, paired, or trimmed)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::197 proteins have invalid IDs.
+test/test:NODE_1_length_59360_cov_12.132865_1 (length 142)
+test/test:NODE_1_length_59360_cov_12.132865_2 (length 59)
+test/test:NODE_1_length_59360_cov_12.132865_3 (length 286)
+test/test:NODE_1_length_59360_cov_12.132865_4 (length 112)
+test/test:NODE_1_length_59360_cov_12.132865_5 (length 76)
+test/test:NODE_1_length_59360_cov_12.132865_6 (length 37)
+test/test:NODE_1_length_59360_cov_12.132865_7 (length 71)
+test/test:NODE_1_length_59360_cov_12.132865_8 (length 136)
+test/test:NODE_1_length_59360_cov_12.132865_9 (length 101)
+test/test:NODE_1_length_59360_cov_12.132865_10 (length 146)
+test/test:NODE_1_length_59360_cov_12.132865_11 (length 94)
+test/test:NODE_1_length_59360_cov_12.132865_12 (length 73)
+test/test:NODE_1_length_59360_cov_12.132865_13 (length 144)
+test/test:NODE_1_length_59360_cov_12.132865_14 (length 103)
+test/test:NODE_1_length_59360_cov_12.132865_15 (length 178)
+test/test:NODE_1_length_59360_cov_12.132865_16 (length 46)
+test/test:NODE_1_length_59360_cov_12.132865_17 (length 121)
+test/test:NODE_1_length_59360_cov_12.132865_18 (length 187)
+test/test:NODE_1_length_59360_cov_12.132865_19 (length 659)
+test/test:NODE_1_length_59360_cov_12.132865_20 (length 166)
+test/test:NODE_1_length_59360_cov_12.132865_21 (length 259)
+test/test:NODE_1_length_59360_cov_12.132865_22 (length 387)
+test/test:NODE_1_length_59360_cov_12.132865_23 (length 86)
+test/test:NODE_1_length_59360_cov_12.132865_24 (length 1145)
+test/test:NODE_1_length_59360_cov_12.132865_25 (length 170)
+test/test:NODE_1_length_59360_cov_12.132865_26 (length 70)
+test/test:NODE_1_length_59360_cov_12.132865_27 (length 136)
+test/test:NODE_1_length_59360_cov_12.132865_28 (length 237)
+test/test:NODE_1_length_59360_cov_12.132865_29 (length 383)
+test/test:NODE_1_length_59360_cov_12.132865_30 (length 449)
+test/test:NODE_1_length_59360_cov_12.132865_31 (length 234)
+test/test:NODE_1_length_59360_cov_12.132865_32 (length 176)
+test/test:NODE_1_length_59360_cov_12.132865_33 (length 129)
+test/test:NODE_1_length_59360_cov_12.132865_34 (length 164)
+test/test:NODE_1_length_59360_cov_12.132865_35 (length 1016)
+test/test:NODE_1_length_59360_cov_12.132865_36 (length 402)
+test/test:NODE_1_length_59360_cov_12.132865_37 (length 198)
+test/test:NODE_1_length_59360_cov_12.132865_38 (length 731)
+test/test:NODE_1_length_59360_cov_12.132865_39 (length 217)
+test/test:NODE_1_length_59360_cov_12.132865_40 (length 76)
+test/test:NODE_1_length_59360_cov_12.132865_41 (length 351)
+test/test:NODE_1_length_59360_cov_12.132865_42 (length 695)
+test/test:NODE_1_length_59360_cov_12.132865_43 (length 316)
+test/test:NODE_1_length_59360_cov_12.132865_44 (length 435)
+test/test:NODE_1_length_59360_cov_12.132865_45 (length 131)
+test/test:NODE_1_length_59360_cov_12.132865_46 (length 116)
+test/test:NODE_1_length_59360_cov_12.132865_47 (length 217)
+test/test:NODE_1_length_59360_cov_12.132865_48 (length 85)
+test/test:NODE_1_length_59360_cov_12.132865_49 (length 110)
+test/test:NODE_1_length_59360_cov_12.132865_50 (length 144)
+test/test:NODE_1_length_59360_cov_12.132865_51 (length 434)
+test/test:NODE_1_length_59360_cov_12.132865_52 (length 69)
+test/test:NODE_1_length_59360_cov_12.132865_53 (length 72)
+test/test:NODE_1_length_59360_cov_12.132865_54 (length 227)
+test/test:NODE_1_length_59360_cov_12.132865_55 (length 90)
+test/test:NODE_1_length_59360_cov_12.132865_56 (length 424)
+test/test:NODE_1_length_59360_cov_12.132865_57 (length 114)
+test/test:NODE_1_length_59360_cov_12.132865_58 (length 52)
+test/test:NODE_1_length_59360_cov_12.132865_59 (length 194)
+test/test:NODE_1_length_59360_cov_12.132865_60 (length 181)
+test/test:NODE_1_length_59360_cov_12.132865_61 (length 153)
+test/test:NODE_1_length_59360_cov_12.132865_62 (length 82)
+test/test:NODE_1_length_59360_cov_12.132865_63 (length 195)
+test/test:NODE_1_length_59360_cov_12.132865_64 (length 161)
+test/test:NODE_1_length_59360_cov_12.132865_65 (length 82)
+test/test:NODE_1_length_59360_cov_12.132865_66 (length 225)
+test/test:NODE_1_length_59360_cov_12.132865_67 (length 324)
+test/test:NODE_1_length_59360_cov_12.132865_68 (length 147)
+test/test:NODE_1_length_59360_cov_12.132865_69 (length 187)
+test/test:NODE_1_length_59360_cov_12.132865_70 (length 168)
+test/test:NODE_1_length_59360_cov_12.132865_71 (length 159)
+test/test:NODE_1_length_59360_cov_12.132865_72 (length 136)
+test/test:NODE_1_length_59360_cov_12.132865_73 (length 87)
+test/test:NODE_1_length_59360_cov_12.132865_74 (length 120)
+test/test:NODE_1_length_59360_cov_12.132865_75 (length 149)
+test/test:NODE_1_length_59360_cov_12.132865_76 (length 88)
+test/test:NODE_1_length_59360_cov_12.132865_77 (length 107)
+test/test:NODE_1_length_59360_cov_12.132865_78 (length 125)
+test/test:NODE_1_length_59360_cov_12.132865_79 (length 71)
+test/test:NODE_1_length_59360_cov_12.132865_80 (length 219)
+test/test:NODE_1_length_59360_cov_12.132865_81 (length 125)
+test/test:NODE_1_length_59360_cov_12.132865_82 (length 94)
+test/test:NODE_2_length_8267_cov_12.469287_1 (length 214)
+test/test:NODE_2_length_8267_cov_12.469287_2 (length 261)
+test/test:NODE_2_length_8267_cov_12.469287_3 (length 166)
+test/test:NODE_2_length_8267_cov_12.469287_4 (length 279)
+test/test:NODE_2_length_8267_cov_12.469287_5 (length 115)
+test/test:NODE_2_length_8267_cov_12.469287_6 (length 210)
+test/test:NODE_2_length_8267_cov_12.469287_7 (length 259)
+test/test:NODE_2_length_8267_cov_12.469287_8 (length 78)
+test/test:NODE_2_length_8267_cov_12.469287_9 (length 184)
+test/test:NODE_2_length_8267_cov_12.469287_10 (length 266)
+test/test:NODE_2_length_8267_cov_12.469287_11 (length 131)
+test/test:NODE_4_length_3086_cov_5.644137_1 (length 294)
+test/test:NODE_4_length_3086_cov_5.644137_2 (length 491)
+test/test:NODE_5_length_2039_cov_1.130753_1 (length 134)
+test/test:NODE_5_length_2039_cov_1.130753_2 (length 188)
+test/test:NODE_6_length_1728_cov_2.865084_1 (length 72)
+test/test:NODE_6_length_1728_cov_2.865084_2 (length 326)
+test/test:NODE_7_length_1704_cov_1.275840_1 (length 288)
+test/test:NODE_7_length_1704_cov_1.275840_2 (length 99)
+test/test:NODE_9_length_1327_cov_1.492500_1 (length 65)
+test/test:NODE_9_length_1327_cov_1.492500_2 (length 121)
+test/test:NODE_11_length_1004_cov_0.841505_1 (length 56)
+test/test:NODE_11_length_1004_cov_0.841505_2 (length 191)
+test/test:NODE_12_length_1002_cov_0.898286_1 (length 105)
+test/test:NODE_14_length_904_cov_0.897040_1 (length 157)
+test/test:NODE_14_length_904_cov_0.897040_2 (length 122)
+test/test:NODE_16_length_850_cov_1.000000_1 (length 172)
+test/test:NODE_17_length_839_cov_0.639045_1 (length 102)
+test/test:NODE_17_length_839_cov_0.639045_2 (length 72)
+test/test:NODE_18_length_820_cov_46.272727_1 (length 234)
+test/test:NODE_20_length_808_cov_0.957416_1 (length 95)
+test/test:NODE_21_length_789_cov_1.084592_1 (length 164)
+test/test:NODE_22_length_773_cov_0.698142_1 (length 164)
+test/test:NODE_22_length_773_cov_0.698142_2 (length 80)
+test/test:NODE_23_length_767_cov_0.554688_1 (length 217)
+test/test:NODE_25_length_749_cov_1.041801_1 (length 165)
+test/test:NODE_27_length_722_cov_0.648739_1 (length 69)
+test/test:NODE_28_length_721_cov_1.149832_1 (length 211)
+test/test:NODE_33_length_698_cov_0.500876_1 (length 98)
+test/test:NODE_36_length_693_cov_0.712014_1 (length 62)
+test/test:NODE_38_length_661_cov_0.803371_1 (length 110)
+test/test:NODE_39_length_660_cov_0.898687_1 (length 87)
+test/test:NODE_42_length_651_cov_0.761450_1 (length 54)
+test/test:NODE_43_length_646_cov_0.552987_1 (length 98)
+test/test:NODE_44_length_634_cov_0.832347_1 (length 181)
+test/test:NODE_45_length_634_cov_0.729783_1 (length 88)
+test/test:NODE_48_length_617_cov_0.665306_1 (length 75)
+test/test:NODE_51_length_606_cov_0.776618_1 (length 132)
+test/test:NODE_52_length_602_cov_0.829474_1 (length 85)
+test/test:NODE_53_length_601_cov_0.738397_1 (length 65)
+test/test:NODE_57_length_587_cov_0.850000_1 (length 99)
+test/test:NODE_58_length_577_cov_0.940000_1 (length 72)
+test/test:NODE_60_length_574_cov_0.798658_1 (length 58)
+test/test:NODE_61_length_573_cov_0.744395_1 (length 63)
+test/test:NODE_62_length_569_cov_0.760181_1 (length 72)
+test/test:NODE_65_length_562_cov_0.891954_1 (length 70)
+test/test:NODE_66_length_560_cov_0.824480_1 (length 173)
+test/test:NODE_67_length_556_cov_0.857809_1 (length 112)
+test/test:NODE_68_length_554_cov_0.707260_1 (length 91)
+test/test:NODE_69_length_553_cov_0.894366_1 (length 57)
+test/test:NODE_69_length_553_cov_0.894366_2 (length 55)
+test/test:NODE_71_length_545_cov_1.294258_1 (length 150)
+test/test:NODE_74_length_540_cov_0.970944_1 (length 65)
+test/test:NODE_76_length_534_cov_0.375921_1 (length 116)
+test/test:NODE_77_length_531_cov_1.284653_1 (length 85)
+test/test:NODE_78_length_531_cov_0.801980_1 (length 46)
+test/test:NODE_86_length_521_cov_0.672589_1 (length 70)
+test/test:NODE_87_length_520_cov_1.010178_1 (length 77)
+test/test:NODE_91_length_512_cov_0.568831_1 (length 57)
+test/test:NODE_92_length_510_cov_0.861619_1 (length 130)
+test/test:NODE_94_length_508_cov_1.023622_1 (length 98)
+test/test:NODE_101_length_501_cov_1.066845_1 (length 74)
+test/test:NODE_103_length_500_cov_1.107239_1 (length 86)
+test/test:NODE_104_length_498_cov_0.622642_1 (length 135)
+test/test:NODE_105_length_496_cov_1.073171_1 (length 135)
+test/test:NODE_108_length_494_cov_0.713896_1 (length 73)
+test/test:NODE_109_length_493_cov_0.926230_1 (length 93)
+test/test:NODE_111_length_492_cov_0.731507_1 (length 142)
+test/test:NODE_112_length_492_cov_0.715068_1 (length 99)
+test/test:NODE_113_length_491_cov_0.348901_1 (length 45)
+test/test:NODE_117_length_489_cov_0.762431_1 (length 128)
+test/test:NODE_119_length_486_cov_0.735376_1 (length 97)
+test/test:NODE_125_length_483_cov_0.794944_1 (length 84)
+test/test:NODE_126_length_483_cov_0.592697_1 (length 108)
+test/test:NODE_128_length_482_cov_0.892958_1 (length 65)
+test/test:NODE_135_length_476_cov_0.865330_1 (length 57)
+test/test:NODE_140_length_473_cov_0.921965_1 (length 77)
+test/test:NODE_143_length_472_cov_0.771014_1 (length 88)
+test/test:NODE_145_length_471_cov_0.863372_1 (length 79)
+test/test:NODE_150_length_466_cov_1.150442_1 (length 130)
+test/test:NODE_155_length_462_cov_1.083582_1 (length 83)
+test/test:NODE_156_length_462_cov_0.543284_1 (length 83)
+test/test:NODE_158_length_461_cov_0.865269_1 (length 77)
+test/test:NODE_160_length_459_cov_0.765060_1 (length 82)
+test/test:NODE_161_length_457_cov_0.924242_1 (length 79)
+test/test:NODE_163_length_456_cov_0.683891_1 (length 73)
+test/test:NODE_165_length_454_cov_0.782875_1 (length 138)
+test/test:NODE_173_length_450_cov_0.953560_1 (length 63)
+test/test:NODE_174_length_450_cov_0.690402_1 (length 140)
+test/test:NODE_176_length_449_cov_0.714286_1 (length 83)
+test/test:NODE_177_length_449_cov_0.698758_1 (length 83)
+test/test:NODE_179_length_448_cov_0.775701_1 (length 88)
+test/test:NODE_181_length_447_cov_1.059375_1 (length 96)
+test/test:NODE_183_length_446_cov_0.789969_1 (length 79)
+test/test:NODE_189_length_445_cov_0.773585_1 (length 49)
+test/test:NODE_191_length_442_cov_0.841270_1 (length 109)
+test/test:NODE_194_length_440_cov_0.766773_1 (length 139)
+test/test:NODE_201_length_436_cov_0.912621_1 (length 91)
+test/test:NODE_202_length_435_cov_0.730519_1 (length 49)
+test/test:NODE_202_length_435_cov_0.730519_2 (length 82)
+test/test:NODE_204_length_435_cov_0.659091_1 (length 52)
+test/test:NODE_205_length_435_cov_0.607143_1 (length 94)
+test/test:NODE_209_length_432_cov_0.845902_1 (length 99)
+test/test:NODE_213_length_431_cov_0.664474_1 (length 98)
+test/test:NODE_217_length_429_cov_0.738411_1 (length 78)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::217 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::217 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 197 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 4 present
+DiscRep_ALL:DISC_FEATURE_COUNT::rRNA: 3 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::217 nucleotide Bioseqs are present
+test/test:NODE_1_length_59360_cov_12.132865 (length 59360)
+test/test:NODE_2_length_8267_cov_12.469287 (length 8267)
+test/test:NODE_3_length_4168_cov_1.682009 (length 4168)
+test/test:NODE_4_length_3086_cov_5.644137 (length 3086)
+test/test:NODE_5_length_2039_cov_1.130753 (length 2039)
+test/test:NODE_6_length_1728_cov_2.865084 (length 1728)
+test/test:NODE_7_length_1704_cov_1.275840 (length 1704)
+test/test:NODE_8_length_1430_cov_1.813507 (length 1430)
+test/test:NODE_9_length_1327_cov_1.492500 (length 1327)
+test/test:NODE_10_length_1061_cov_1.462527 (length 1061)
+test/test:NODE_11_length_1004_cov_0.841505 (length 1004)
+test/test:NODE_12_length_1002_cov_0.898286 (length 1002)
+test/test:NODE_13_length_905_cov_0.673522 (length 905)
+test/test:NODE_14_length_904_cov_0.897040 (length 904)
+test/test:NODE_15_length_893_cov_0.992167 (length 893)
+test/test:NODE_16_length_850_cov_1.000000 (length 850)
+test/test:NODE_17_length_839_cov_0.639045 (length 839)
+test/test:NODE_18_length_820_cov_46.272727 (length 820)
+test/test:NODE_19_length_816_cov_1.181422 (length 816)
+test/test:NODE_20_length_808_cov_0.957416 (length 808)
+test/test:NODE_21_length_789_cov_1.084592 (length 789)
+test/test:NODE_22_length_773_cov_0.698142 (length 773)
+test/test:NODE_23_length_767_cov_0.554688 (length 767)
+test/test:NODE_24_length_751_cov_0.641026 (length 751)
+test/test:NODE_25_length_749_cov_1.041801 (length 749)
+test/test:NODE_26_length_738_cov_0.945990 (length 738)
+test/test:NODE_27_length_722_cov_0.648739 (length 722)
+test/test:NODE_28_length_721_cov_1.149832 (length 721)
+test/test:NODE_29_length_712_cov_0.931624 (length 712)
+test/test:NODE_30_length_704_cov_0.649913 (length 704)
+test/test:NODE_31_length_704_cov_0.648180 (length 704)
+test/test:NODE_32_length_698_cov_1.253940 (length 698)
+test/test:NODE_33_length_698_cov_0.500876 (length 698)
+test/test:NODE_34_length_694_cov_0.892416 (length 694)
+test/test:NODE_35_length_694_cov_0.652557 (length 694)
+test/test:NODE_36_length_693_cov_0.712014 (length 693)
+test/test:NODE_37_length_674_cov_0.703839 (length 674)
+test/test:NODE_38_length_661_cov_0.803371 (length 661)
+test/test:NODE_39_length_660_cov_0.898687 (length 660)
+test/test:NODE_40_length_659_cov_0.921053 (length 659)
+test/test:NODE_41_length_657_cov_0.528302 (length 657)
+test/test:NODE_42_length_651_cov_0.761450 (length 651)
+test/test:NODE_43_length_646_cov_0.552987 (length 646)
+test/test:NODE_44_length_634_cov_0.832347 (length 634)
+test/test:NODE_45_length_634_cov_0.729783 (length 634)
+test/test:NODE_46_length_633_cov_0.992095 (length 633)
+test/test:NODE_47_length_620_cov_0.742394 (length 620)
+test/test:NODE_48_length_617_cov_0.665306 (length 617)
+test/test:NODE_49_length_611_cov_0.605372 (length 611)
+test/test:NODE_50_length_609_cov_1.205394 (length 609)
+test/test:NODE_51_length_606_cov_0.776618 (length 606)
+test/test:NODE_52_length_602_cov_0.829474 (length 602)
+test/test:NODE_53_length_601_cov_0.738397 (length 601)
+test/test:NODE_54_length_598_cov_0.670913 (length 598)
+test/test:NODE_55_length_595_cov_0.621795 (length 595)
+test/test:NODE_56_length_588_cov_0.694143 (length 588)
+test/test:NODE_57_length_587_cov_0.850000 (length 587)
+test/test:NODE_58_length_577_cov_0.940000 (length 577)
+test/test:NODE_59_length_575_cov_0.776786 (length 575)
+test/test:NODE_60_length_574_cov_0.798658 (length 574)
+test/test:NODE_61_length_573_cov_0.744395 (length 573)
+test/test:NODE_62_length_569_cov_0.760181 (length 569)
+test/test:NODE_63_length_566_cov_0.660592 (length 566)
+test/test:NODE_64_length_563_cov_0.841743 (length 563)
+test/test:NODE_65_length_562_cov_0.891954 (length 562)
+test/test:NODE_66_length_560_cov_0.824480 (length 560)
+test/test:NODE_67_length_556_cov_0.857809 (length 556)
+test/test:NODE_68_length_554_cov_0.707260 (length 554)
+test/test:NODE_69_length_553_cov_0.894366 (length 553)
+test/test:NODE_70_length_551_cov_0.625000 (length 551)
+test/test:NODE_71_length_545_cov_1.294258 (length 545)
+test/test:NODE_72_length_545_cov_0.636364 (length 545)
+test/test:NODE_73_length_545_cov_0.523923 (length 545)
+test/test:NODE_74_length_540_cov_0.970944 (length 540)
+test/test:NODE_75_length_539_cov_0.691748 (length 539)
+test/test:NODE_76_length_534_cov_0.375921 (length 534)
+test/test:NODE_77_length_531_cov_1.284653 (length 531)
+test/test:NODE_78_length_531_cov_0.801980 (length 531)
+test/test:NODE_79_length_526_cov_1.002506 (length 526)
+test/test:NODE_80_length_526_cov_0.929825 (length 526)
+test/test:NODE_81_length_526_cov_0.804511 (length 526)
+test/test:NODE_82_length_525_cov_0.718593 (length 525)
+test/test:NODE_83_length_524_cov_0.591940 (length 524)
+test/test:NODE_84_length_522_cov_1.230380 (length 522)
+test/test:NODE_85_length_522_cov_0.830380 (length 522)
+test/test:NODE_86_length_521_cov_0.672589 (length 521)
+test/test:NODE_87_length_520_cov_1.010178 (length 520)
+test/test:NODE_88_length_514_cov_1.018088 (length 514)
+test/test:NODE_89_length_513_cov_0.917098 (length 513)
+test/test:NODE_90_length_512_cov_0.935065 (length 512)
+test/test:NODE_91_length_512_cov_0.568831 (length 512)
+test/test:NODE_92_length_510_cov_0.861619 (length 510)
+test/test:NODE_93_length_510_cov_0.697128 (length 510)
+test/test:NODE_94_length_508_cov_1.023622 (length 508)
+test/test:NODE_95_length_507_cov_1.434211 (length 507)
+test/test:NODE_96_length_507_cov_0.828947 (length 507)
+test/test:NODE_97_length_505_cov_0.669312 (length 505)
+test/test:NODE_98_length_505_cov_0.629630 (length 505)
+test/test:NODE_99_length_503_cov_0.981383 (length 503)
+test/test:NODE_100_length_503_cov_0.585106 (length 503)
+test/test:NODE_101_length_501_cov_1.066845 (length 501)
+test/test:NODE_102_length_501_cov_0.954545 (length 501)
+test/test:NODE_103_length_500_cov_1.107239 (length 500)
+test/test:NODE_104_length_498_cov_0.622642 (length 498)
+test/test:NODE_105_length_496_cov_1.073171 (length 496)
+test/test:NODE_106_length_494_cov_1.059946 (length 494)
+test/test:NODE_107_length_494_cov_0.880109 (length 494)
+test/test:NODE_108_length_494_cov_0.713896 (length 494)
+test/test:NODE_109_length_493_cov_0.926230 (length 493)
+test/test:NODE_110_length_492_cov_0.753425 (length 492)
+test/test:NODE_111_length_492_cov_0.731507 (length 492)
+test/test:NODE_112_length_492_cov_0.715068 (length 492)
+test/test:NODE_113_length_491_cov_0.348901 (length 491)
+test/test:NODE_114_length_490_cov_0.966942 (length 490)
+test/test:NODE_115_length_490_cov_0.876033 (length 490)
+test/test:NODE_116_length_490_cov_0.752066 (length 490)
+test/test:NODE_117_length_489_cov_0.762431 (length 489)
+test/test:NODE_118_length_488_cov_0.880886 (length 488)
+test/test:NODE_119_length_486_cov_0.735376 (length 486)
+test/test:NODE_120_length_486_cov_0.643454 (length 486)
+test/test:NODE_121_length_485_cov_0.776536 (length 485)
+test/test:NODE_122_length_485_cov_0.592179 (length 485)
+test/test:NODE_123_length_484_cov_0.803922 (length 484)
+test/test:NODE_124_length_483_cov_1.480337 (length 483)
+test/test:NODE_125_length_483_cov_0.794944 (length 483)
+test/test:NODE_126_length_483_cov_0.592697 (length 483)
+test/test:NODE_127_length_482_cov_1.270423 (length 482)
+test/test:NODE_128_length_482_cov_0.892958 (length 482)
+test/test:NODE_129_length_481_cov_1.022599 (length 481)
+test/test:NODE_130_length_480_cov_1.025496 (length 480)
+test/test:NODE_131_length_479_cov_0.755682 (length 479)
+test/test:NODE_132_length_479_cov_0.755682 (length 479)
+test/test:NODE_133_length_478_cov_0.880342 (length 478)
+test/test:NODE_134_length_477_cov_1.708571 (length 477)
+test/test:NODE_135_length_476_cov_0.865330 (length 476)
+test/test:NODE_136_length_475_cov_0.724138 (length 475)
+test/test:NODE_137_length_474_cov_1.354467 (length 474)
+test/test:NODE_138_length_474_cov_1.020173 (length 474)
+test/test:NODE_139_length_474_cov_0.763689 (length 474)
+test/test:NODE_140_length_473_cov_0.921965 (length 473)
+test/test:NODE_141_length_472_cov_0.907246 (length 472)
+test/test:NODE_142_length_472_cov_0.797101 (length 472)
+test/test:NODE_143_length_472_cov_0.771014 (length 472)
+test/test:NODE_144_length_471_cov_0.991279 (length 471)
+test/test:NODE_145_length_471_cov_0.863372 (length 471)
+test/test:NODE_146_length_470_cov_0.647230 (length 470)
+test/test:NODE_147_length_470_cov_0.635569 (length 470)
+test/test:NODE_148_length_467_cov_0.867647 (length 467)
+test/test:NODE_149_length_467_cov_0.647059 (length 467)
+test/test:NODE_150_length_466_cov_1.150442 (length 466)
+test/test:NODE_151_length_464_cov_0.771513 (length 464)
+test/test:NODE_152_length_463_cov_0.776786 (length 463)
+test/test:NODE_153_length_463_cov_0.752976 (length 463)
+test/test:NODE_154_length_463_cov_0.750000 (length 463)
+test/test:NODE_155_length_462_cov_1.083582 (length 462)
+test/test:NODE_156_length_462_cov_0.543284 (length 462)
+test/test:NODE_157_length_461_cov_1.191617 (length 461)
+test/test:NODE_158_length_461_cov_0.865269 (length 461)
+test/test:NODE_159_length_459_cov_1.620482 (length 459)
+test/test:NODE_160_length_459_cov_0.765060 (length 459)
+test/test:NODE_161_length_457_cov_0.924242 (length 457)
+test/test:NODE_162_length_457_cov_0.648485 (length 457)
+test/test:NODE_163_length_456_cov_0.683891 (length 456)
+test/test:NODE_164_length_456_cov_0.604863 (length 456)
+test/test:NODE_165_length_454_cov_0.782875 (length 454)
+test/test:NODE_166_length_454_cov_0.752294 (length 454)
+test/test:NODE_167_length_454_cov_0.678899 (length 454)
+test/test:NODE_168_length_453_cov_0.776074 (length 453)
+test/test:NODE_169_length_453_cov_0.677914 (length 453)
+test/test:NODE_170_length_452_cov_0.947692 (length 452)
+test/test:NODE_171_length_452_cov_0.756923 (length 452)
+test/test:NODE_172_length_452_cov_0.507692 (length 452)
+test/test:NODE_173_length_450_cov_0.953560 (length 450)
+test/test:NODE_174_length_450_cov_0.690402 (length 450)
+test/test:NODE_175_length_449_cov_0.819876 (length 449)
+test/test:NODE_176_length_449_cov_0.714286 (length 449)
+test/test:NODE_177_length_449_cov_0.698758 (length 449)
+test/test:NODE_178_length_448_cov_1.401869 (length 448)
+test/test:NODE_179_length_448_cov_0.775701 (length 448)
+test/test:NODE_180_length_447_cov_1.159375 (length 447)
+test/test:NODE_181_length_447_cov_1.059375 (length 447)
+test/test:NODE_182_length_447_cov_0.728125 (length 447)
+test/test:NODE_183_length_446_cov_0.789969 (length 446)
+test/test:NODE_184_length_446_cov_0.730408 (length 446)
+test/test:NODE_185_length_446_cov_0.727273 (length 446)
+test/test:NODE_186_length_446_cov_0.699060 (length 446)
+test/test:NODE_187_length_446_cov_0.652038 (length 446)
+test/test:NODE_188_length_446_cov_0.485893 (length 446)
+test/test:NODE_189_length_445_cov_0.773585 (length 445)
+test/test:NODE_190_length_445_cov_0.751572 (length 445)
+test/test:NODE_191_length_442_cov_0.841270 (length 442)
+test/test:NODE_192_length_441_cov_0.716561 (length 441)
+test/test:NODE_193_length_440_cov_0.795527 (length 440)
+test/test:NODE_194_length_440_cov_0.766773 (length 440)
+test/test:NODE_195_length_440_cov_0.741214 (length 440)
+test/test:NODE_196_length_439_cov_1.160256 (length 439)
+test/test:NODE_197_length_439_cov_0.733974 (length 439)
+test/test:NODE_198_length_437_cov_0.758065 (length 437)
+test/test:NODE_199_length_437_cov_0.748387 (length 437)
+test/test:NODE_200_length_437_cov_0.674194 (length 437)
+test/test:NODE_201_length_436_cov_0.912621 (length 436)
+test/test:NODE_202_length_435_cov_0.730519 (length 435)
+test/test:NODE_203_length_435_cov_0.668831 (length 435)
+test/test:NODE_204_length_435_cov_0.659091 (length 435)
+test/test:NODE_205_length_435_cov_0.607143 (length 435)
+test/test:NODE_206_length_434_cov_1.413681 (length 434)
+test/test:NODE_207_length_434_cov_0.680782 (length 434)
+test/test:NODE_208_length_432_cov_1.754098 (length 432)
+test/test:NODE_209_length_432_cov_0.845902 (length 432)
+test/test:NODE_210_length_432_cov_0.711475 (length 432)
+test/test:NODE_211_length_431_cov_0.828947 (length 431)
+test/test:NODE_212_length_431_cov_0.664474 (length 431)
+test/test:NODE_213_length_431_cov_0.664474 (length 431)
+test/test:NODE_214_length_430_cov_1.498350 (length 430)
+test/test:NODE_215_length_430_cov_0.841584 (length 430)
+test/test:NODE_216_length_429_cov_0.983444 (length 429)
+test/test:NODE_217_length_429_cov_0.738411 (length 429)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::204 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:55-483	PHLKGFML_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:1091-1270	PHLKGFML_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:1343-2203	PHLKGFML_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:2393-2731	PHLKGFML_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Modulating protein YmoA	NODE_1_length_59360_cov_12.132865:2829-3059	PHLKGFML_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:3172-3285	PHLKGFML_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:3391-3606	PHLKGFML_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:3678-4088	PHLKGFML_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:4150-4455	PHLKGFML_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Antirestriction protein KlcA	NODE_1_length_59360_cov_12.132865:4656-5096	PHLKGFML_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:5140-5424	PHLKGFML_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:5579-5800	PHLKGFML_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Single-stranded DNA-binding protein	NODE_1_length_59360_cov_12.132865:5872-6306	PHLKGFML_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:6362-6673	PHLKGFML_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:6806-7342	PHLKGFML_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:7412-7552	PHLKGFML_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c8209-7844	PHLKGFML_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:8238-8801	PHLKGFML_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Protein TraI	NODE_1_length_59360_cov_12.132865:8788-10767	PHLKGFML_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:10781-11281	PHLKGFML_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:11278-12057	PHLKGFML_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:12068-13231	PHLKGFML_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:13221-13481	PHLKGFML_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:13506-16943	PHLKGFML_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:16909-17421	PHLKGFML_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c17634-17422	PHLKGFML_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c18016-17606	PHLKGFML_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:18084-18797	PHLKGFML_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:18806-19957	PHLKGFML_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:19969-21318	PHLKGFML_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:21330-22034	PHLKGFML_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:22058-22588	PHLKGFML_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:22605-22994	PHLKGFML_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:23040-23534	PHLKGFML_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:23531-26581	PHLKGFML_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:26578-27786	PHLKGFML_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:27783-28379	PHLKGFML_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:28372-30567	PHLKGFML_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:30569-31222	PHLKGFML_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:31303-31533	PHLKGFML_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Replication initiation protein	NODE_1_length_59360_cov_12.132865:31829-32884	PHLKGFML_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c36340-34253	PHLKGFML_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c37303-36353	PHLKGFML_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c38621-37314	PHLKGFML_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c39016-38621	PHLKGFML_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c39471-39121	PHLKGFML_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:39584-40237	PHLKGFML_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Antitoxin PemI	NODE_1_length_59360_cov_12.132865:40329-40586	PHLKGFML_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Endoribonuclease PemK	NODE_1_length_59360_cov_12.132865:40588-40920	PHLKGFML_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Protein UmuD	NODE_1_length_59360_cov_12.132865:41013-41447	PHLKGFML_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Protein UmuC	NODE_1_length_59360_cov_12.132865:41396-42700	PHLKGFML_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c43032-42823	PHLKGFML_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c43253-43035	PHLKGFML_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c43981-43298	PHLKGFML_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c44250-43978	PHLKGFML_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c45543-44269	PHLKGFML_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:46070-46414	PHLKGFML_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:46439-46597	PHLKGFML_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:46597-47181	PHLKGFML_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c48032-47487	PHLKGFML_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:48173-48634	PHLKGFML_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:48631-48879	PHLKGFML_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:48872-49459	PHLKGFML_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:49456-49941	PHLKGFML_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:49938-50186	PHLKGFML_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Tyrosine recombinase XerD	NODE_1_length_59360_cov_12.132865:50268-50945	PHLKGFML_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Plasmid segregation protein ParM	NODE_1_length_59360_cov_12.132865:51186-52160	PHLKGFML_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Protein StbB	NODE_1_length_59360_cov_12.132865:52163-52606	PHLKGFML_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:52616-53179	PHLKGFML_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:53297-53803	PHLKGFML_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:53796-54275	PHLKGFML_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:54304-54714	PHLKGFML_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:54832-55095	PHLKGFML_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:55117-55479	PHLKGFML_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:55601-56050	PHLKGFML_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:56095-56361	PHLKGFML_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:56425-56748	PHLKGFML_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	IS1 family transposase IS1R	NODE_1_length_59360_cov_12.132865:c57119-56742	PHLKGFML_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:57191-57406	PHLKGFML_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Chloramphenicol acetyltransferase	NODE_1_length_59360_cov_12.132865:57718-58377	PHLKGFML_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c58955-58578	PHLKGFML_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_1_length_59360_cov_12.132865:c59306-59022	PHLKGFML_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_2_length_8267_cov_12.469287:188-832	PHLKGFML_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	IS21 family transposase IS1326	NODE_2_length_8267_cov_12.469287:819-1604	PHLKGFML_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_2_length_8267_cov_12.469287:c2280-1780	PHLKGFML_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Dihydropteroate synthase	NODE_2_length_8267_cov_12.469287:c3247-2408	PHLKGFML_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Multidrug transporter EmrE	NODE_2_length_8267_cov_12.469287:c3588-3241	PHLKGFML_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Chloramphenicol acetyltransferase	NODE_2_length_8267_cov_12.469287:c4389-3757	PHLKGFML_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Streptomycin 3''-adenylyltransferase	NODE_2_length_8267_cov_12.469287:c5221-4442	PHLKGFML_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Dihydrofolate reductase type 2	NODE_2_length_8267_cov_12.469287:c5583-5347	PHLKGFML_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Aminoglycoside N(6')-acetyltransferase type 1	NODE_2_length_8267_cov_12.469287:c6268-5714	PHLKGFML_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_2_length_8267_cov_12.469287:c7176-6376	PHLKGFML_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_2_length_8267_cov_12.469287:c7828-7433	PHLKGFML_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test/test:tRNA	Ile	NODE_3_length_4168_cov_1.682009:191-267	PHLKGFML_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test/test:tRNA	Ala	NODE_3_length_4168_cov_1.682009:310-385	PHLKGFML_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test/test:rRNA	23S ribosomal RNA	NODE_3_length_4168_cov_1.682009:571-3471	PHLKGFML_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test/test:rRNA	5S ribosomal RNA	NODE_3_length_4168_cov_1.682009:3570-3680	PHLKGFML_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test/test:tRNA	Thr	NODE_3_length_4168_cov_1.682009:3698-3773	PHLKGFML_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_4_length_3086_cov_5.644137:c1032-148	PHLKGFML_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	ABC-F type ribosomal protection protein Msr(E)	NODE_4_length_3086_cov_5.644137:c2563-1088	PHLKGFML_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_5_length_2039_cov_1.130753:c1158-754	PHLKGFML_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_5_length_2039_cov_1.130753:c1848-1282	PHLKGFML_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_6_length_1728_cov_2.865084:76-294	PHLKGFML_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	IS5 family transposase IS5	NODE_6_length_1728_cov_2.865084:c1312-332	PHLKGFML_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	IS3 family transposase IS3	NODE_7_length_1704_cov_1.275840:c1296-430	PHLKGFML_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	IS3 family transposase ISEc17	NODE_7_length_1704_cov_1.275840:c1592-1293	PHLKGFML_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	IS3 family transposase IS2	NODE_9_length_1327_cov_1.492500:19-216	PHLKGFML_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_9_length_1327_cov_1.492500:320-685	PHLKGFML_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test/test:rRNA	16S ribosomal RNA (partial)	NODE_10_length_1061_cov_1.462527:c1061-2	PHLKGFML_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	N5-carboxyaminoimidazole ribonucleotide synthase	NODE_11_length_1004_cov_0.841505:18-188	PHLKGFML_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	putative protein YgcP	NODE_11_length_1004_cov_0.841505:c1003-428	PHLKGFML_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	PTS system glucitol/sorbitol-specific EIIC component	NODE_12_length_1002_cov_0.898286:103-420	PHLKGFML_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Inner membrane protein YiaV	NODE_14_length_904_cov_0.897040:58-531	PHLKGFML_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_14_length_904_cov_0.897040:c896-528	PHLKGFML_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_16_length_850_cov_1.000000:c850-332	PHLKGFML_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	putative diguanylate cyclase DgcE	NODE_17_length_839_cov_0.639045:87-395	PHLKGFML_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Phospho-2-dehydro-3-deoxyheptonate aldolase, Phe-sensitive	NODE_17_length_839_cov_0.639045:c814-596	PHLKGFML_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	IS6 family transposase IS26	NODE_18_length_820_cov_46.272727:c757-53	PHLKGFML_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_20_length_808_cov_0.957416:c782-495	PHLKGFML_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Peptidyl-prolyl cis-trans isomerase B	NODE_21_length_789_cov_1.084592:178-672	PHLKGFML_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Multidrug resistance protein MdtB	NODE_22_length_773_cov_0.698142:2-496	PHLKGFML_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_22_length_773_cov_0.698142:c762-520	PHLKGFML_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	putative ATP-dependent DNA helicase YoaA	NODE_23_length_767_cov_0.554688:c715-62	PHLKGFML_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	ECF RNA polymerase sigma-E factor	NODE_25_length_749_cov_1.041801:9-506	PHLKGFML_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	L-lysine 2,3-aminomutase	NODE_27_length_722_cov_0.648739:11-220	PHLKGFML_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	putative protein YdjI	NODE_28_length_721_cov_1.149832:9-644	PHLKGFML_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Peptide deformylase	NODE_33_length_698_cov_0.500876:282-578	PHLKGFML_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_36_length_693_cov_0.712014:76-264	PHLKGFML_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_38_length_661_cov_0.803371:c556-224	PHLKGFML_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	HTH-type transcriptional regulator GadX	NODE_39_length_660_cov_0.898687:71-334	PHLKGFML_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Ethanolamine utilization protein EutQ	NODE_42_length_651_cov_0.761450:37-201	PHLKGFML_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_43_length_646_cov_0.552987:c336-40	PHLKGFML_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_44_length_634_cov_0.832347:82-627	PHLKGFML_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_45_length_634_cov_0.729783:130-396	PHLKGFML_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Flavodoxin 1	NODE_48_length_617_cov_0.665306:c404-177	PHLKGFML_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Hydrogenase-1 operon protein HyaE	NODE_51_length_606_cov_0.776618:40-438	PHLKGFML_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_52_length_602_cov_0.829474:c461-204	PHLKGFML_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Inner membrane protein YlaC	NODE_53_length_601_cov_0.738397:c492-295	PHLKGFML_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_57_length_587_cov_0.850000:103-402	PHLKGFML_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_58_length_577_cov_0.940000:152-370	PHLKGFML_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Hydrogenase-4 component G	NODE_60_length_574_cov_0.798658:c510-334	PHLKGFML_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_61_length_573_cov_0.744395:c221-30	PHLKGFML_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_62_length_569_cov_0.760181:170-388	PHLKGFML_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_65_length_562_cov_0.891954:4-216	PHLKGFML_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_66_length_560_cov_0.824480:21-542	PHLKGFML_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_67_length_556_cov_0.857809:89-427	PHLKGFML_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_68_length_554_cov_0.707260:174-449	PHLKGFML_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_69_length_553_cov_0.894366:75-248	PHLKGFML_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_69_length_553_cov_0.894366:c527-360	PHLKGFML_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	DNA-directed RNA polymerase subunit alpha	NODE_71_length_545_cov_1.294258:33-485	PHLKGFML_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+test/test:tRNA	Asn	NODE_72_length_545_cov_0.636364:c293-218	PHLKGFML_00151
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_74_length_540_cov_0.970944:244-441	PHLKGFML_00152
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_76_length_534_cov_0.375921:10-360	PHLKGFML_00153
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Inducible lysine decarboxylase	NODE_77_length_531_cov_1.284653:c500-243	PHLKGFML_00154
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_78_length_531_cov_0.801980:59-199	PHLKGFML_00155
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_86_length_521_cov_0.672589:c481-269	PHLKGFML_00156
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Putative 2,3-dihydroxypropane-1-sulfonate exporter	NODE_87_length_520_cov_1.010178:c383-150	PHLKGFML_00157
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_91_length_512_cov_0.568831:95-268	PHLKGFML_00158
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_92_length_510_cov_0.861619:55-447	PHLKGFML_00159
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_94_length_508_cov_1.023622:c387-91	PHLKGFML_00160
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Prophage DNA-packing protein NohA	NODE_101_length_501_cov_1.066845:c382-158	PHLKGFML_00161
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Antitoxin DinJ	NODE_103_length_500_cov_1.107239:c483-223	PHLKGFML_00162
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Diguanylate cyclase DgcP	NODE_104_length_498_cov_0.622642:c464-57	PHLKGFML_00163
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	RNA-splicing ligase RtcB	NODE_105_length_496_cov_1.073171:42-449	PHLKGFML_00164
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_108_length_494_cov_0.713896:c374-153	PHLKGFML_00165
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Prophage integrase IntA	NODE_109_length_493_cov_0.926230:c491-210	PHLKGFML_00166
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Universal stress protein C	NODE_111_length_492_cov_0.731507:c483-55	PHLKGFML_00167
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Signal transduction histidine-protein kinase AtoS	NODE_112_length_492_cov_0.715068:c455-156	PHLKGFML_00168
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Stationary-phase-induced ribosome-associated protein	NODE_113_length_491_cov_0.348901:c327-190	PHLKGFML_00169
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Lysine-specific permease	NODE_117_length_489_cov_0.762431:c484-98	PHLKGFML_00170
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_119_length_486_cov_0.735376:c389-96	PHLKGFML_00171
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	50S ribosomal protein L16	NODE_125_length_483_cov_0.794944:92-346	PHLKGFML_00172
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Sensor histidine kinase RcsC	NODE_126_length_483_cov_0.592697:c460-134	PHLKGFML_00173
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_128_length_482_cov_0.892958:9-206	PHLKGFML_00174
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_135_length_476_cov_0.865330:277-450	PHLKGFML_00175
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_140_length_473_cov_0.921965:49-282	PHLKGFML_00176
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	5-formyltetrahydrofolate cyclo-ligase	NODE_143_length_472_cov_0.771014:c422-156	PHLKGFML_00177
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Protein NrdI	NODE_145_length_471_cov_0.863372:c471-232	PHLKGFML_00178
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_150_length_466_cov_1.150442:13-405	PHLKGFML_00179
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_155_length_462_cov_1.083582:2-253	PHLKGFML_00180
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Aspartate aminotransferase	NODE_156_length_462_cov_0.543284:c409-158	PHLKGFML_00181
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_158_length_461_cov_0.865269:c426-193	PHLKGFML_00182
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Cystathionine beta-lyase MetC	NODE_160_length_459_cov_0.765060:80-328	PHLKGFML_00183
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	D-alanyl-D-alanine carboxypeptidase DacA	NODE_161_length_457_cov_0.924242:c437-198	PHLKGFML_00184
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_163_length_456_cov_0.683891:c454-233	PHLKGFML_00185
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Uracil-DNA glycosylase	NODE_165_length_454_cov_0.782875:c430-14	PHLKGFML_00186
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	putative protein YdiE	NODE_173_length_450_cov_0.953560:c261-70	PHLKGFML_00187
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_174_length_450_cov_0.690402:c443-21	PHLKGFML_00188
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	L-lactate dehydrogenase	NODE_176_length_449_cov_0.714286:36-287	PHLKGFML_00189
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_177_length_449_cov_0.698758:c323-72	PHLKGFML_00190
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	D-ribose pyranase	NODE_179_length_448_cov_0.775701:c426-160	PHLKGFML_00191
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_181_length_447_cov_1.059375:74-364	PHLKGFML_00192
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_183_length_446_cov_0.789969:c407-168	PHLKGFML_00193
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_189_length_445_cov_0.773585:c373-224	PHLKGFML_00194
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Alkanesulfonate monooxygenase	NODE_191_length_442_cov_0.841270:c392-63	PHLKGFML_00195
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Nickel-binding periplasmic protein	NODE_194_length_440_cov_0.766773:18-437	PHLKGFML_00196
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_201_length_436_cov_0.912621:c378-103	PHLKGFML_00197
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Ribosomal-protein-serine acetyltransferase	NODE_202_length_435_cov_0.730519:19-168	PHLKGFML_00198
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_202_length_435_cov_0.730519:c408-160	PHLKGFML_00199
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Flagellar biosynthesis protein FlhA	NODE_204_length_435_cov_0.659091:c435-277	PHLKGFML_00200
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	hypothetical protein	NODE_205_length_435_cov_0.607143:16-300	PHLKGFML_00201
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Propionyl-CoA:succinate CoA transferase	NODE_209_length_432_cov_0.845902:52-351	PHLKGFML_00202
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	Inner membrane protein YqjE	NODE_213_length_431_cov_0.664474:26-322	PHLKGFML_00203
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+test/test:CDS	50S ribosomal protein L28	NODE_217_length_429_cov_0.738411:c274-38	PHLKGFML_00204
+
+DiscRep_ALL:NO_ANNOTATION::119 bioseqs have no features
+test/test:NODE_8_length_1430_cov_1.813507 (length 1430)
+test/test:NODE_13_length_905_cov_0.673522 (length 905)
+test/test:NODE_15_length_893_cov_0.992167 (length 893)
+test/test:NODE_19_length_816_cov_1.181422 (length 816)
+test/test:NODE_24_length_751_cov_0.641026 (length 751)
+test/test:NODE_26_length_738_cov_0.945990 (length 738)
+test/test:NODE_29_length_712_cov_0.931624 (length 712)
+test/test:NODE_30_length_704_cov_0.649913 (length 704)
+test/test:NODE_31_length_704_cov_0.648180 (length 704)
+test/test:NODE_32_length_698_cov_1.253940 (length 698)
+test/test:NODE_34_length_694_cov_0.892416 (length 694)
+test/test:NODE_35_length_694_cov_0.652557 (length 694)
+test/test:NODE_37_length_674_cov_0.703839 (length 674)
+test/test:NODE_40_length_659_cov_0.921053 (length 659)
+test/test:NODE_41_length_657_cov_0.528302 (length 657)
+test/test:NODE_46_length_633_cov_0.992095 (length 633)
+test/test:NODE_47_length_620_cov_0.742394 (length 620)
+test/test:NODE_49_length_611_cov_0.605372 (length 611)
+test/test:NODE_50_length_609_cov_1.205394 (length 609)
+test/test:NODE_54_length_598_cov_0.670913 (length 598)
+test/test:NODE_55_length_595_cov_0.621795 (length 595)
+test/test:NODE_56_length_588_cov_0.694143 (length 588)
+test/test:NODE_59_length_575_cov_0.776786 (length 575)
+test/test:NODE_63_length_566_cov_0.660592 (length 566)
+test/test:NODE_64_length_563_cov_0.841743 (length 563)
+test/test:NODE_70_length_551_cov_0.625000 (length 551)
+test/test:NODE_73_length_545_cov_0.523923 (length 545)
+test/test:NODE_75_length_539_cov_0.691748 (length 539)
+test/test:NODE_79_length_526_cov_1.002506 (length 526)
+test/test:NODE_80_length_526_cov_0.929825 (length 526)
+test/test:NODE_81_length_526_cov_0.804511 (length 526)
+test/test:NODE_82_length_525_cov_0.718593 (length 525)
+test/test:NODE_83_length_524_cov_0.591940 (length 524)
+test/test:NODE_84_length_522_cov_1.230380 (length 522)
+test/test:NODE_85_length_522_cov_0.830380 (length 522)
+test/test:NODE_88_length_514_cov_1.018088 (length 514)
+test/test:NODE_89_length_513_cov_0.917098 (length 513)
+test/test:NODE_90_length_512_cov_0.935065 (length 512)
+test/test:NODE_93_length_510_cov_0.697128 (length 510)
+test/test:NODE_95_length_507_cov_1.434211 (length 507)
+test/test:NODE_96_length_507_cov_0.828947 (length 507)
+test/test:NODE_97_length_505_cov_0.669312 (length 505)
+test/test:NODE_98_length_505_cov_0.629630 (length 505)
+test/test:NODE_99_length_503_cov_0.981383 (length 503)
+test/test:NODE_100_length_503_cov_0.585106 (length 503)
+test/test:NODE_102_length_501_cov_0.954545 (length 501)
+test/test:NODE_106_length_494_cov_1.059946 (length 494)
+test/test:NODE_107_length_494_cov_0.880109 (length 494)
+test/test:NODE_110_length_492_cov_0.753425 (length 492)
+test/test:NODE_114_length_490_cov_0.966942 (length 490)
+test/test:NODE_115_length_490_cov_0.876033 (length 490)
+test/test:NODE_116_length_490_cov_0.752066 (length 490)
+test/test:NODE_118_length_488_cov_0.880886 (length 488)
+test/test:NODE_120_length_486_cov_0.643454 (length 486)
+test/test:NODE_121_length_485_cov_0.776536 (length 485)
+test/test:NODE_122_length_485_cov_0.592179 (length 485)
+test/test:NODE_123_length_484_cov_0.803922 (length 484)
+test/test:NODE_124_length_483_cov_1.480337 (length 483)
+test/test:NODE_127_length_482_cov_1.270423 (length 482)
+test/test:NODE_129_length_481_cov_1.022599 (length 481)
+test/test:NODE_130_length_480_cov_1.025496 (length 480)
+test/test:NODE_131_length_479_cov_0.755682 (length 479)
+test/test:NODE_132_length_479_cov_0.755682 (length 479)
+test/test:NODE_133_length_478_cov_0.880342 (length 478)
+test/test:NODE_134_length_477_cov_1.708571 (length 477)
+test/test:NODE_136_length_475_cov_0.724138 (length 475)
+test/test:NODE_137_length_474_cov_1.354467 (length 474)
+test/test:NODE_138_length_474_cov_1.020173 (length 474)
+test/test:NODE_139_length_474_cov_0.763689 (length 474)
+test/test:NODE_141_length_472_cov_0.907246 (length 472)
+test/test:NODE_142_length_472_cov_0.797101 (length 472)
+test/test:NODE_144_length_471_cov_0.991279 (length 471)
+test/test:NODE_146_length_470_cov_0.647230 (length 470)
+test/test:NODE_147_length_470_cov_0.635569 (length 470)
+test/test:NODE_148_length_467_cov_0.867647 (length 467)
+test/test:NODE_149_length_467_cov_0.647059 (length 467)
+test/test:NODE_151_length_464_cov_0.771513 (length 464)
+test/test:NODE_152_length_463_cov_0.776786 (length 463)
+test/test:NODE_153_length_463_cov_0.752976 (length 463)
+test/test:NODE_154_length_463_cov_0.750000 (length 463)
+test/test:NODE_157_length_461_cov_1.191617 (length 461)
+test/test:NODE_159_length_459_cov_1.620482 (length 459)
+test/test:NODE_162_length_457_cov_0.648485 (length 457)
+test/test:NODE_164_length_456_cov_0.604863 (length 456)
+test/test:NODE_166_length_454_cov_0.752294 (length 454)
+test/test:NODE_167_length_454_cov_0.678899 (length 454)
+test/test:NODE_168_length_453_cov_0.776074 (length 453)
+test/test:NODE_169_length_453_cov_0.677914 (length 453)
+test/test:NODE_170_length_452_cov_0.947692 (length 452)
+test/test:NODE_171_length_452_cov_0.756923 (length 452)
+test/test:NODE_172_length_452_cov_0.507692 (length 452)
+test/test:NODE_175_length_449_cov_0.819876 (length 449)
+test/test:NODE_178_length_448_cov_1.401869 (length 448)
+test/test:NODE_180_length_447_cov_1.159375 (length 447)
+test/test:NODE_182_length_447_cov_0.728125 (length 447)
+test/test:NODE_184_length_446_cov_0.730408 (length 446)
+test/test:NODE_185_length_446_cov_0.727273 (length 446)
+test/test:NODE_186_length_446_cov_0.699060 (length 446)
+test/test:NODE_187_length_446_cov_0.652038 (length 446)
+test/test:NODE_188_length_446_cov_0.485893 (length 446)
+test/test:NODE_190_length_445_cov_0.751572 (length 445)
+test/test:NODE_192_length_441_cov_0.716561 (length 441)
+test/test:NODE_193_length_440_cov_0.795527 (length 440)
+test/test:NODE_195_length_440_cov_0.741214 (length 440)
+test/test:NODE_196_length_439_cov_1.160256 (length 439)
+test/test:NODE_197_length_439_cov_0.733974 (length 439)
+test/test:NODE_198_length_437_cov_0.758065 (length 437)
+test/test:NODE_199_length_437_cov_0.748387 (length 437)
+test/test:NODE_200_length_437_cov_0.674194 (length 437)
+test/test:NODE_203_length_435_cov_0.668831 (length 435)
+test/test:NODE_206_length_434_cov_1.413681 (length 434)
+test/test:NODE_207_length_434_cov_0.680782 (length 434)
+test/test:NODE_208_length_432_cov_1.754098 (length 432)
+test/test:NODE_210_length_432_cov_0.711475 (length 432)
+test/test:NODE_211_length_431_cov_0.828947 (length 431)
+test/test:NODE_212_length_431_cov_0.664474 (length 431)
+test/test:NODE_214_length_430_cov_1.498350 (length 430)
+test/test:NODE_215_length_430_cov_0.841584 (length 430)
+test/test:NODE_216_length_429_cov_0.983444 (length 429)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+FATAL: DiscRep_ALL:DISC_SUSPECT_RRNA_PRODUCTS::1 rRNA produs contain susain suspect phrase
+FATAL: DiscRep_SUB:DISC_SUSPECT_RRNA_PRODUCTS::1 rRNA pnames contains 'pains 'partial'
+test/test:rRNA	16S ribosomal RNA (partial)	NODE_10_length_1061_cov_1.462527:c1061-2	PHLKGFML_00109
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::217 comment descriptors were found (all same)
+test/test:NODE_1_length_59360_cov_12.132865:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_2_length_8267_cov_12.469287:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_3_length_4168_cov_1.682009:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_4_length_3086_cov_5.644137:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_5_length_2039_cov_1.130753:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_6_length_1728_cov_2.865084:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_7_length_1704_cov_1.275840:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_8_length_1430_cov_1.813507:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_9_length_1327_cov_1.492500:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_10_length_1061_cov_1.462527:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_11_length_1004_cov_0.841505:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_12_length_1002_cov_0.898286:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_13_length_905_cov_0.673522:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_14_length_904_cov_0.897040:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_15_length_893_cov_0.992167:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_16_length_850_cov_1.000000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_17_length_839_cov_0.639045:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_18_length_820_cov_46.272727:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_19_length_816_cov_1.181422:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_20_length_808_cov_0.957416:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_21_length_789_cov_1.084592:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_22_length_773_cov_0.698142:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_23_length_767_cov_0.554688:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_24_length_751_cov_0.641026:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_25_length_749_cov_1.041801:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_26_length_738_cov_0.945990:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_27_length_722_cov_0.648739:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_28_length_721_cov_1.149832:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_29_length_712_cov_0.931624:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_30_length_704_cov_0.649913:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_31_length_704_cov_0.648180:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_32_length_698_cov_1.253940:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_33_length_698_cov_0.500876:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_34_length_694_cov_0.892416:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_35_length_694_cov_0.652557:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_36_length_693_cov_0.712014:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_37_length_674_cov_0.703839:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_38_length_661_cov_0.803371:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_39_length_660_cov_0.898687:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_40_length_659_cov_0.921053:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_41_length_657_cov_0.528302:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_42_length_651_cov_0.761450:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_43_length_646_cov_0.552987:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_44_length_634_cov_0.832347:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_45_length_634_cov_0.729783:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_46_length_633_cov_0.992095:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_47_length_620_cov_0.742394:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_48_length_617_cov_0.665306:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_49_length_611_cov_0.605372:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_50_length_609_cov_1.205394:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_51_length_606_cov_0.776618:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_52_length_602_cov_0.829474:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_53_length_601_cov_0.738397:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_54_length_598_cov_0.670913:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_55_length_595_cov_0.621795:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_56_length_588_cov_0.694143:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_57_length_587_cov_0.850000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_58_length_577_cov_0.940000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_59_length_575_cov_0.776786:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_60_length_574_cov_0.798658:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_61_length_573_cov_0.744395:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_62_length_569_cov_0.760181:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_63_length_566_cov_0.660592:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_64_length_563_cov_0.841743:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_65_length_562_cov_0.891954:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_66_length_560_cov_0.824480:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_67_length_556_cov_0.857809:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_68_length_554_cov_0.707260:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_69_length_553_cov_0.894366:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_70_length_551_cov_0.625000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_71_length_545_cov_1.294258:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_72_length_545_cov_0.636364:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_73_length_545_cov_0.523923:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_74_length_540_cov_0.970944:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_75_length_539_cov_0.691748:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_76_length_534_cov_0.375921:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_77_length_531_cov_1.284653:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_78_length_531_cov_0.801980:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_79_length_526_cov_1.002506:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_80_length_526_cov_0.929825:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_81_length_526_cov_0.804511:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_82_length_525_cov_0.718593:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_83_length_524_cov_0.591940:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_84_length_522_cov_1.230380:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_85_length_522_cov_0.830380:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_86_length_521_cov_0.672589:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_87_length_520_cov_1.010178:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_88_length_514_cov_1.018088:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_89_length_513_cov_0.917098:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_90_length_512_cov_0.935065:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_91_length_512_cov_0.568831:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_92_length_510_cov_0.861619:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_93_length_510_cov_0.697128:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_94_length_508_cov_1.023622:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_95_length_507_cov_1.434211:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_96_length_507_cov_0.828947:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_97_length_505_cov_0.669312:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_98_length_505_cov_0.629630:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_99_length_503_cov_0.981383:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_100_length_503_cov_0.585106:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_101_length_501_cov_1.066845:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_102_length_501_cov_0.954545:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_103_length_500_cov_1.107239:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_104_length_498_cov_0.622642:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_105_length_496_cov_1.073171:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_106_length_494_cov_1.059946:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_107_length_494_cov_0.880109:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_108_length_494_cov_0.713896:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_109_length_493_cov_0.926230:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_110_length_492_cov_0.753425:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_111_length_492_cov_0.731507:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_112_length_492_cov_0.715068:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_113_length_491_cov_0.348901:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_114_length_490_cov_0.966942:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_115_length_490_cov_0.876033:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_116_length_490_cov_0.752066:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_117_length_489_cov_0.762431:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_118_length_488_cov_0.880886:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_119_length_486_cov_0.735376:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_120_length_486_cov_0.643454:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_121_length_485_cov_0.776536:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_122_length_485_cov_0.592179:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_123_length_484_cov_0.803922:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_124_length_483_cov_1.480337:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_125_length_483_cov_0.794944:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_126_length_483_cov_0.592697:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_127_length_482_cov_1.270423:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_128_length_482_cov_0.892958:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_129_length_481_cov_1.022599:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_130_length_480_cov_1.025496:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_131_length_479_cov_0.755682:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_132_length_479_cov_0.755682:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_133_length_478_cov_0.880342:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_134_length_477_cov_1.708571:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_135_length_476_cov_0.865330:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_136_length_475_cov_0.724138:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_137_length_474_cov_1.354467:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_138_length_474_cov_1.020173:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_139_length_474_cov_0.763689:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_140_length_473_cov_0.921965:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_141_length_472_cov_0.907246:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_142_length_472_cov_0.797101:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_143_length_472_cov_0.771014:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_144_length_471_cov_0.991279:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_145_length_471_cov_0.863372:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_146_length_470_cov_0.647230:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_147_length_470_cov_0.635569:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_148_length_467_cov_0.867647:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_149_length_467_cov_0.647059:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_150_length_466_cov_1.150442:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_151_length_464_cov_0.771513:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_152_length_463_cov_0.776786:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_153_length_463_cov_0.752976:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_154_length_463_cov_0.750000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_155_length_462_cov_1.083582:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_156_length_462_cov_0.543284:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_157_length_461_cov_1.191617:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_158_length_461_cov_0.865269:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_159_length_459_cov_1.620482:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_160_length_459_cov_0.765060:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_161_length_457_cov_0.924242:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_162_length_457_cov_0.648485:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_163_length_456_cov_0.683891:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_164_length_456_cov_0.604863:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_165_length_454_cov_0.782875:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_166_length_454_cov_0.752294:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_167_length_454_cov_0.678899:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_168_length_453_cov_0.776074:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_169_length_453_cov_0.677914:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_170_length_452_cov_0.947692:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_171_length_452_cov_0.756923:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_172_length_452_cov_0.507692:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_173_length_450_cov_0.953560:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_174_length_450_cov_0.690402:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_175_length_449_cov_0.819876:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_176_length_449_cov_0.714286:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_177_length_449_cov_0.698758:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_178_length_448_cov_1.401869:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_179_length_448_cov_0.775701:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_180_length_447_cov_1.159375:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_181_length_447_cov_1.059375:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_182_length_447_cov_0.728125:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_183_length_446_cov_0.789969:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_184_length_446_cov_0.730408:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_185_length_446_cov_0.727273:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_186_length_446_cov_0.699060:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_187_length_446_cov_0.652038:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_188_length_446_cov_0.485893:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_189_length_445_cov_0.773585:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_190_length_445_cov_0.751572:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_191_length_442_cov_0.841270:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_192_length_441_cov_0.716561:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_193_length_440_cov_0.795527:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_194_length_440_cov_0.766773:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_195_length_440_cov_0.741214:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_196_length_439_cov_1.160256:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_197_length_439_cov_0.733974:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_198_length_437_cov_0.758065:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_199_length_437_cov_0.748387:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_200_length_437_cov_0.674194:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_201_length_436_cov_0.912621:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_202_length_435_cov_0.730519:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_203_length_435_cov_0.668831:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_204_length_435_cov_0.659091:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_205_length_435_cov_0.607143:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_206_length_434_cov_1.413681:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_207_length_434_cov_0.680782:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_208_length_432_cov_1.754098:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_209_length_432_cov_0.845902:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_210_length_432_cov_0.711475:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_211_length_431_cov_0.828947:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_212_length_431_cov_0.664474:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_213_length_431_cov_0.664474:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_214_length_430_cov_1.498350:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_215_length_430_cov_0.841584:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_216_length_429_cov_0.983444:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+test/test:NODE_217_length_429_cov_0.738411:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::6 protein sequences are shorter than 50 aa.
+test/test:NODE_1_length_59360_cov_12.132865_6 (length 37)
+test/test:NODE_1_length_59360_cov_12.132865_16 (length 46)
+test/test:NODE_78_length_531_cov_0.801980_1 (length 46)
+test/test:NODE_113_length_491_cov_0.348901_1 (length 45)
+test/test:NODE_189_length_445_cov_0.773585_1 (length 49)
+test/test:NODE_202_length_435_cov_0.730519_1 (length 49)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::217 bioseqs are missing GenomeAssembly structured comments
+test/test:NODE_1_length_59360_cov_12.132865 (length 59360)
+test/test:NODE_2_length_8267_cov_12.469287 (length 8267)
+test/test:NODE_3_length_4168_cov_1.682009 (length 4168)
+test/test:NODE_4_length_3086_cov_5.644137 (length 3086)
+test/test:NODE_5_length_2039_cov_1.130753 (length 2039)
+test/test:NODE_6_length_1728_cov_2.865084 (length 1728)
+test/test:NODE_7_length_1704_cov_1.275840 (length 1704)
+test/test:NODE_8_length_1430_cov_1.813507 (length 1430)
+test/test:NODE_9_length_1327_cov_1.492500 (length 1327)
+test/test:NODE_10_length_1061_cov_1.462527 (length 1061)
+test/test:NODE_11_length_1004_cov_0.841505 (length 1004)
+test/test:NODE_12_length_1002_cov_0.898286 (length 1002)
+test/test:NODE_13_length_905_cov_0.673522 (length 905)
+test/test:NODE_14_length_904_cov_0.897040 (length 904)
+test/test:NODE_15_length_893_cov_0.992167 (length 893)
+test/test:NODE_16_length_850_cov_1.000000 (length 850)
+test/test:NODE_17_length_839_cov_0.639045 (length 839)
+test/test:NODE_18_length_820_cov_46.272727 (length 820)
+test/test:NODE_19_length_816_cov_1.181422 (length 816)
+test/test:NODE_20_length_808_cov_0.957416 (length 808)
+test/test:NODE_21_length_789_cov_1.084592 (length 789)
+test/test:NODE_22_length_773_cov_0.698142 (length 773)
+test/test:NODE_23_length_767_cov_0.554688 (length 767)
+test/test:NODE_24_length_751_cov_0.641026 (length 751)
+test/test:NODE_25_length_749_cov_1.041801 (length 749)
+test/test:NODE_26_length_738_cov_0.945990 (length 738)
+test/test:NODE_27_length_722_cov_0.648739 (length 722)
+test/test:NODE_28_length_721_cov_1.149832 (length 721)
+test/test:NODE_29_length_712_cov_0.931624 (length 712)
+test/test:NODE_30_length_704_cov_0.649913 (length 704)
+test/test:NODE_31_length_704_cov_0.648180 (length 704)
+test/test:NODE_32_length_698_cov_1.253940 (length 698)
+test/test:NODE_33_length_698_cov_0.500876 (length 698)
+test/test:NODE_34_length_694_cov_0.892416 (length 694)
+test/test:NODE_35_length_694_cov_0.652557 (length 694)
+test/test:NODE_36_length_693_cov_0.712014 (length 693)
+test/test:NODE_37_length_674_cov_0.703839 (length 674)
+test/test:NODE_38_length_661_cov_0.803371 (length 661)
+test/test:NODE_39_length_660_cov_0.898687 (length 660)
+test/test:NODE_40_length_659_cov_0.921053 (length 659)
+test/test:NODE_41_length_657_cov_0.528302 (length 657)
+test/test:NODE_42_length_651_cov_0.761450 (length 651)
+test/test:NODE_43_length_646_cov_0.552987 (length 646)
+test/test:NODE_44_length_634_cov_0.832347 (length 634)
+test/test:NODE_45_length_634_cov_0.729783 (length 634)
+test/test:NODE_46_length_633_cov_0.992095 (length 633)
+test/test:NODE_47_length_620_cov_0.742394 (length 620)
+test/test:NODE_48_length_617_cov_0.665306 (length 617)
+test/test:NODE_49_length_611_cov_0.605372 (length 611)
+test/test:NODE_50_length_609_cov_1.205394 (length 609)
+test/test:NODE_51_length_606_cov_0.776618 (length 606)
+test/test:NODE_52_length_602_cov_0.829474 (length 602)
+test/test:NODE_53_length_601_cov_0.738397 (length 601)
+test/test:NODE_54_length_598_cov_0.670913 (length 598)
+test/test:NODE_55_length_595_cov_0.621795 (length 595)
+test/test:NODE_56_length_588_cov_0.694143 (length 588)
+test/test:NODE_57_length_587_cov_0.850000 (length 587)
+test/test:NODE_58_length_577_cov_0.940000 (length 577)
+test/test:NODE_59_length_575_cov_0.776786 (length 575)
+test/test:NODE_60_length_574_cov_0.798658 (length 574)
+test/test:NODE_61_length_573_cov_0.744395 (length 573)
+test/test:NODE_62_length_569_cov_0.760181 (length 569)
+test/test:NODE_63_length_566_cov_0.660592 (length 566)
+test/test:NODE_64_length_563_cov_0.841743 (length 563)
+test/test:NODE_65_length_562_cov_0.891954 (length 562)
+test/test:NODE_66_length_560_cov_0.824480 (length 560)
+test/test:NODE_67_length_556_cov_0.857809 (length 556)
+test/test:NODE_68_length_554_cov_0.707260 (length 554)
+test/test:NODE_69_length_553_cov_0.894366 (length 553)
+test/test:NODE_70_length_551_cov_0.625000 (length 551)
+test/test:NODE_71_length_545_cov_1.294258 (length 545)
+test/test:NODE_72_length_545_cov_0.636364 (length 545)
+test/test:NODE_73_length_545_cov_0.523923 (length 545)
+test/test:NODE_74_length_540_cov_0.970944 (length 540)
+test/test:NODE_75_length_539_cov_0.691748 (length 539)
+test/test:NODE_76_length_534_cov_0.375921 (length 534)
+test/test:NODE_77_length_531_cov_1.284653 (length 531)
+test/test:NODE_78_length_531_cov_0.801980 (length 531)
+test/test:NODE_79_length_526_cov_1.002506 (length 526)
+test/test:NODE_80_length_526_cov_0.929825 (length 526)
+test/test:NODE_81_length_526_cov_0.804511 (length 526)
+test/test:NODE_82_length_525_cov_0.718593 (length 525)
+test/test:NODE_83_length_524_cov_0.591940 (length 524)
+test/test:NODE_84_length_522_cov_1.230380 (length 522)
+test/test:NODE_85_length_522_cov_0.830380 (length 522)
+test/test:NODE_86_length_521_cov_0.672589 (length 521)
+test/test:NODE_87_length_520_cov_1.010178 (length 520)
+test/test:NODE_88_length_514_cov_1.018088 (length 514)
+test/test:NODE_89_length_513_cov_0.917098 (length 513)
+test/test:NODE_90_length_512_cov_0.935065 (length 512)
+test/test:NODE_91_length_512_cov_0.568831 (length 512)
+test/test:NODE_92_length_510_cov_0.861619 (length 510)
+test/test:NODE_93_length_510_cov_0.697128 (length 510)
+test/test:NODE_94_length_508_cov_1.023622 (length 508)
+test/test:NODE_95_length_507_cov_1.434211 (length 507)
+test/test:NODE_96_length_507_cov_0.828947 (length 507)
+test/test:NODE_97_length_505_cov_0.669312 (length 505)
+test/test:NODE_98_length_505_cov_0.629630 (length 505)
+test/test:NODE_99_length_503_cov_0.981383 (length 503)
+test/test:NODE_100_length_503_cov_0.585106 (length 503)
+test/test:NODE_101_length_501_cov_1.066845 (length 501)
+test/test:NODE_102_length_501_cov_0.954545 (length 501)
+test/test:NODE_103_length_500_cov_1.107239 (length 500)
+test/test:NODE_104_length_498_cov_0.622642 (length 498)
+test/test:NODE_105_length_496_cov_1.073171 (length 496)
+test/test:NODE_106_length_494_cov_1.059946 (length 494)
+test/test:NODE_107_length_494_cov_0.880109 (length 494)
+test/test:NODE_108_length_494_cov_0.713896 (length 494)
+test/test:NODE_109_length_493_cov_0.926230 (length 493)
+test/test:NODE_110_length_492_cov_0.753425 (length 492)
+test/test:NODE_111_length_492_cov_0.731507 (length 492)
+test/test:NODE_112_length_492_cov_0.715068 (length 492)
+test/test:NODE_113_length_491_cov_0.348901 (length 491)
+test/test:NODE_114_length_490_cov_0.966942 (length 490)
+test/test:NODE_115_length_490_cov_0.876033 (length 490)
+test/test:NODE_116_length_490_cov_0.752066 (length 490)
+test/test:NODE_117_length_489_cov_0.762431 (length 489)
+test/test:NODE_118_length_488_cov_0.880886 (length 488)
+test/test:NODE_119_length_486_cov_0.735376 (length 486)
+test/test:NODE_120_length_486_cov_0.643454 (length 486)
+test/test:NODE_121_length_485_cov_0.776536 (length 485)
+test/test:NODE_122_length_485_cov_0.592179 (length 485)
+test/test:NODE_123_length_484_cov_0.803922 (length 484)
+test/test:NODE_124_length_483_cov_1.480337 (length 483)
+test/test:NODE_125_length_483_cov_0.794944 (length 483)
+test/test:NODE_126_length_483_cov_0.592697 (length 483)
+test/test:NODE_127_length_482_cov_1.270423 (length 482)
+test/test:NODE_128_length_482_cov_0.892958 (length 482)
+test/test:NODE_129_length_481_cov_1.022599 (length 481)
+test/test:NODE_130_length_480_cov_1.025496 (length 480)
+test/test:NODE_131_length_479_cov_0.755682 (length 479)
+test/test:NODE_132_length_479_cov_0.755682 (length 479)
+test/test:NODE_133_length_478_cov_0.880342 (length 478)
+test/test:NODE_134_length_477_cov_1.708571 (length 477)
+test/test:NODE_135_length_476_cov_0.865330 (length 476)
+test/test:NODE_136_length_475_cov_0.724138 (length 475)
+test/test:NODE_137_length_474_cov_1.354467 (length 474)
+test/test:NODE_138_length_474_cov_1.020173 (length 474)
+test/test:NODE_139_length_474_cov_0.763689 (length 474)
+test/test:NODE_140_length_473_cov_0.921965 (length 473)
+test/test:NODE_141_length_472_cov_0.907246 (length 472)
+test/test:NODE_142_length_472_cov_0.797101 (length 472)
+test/test:NODE_143_length_472_cov_0.771014 (length 472)
+test/test:NODE_144_length_471_cov_0.991279 (length 471)
+test/test:NODE_145_length_471_cov_0.863372 (length 471)
+test/test:NODE_146_length_470_cov_0.647230 (length 470)
+test/test:NODE_147_length_470_cov_0.635569 (length 470)
+test/test:NODE_148_length_467_cov_0.867647 (length 467)
+test/test:NODE_149_length_467_cov_0.647059 (length 467)
+test/test:NODE_150_length_466_cov_1.150442 (length 466)
+test/test:NODE_151_length_464_cov_0.771513 (length 464)
+test/test:NODE_152_length_463_cov_0.776786 (length 463)
+test/test:NODE_153_length_463_cov_0.752976 (length 463)
+test/test:NODE_154_length_463_cov_0.750000 (length 463)
+test/test:NODE_155_length_462_cov_1.083582 (length 462)
+test/test:NODE_156_length_462_cov_0.543284 (length 462)
+test/test:NODE_157_length_461_cov_1.191617 (length 461)
+test/test:NODE_158_length_461_cov_0.865269 (length 461)
+test/test:NODE_159_length_459_cov_1.620482 (length 459)
+test/test:NODE_160_length_459_cov_0.765060 (length 459)
+test/test:NODE_161_length_457_cov_0.924242 (length 457)
+test/test:NODE_162_length_457_cov_0.648485 (length 457)
+test/test:NODE_163_length_456_cov_0.683891 (length 456)
+test/test:NODE_164_length_456_cov_0.604863 (length 456)
+test/test:NODE_165_length_454_cov_0.782875 (length 454)
+test/test:NODE_166_length_454_cov_0.752294 (length 454)
+test/test:NODE_167_length_454_cov_0.678899 (length 454)
+test/test:NODE_168_length_453_cov_0.776074 (length 453)
+test/test:NODE_169_length_453_cov_0.677914 (length 453)
+test/test:NODE_170_length_452_cov_0.947692 (length 452)
+test/test:NODE_171_length_452_cov_0.756923 (length 452)
+test/test:NODE_172_length_452_cov_0.507692 (length 452)
+test/test:NODE_173_length_450_cov_0.953560 (length 450)
+test/test:NODE_174_length_450_cov_0.690402 (length 450)
+test/test:NODE_175_length_449_cov_0.819876 (length 449)
+test/test:NODE_176_length_449_cov_0.714286 (length 449)
+test/test:NODE_177_length_449_cov_0.698758 (length 449)
+test/test:NODE_178_length_448_cov_1.401869 (length 448)
+test/test:NODE_179_length_448_cov_0.775701 (length 448)
+test/test:NODE_180_length_447_cov_1.159375 (length 447)
+test/test:NODE_181_length_447_cov_1.059375 (length 447)
+test/test:NODE_182_length_447_cov_0.728125 (length 447)
+test/test:NODE_183_length_446_cov_0.789969 (length 446)
+test/test:NODE_184_length_446_cov_0.730408 (length 446)
+test/test:NODE_185_length_446_cov_0.727273 (length 446)
+test/test:NODE_186_length_446_cov_0.699060 (length 446)
+test/test:NODE_187_length_446_cov_0.652038 (length 446)
+test/test:NODE_188_length_446_cov_0.485893 (length 446)
+test/test:NODE_189_length_445_cov_0.773585 (length 445)
+test/test:NODE_190_length_445_cov_0.751572 (length 445)
+test/test:NODE_191_length_442_cov_0.841270 (length 442)
+test/test:NODE_192_length_441_cov_0.716561 (length 441)
+test/test:NODE_193_length_440_cov_0.795527 (length 440)
+test/test:NODE_194_length_440_cov_0.766773 (length 440)
+test/test:NODE_195_length_440_cov_0.741214 (length 440)
+test/test:NODE_196_length_439_cov_1.160256 (length 439)
+test/test:NODE_197_length_439_cov_0.733974 (length 439)
+test/test:NODE_198_length_437_cov_0.758065 (length 437)
+test/test:NODE_199_length_437_cov_0.748387 (length 437)
+test/test:NODE_200_length_437_cov_0.674194 (length 437)
+test/test:NODE_201_length_436_cov_0.912621 (length 436)
+test/test:NODE_202_length_435_cov_0.730519 (length 435)
+test/test:NODE_203_length_435_cov_0.668831 (length 435)
+test/test:NODE_204_length_435_cov_0.659091 (length 435)
+test/test:NODE_205_length_435_cov_0.607143 (length 435)
+test/test:NODE_206_length_434_cov_1.413681 (length 434)
+test/test:NODE_207_length_434_cov_0.680782 (length 434)
+test/test:NODE_208_length_432_cov_1.754098 (length 432)
+test/test:NODE_209_length_432_cov_0.845902 (length 432)
+test/test:NODE_210_length_432_cov_0.711475 (length 432)
+test/test:NODE_211_length_431_cov_0.828947 (length 431)
+test/test:NODE_212_length_431_cov_0.664474 (length 431)
+test/test:NODE_213_length_431_cov_0.664474 (length 431)
+test/test:NODE_214_length_430_cov_1.498350 (length 430)
+test/test:NODE_215_length_430_cov_0.841584 (length 430)
+test/test:NODE_216_length_429_cov_0.983444 (length 429)
+test/test:NODE_217_length_429_cov_0.738411 (length 429)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::217 molecule types are not set as mRNA.
+test/test:NODE_1_length_59360_cov_12.132865 (length 59360)
+test/test:NODE_2_length_8267_cov_12.469287 (length 8267)
+test/test:NODE_3_length_4168_cov_1.682009 (length 4168)
+test/test:NODE_4_length_3086_cov_5.644137 (length 3086)
+test/test:NODE_5_length_2039_cov_1.130753 (length 2039)
+test/test:NODE_6_length_1728_cov_2.865084 (length 1728)
+test/test:NODE_7_length_1704_cov_1.275840 (length 1704)
+test/test:NODE_8_length_1430_cov_1.813507 (length 1430)
+test/test:NODE_9_length_1327_cov_1.492500 (length 1327)
+test/test:NODE_10_length_1061_cov_1.462527 (length 1061)
+test/test:NODE_11_length_1004_cov_0.841505 (length 1004)
+test/test:NODE_12_length_1002_cov_0.898286 (length 1002)
+test/test:NODE_13_length_905_cov_0.673522 (length 905)
+test/test:NODE_14_length_904_cov_0.897040 (length 904)
+test/test:NODE_15_length_893_cov_0.992167 (length 893)
+test/test:NODE_16_length_850_cov_1.000000 (length 850)
+test/test:NODE_17_length_839_cov_0.639045 (length 839)
+test/test:NODE_18_length_820_cov_46.272727 (length 820)
+test/test:NODE_19_length_816_cov_1.181422 (length 816)
+test/test:NODE_20_length_808_cov_0.957416 (length 808)
+test/test:NODE_21_length_789_cov_1.084592 (length 789)
+test/test:NODE_22_length_773_cov_0.698142 (length 773)
+test/test:NODE_23_length_767_cov_0.554688 (length 767)
+test/test:NODE_24_length_751_cov_0.641026 (length 751)
+test/test:NODE_25_length_749_cov_1.041801 (length 749)
+test/test:NODE_26_length_738_cov_0.945990 (length 738)
+test/test:NODE_27_length_722_cov_0.648739 (length 722)
+test/test:NODE_28_length_721_cov_1.149832 (length 721)
+test/test:NODE_29_length_712_cov_0.931624 (length 712)
+test/test:NODE_30_length_704_cov_0.649913 (length 704)
+test/test:NODE_31_length_704_cov_0.648180 (length 704)
+test/test:NODE_32_length_698_cov_1.253940 (length 698)
+test/test:NODE_33_length_698_cov_0.500876 (length 698)
+test/test:NODE_34_length_694_cov_0.892416 (length 694)
+test/test:NODE_35_length_694_cov_0.652557 (length 694)
+test/test:NODE_36_length_693_cov_0.712014 (length 693)
+test/test:NODE_37_length_674_cov_0.703839 (length 674)
+test/test:NODE_38_length_661_cov_0.803371 (length 661)
+test/test:NODE_39_length_660_cov_0.898687 (length 660)
+test/test:NODE_40_length_659_cov_0.921053 (length 659)
+test/test:NODE_41_length_657_cov_0.528302 (length 657)
+test/test:NODE_42_length_651_cov_0.761450 (length 651)
+test/test:NODE_43_length_646_cov_0.552987 (length 646)
+test/test:NODE_44_length_634_cov_0.832347 (length 634)
+test/test:NODE_45_length_634_cov_0.729783 (length 634)
+test/test:NODE_46_length_633_cov_0.992095 (length 633)
+test/test:NODE_47_length_620_cov_0.742394 (length 620)
+test/test:NODE_48_length_617_cov_0.665306 (length 617)
+test/test:NODE_49_length_611_cov_0.605372 (length 611)
+test/test:NODE_50_length_609_cov_1.205394 (length 609)
+test/test:NODE_51_length_606_cov_0.776618 (length 606)
+test/test:NODE_52_length_602_cov_0.829474 (length 602)
+test/test:NODE_53_length_601_cov_0.738397 (length 601)
+test/test:NODE_54_length_598_cov_0.670913 (length 598)
+test/test:NODE_55_length_595_cov_0.621795 (length 595)
+test/test:NODE_56_length_588_cov_0.694143 (length 588)
+test/test:NODE_57_length_587_cov_0.850000 (length 587)
+test/test:NODE_58_length_577_cov_0.940000 (length 577)
+test/test:NODE_59_length_575_cov_0.776786 (length 575)
+test/test:NODE_60_length_574_cov_0.798658 (length 574)
+test/test:NODE_61_length_573_cov_0.744395 (length 573)
+test/test:NODE_62_length_569_cov_0.760181 (length 569)
+test/test:NODE_63_length_566_cov_0.660592 (length 566)
+test/test:NODE_64_length_563_cov_0.841743 (length 563)
+test/test:NODE_65_length_562_cov_0.891954 (length 562)
+test/test:NODE_66_length_560_cov_0.824480 (length 560)
+test/test:NODE_67_length_556_cov_0.857809 (length 556)
+test/test:NODE_68_length_554_cov_0.707260 (length 554)
+test/test:NODE_69_length_553_cov_0.894366 (length 553)
+test/test:NODE_70_length_551_cov_0.625000 (length 551)
+test/test:NODE_71_length_545_cov_1.294258 (length 545)
+test/test:NODE_72_length_545_cov_0.636364 (length 545)
+test/test:NODE_73_length_545_cov_0.523923 (length 545)
+test/test:NODE_74_length_540_cov_0.970944 (length 540)
+test/test:NODE_75_length_539_cov_0.691748 (length 539)
+test/test:NODE_76_length_534_cov_0.375921 (length 534)
+test/test:NODE_77_length_531_cov_1.284653 (length 531)
+test/test:NODE_78_length_531_cov_0.801980 (length 531)
+test/test:NODE_79_length_526_cov_1.002506 (length 526)
+test/test:NODE_80_length_526_cov_0.929825 (length 526)
+test/test:NODE_81_length_526_cov_0.804511 (length 526)
+test/test:NODE_82_length_525_cov_0.718593 (length 525)
+test/test:NODE_83_length_524_cov_0.591940 (length 524)
+test/test:NODE_84_length_522_cov_1.230380 (length 522)
+test/test:NODE_85_length_522_cov_0.830380 (length 522)
+test/test:NODE_86_length_521_cov_0.672589 (length 521)
+test/test:NODE_87_length_520_cov_1.010178 (length 520)
+test/test:NODE_88_length_514_cov_1.018088 (length 514)
+test/test:NODE_89_length_513_cov_0.917098 (length 513)
+test/test:NODE_90_length_512_cov_0.935065 (length 512)
+test/test:NODE_91_length_512_cov_0.568831 (length 512)
+test/test:NODE_92_length_510_cov_0.861619 (length 510)
+test/test:NODE_93_length_510_cov_0.697128 (length 510)
+test/test:NODE_94_length_508_cov_1.023622 (length 508)
+test/test:NODE_95_length_507_cov_1.434211 (length 507)
+test/test:NODE_96_length_507_cov_0.828947 (length 507)
+test/test:NODE_97_length_505_cov_0.669312 (length 505)
+test/test:NODE_98_length_505_cov_0.629630 (length 505)
+test/test:NODE_99_length_503_cov_0.981383 (length 503)
+test/test:NODE_100_length_503_cov_0.585106 (length 503)
+test/test:NODE_101_length_501_cov_1.066845 (length 501)
+test/test:NODE_102_length_501_cov_0.954545 (length 501)
+test/test:NODE_103_length_500_cov_1.107239 (length 500)
+test/test:NODE_104_length_498_cov_0.622642 (length 498)
+test/test:NODE_105_length_496_cov_1.073171 (length 496)
+test/test:NODE_106_length_494_cov_1.059946 (length 494)
+test/test:NODE_107_length_494_cov_0.880109 (length 494)
+test/test:NODE_108_length_494_cov_0.713896 (length 494)
+test/test:NODE_109_length_493_cov_0.926230 (length 493)
+test/test:NODE_110_length_492_cov_0.753425 (length 492)
+test/test:NODE_111_length_492_cov_0.731507 (length 492)
+test/test:NODE_112_length_492_cov_0.715068 (length 492)
+test/test:NODE_113_length_491_cov_0.348901 (length 491)
+test/test:NODE_114_length_490_cov_0.966942 (length 490)
+test/test:NODE_115_length_490_cov_0.876033 (length 490)
+test/test:NODE_116_length_490_cov_0.752066 (length 490)
+test/test:NODE_117_length_489_cov_0.762431 (length 489)
+test/test:NODE_118_length_488_cov_0.880886 (length 488)
+test/test:NODE_119_length_486_cov_0.735376 (length 486)
+test/test:NODE_120_length_486_cov_0.643454 (length 486)
+test/test:NODE_121_length_485_cov_0.776536 (length 485)
+test/test:NODE_122_length_485_cov_0.592179 (length 485)
+test/test:NODE_123_length_484_cov_0.803922 (length 484)
+test/test:NODE_124_length_483_cov_1.480337 (length 483)
+test/test:NODE_125_length_483_cov_0.794944 (length 483)
+test/test:NODE_126_length_483_cov_0.592697 (length 483)
+test/test:NODE_127_length_482_cov_1.270423 (length 482)
+test/test:NODE_128_length_482_cov_0.892958 (length 482)
+test/test:NODE_129_length_481_cov_1.022599 (length 481)
+test/test:NODE_130_length_480_cov_1.025496 (length 480)
+test/test:NODE_131_length_479_cov_0.755682 (length 479)
+test/test:NODE_132_length_479_cov_0.755682 (length 479)
+test/test:NODE_133_length_478_cov_0.880342 (length 478)
+test/test:NODE_134_length_477_cov_1.708571 (length 477)
+test/test:NODE_135_length_476_cov_0.865330 (length 476)
+test/test:NODE_136_length_475_cov_0.724138 (length 475)
+test/test:NODE_137_length_474_cov_1.354467 (length 474)
+test/test:NODE_138_length_474_cov_1.020173 (length 474)
+test/test:NODE_139_length_474_cov_0.763689 (length 474)
+test/test:NODE_140_length_473_cov_0.921965 (length 473)
+test/test:NODE_141_length_472_cov_0.907246 (length 472)
+test/test:NODE_142_length_472_cov_0.797101 (length 472)
+test/test:NODE_143_length_472_cov_0.771014 (length 472)
+test/test:NODE_144_length_471_cov_0.991279 (length 471)
+test/test:NODE_145_length_471_cov_0.863372 (length 471)
+test/test:NODE_146_length_470_cov_0.647230 (length 470)
+test/test:NODE_147_length_470_cov_0.635569 (length 470)
+test/test:NODE_148_length_467_cov_0.867647 (length 467)
+test/test:NODE_149_length_467_cov_0.647059 (length 467)
+test/test:NODE_150_length_466_cov_1.150442 (length 466)
+test/test:NODE_151_length_464_cov_0.771513 (length 464)
+test/test:NODE_152_length_463_cov_0.776786 (length 463)
+test/test:NODE_153_length_463_cov_0.752976 (length 463)
+test/test:NODE_154_length_463_cov_0.750000 (length 463)
+test/test:NODE_155_length_462_cov_1.083582 (length 462)
+test/test:NODE_156_length_462_cov_0.543284 (length 462)
+test/test:NODE_157_length_461_cov_1.191617 (length 461)
+test/test:NODE_158_length_461_cov_0.865269 (length 461)
+test/test:NODE_159_length_459_cov_1.620482 (length 459)
+test/test:NODE_160_length_459_cov_0.765060 (length 459)
+test/test:NODE_161_length_457_cov_0.924242 (length 457)
+test/test:NODE_162_length_457_cov_0.648485 (length 457)
+test/test:NODE_163_length_456_cov_0.683891 (length 456)
+test/test:NODE_164_length_456_cov_0.604863 (length 456)
+test/test:NODE_165_length_454_cov_0.782875 (length 454)
+test/test:NODE_166_length_454_cov_0.752294 (length 454)
+test/test:NODE_167_length_454_cov_0.678899 (length 454)
+test/test:NODE_168_length_453_cov_0.776074 (length 453)
+test/test:NODE_169_length_453_cov_0.677914 (length 453)
+test/test:NODE_170_length_452_cov_0.947692 (length 452)
+test/test:NODE_171_length_452_cov_0.756923 (length 452)
+test/test:NODE_172_length_452_cov_0.507692 (length 452)
+test/test:NODE_173_length_450_cov_0.953560 (length 450)
+test/test:NODE_174_length_450_cov_0.690402 (length 450)
+test/test:NODE_175_length_449_cov_0.819876 (length 449)
+test/test:NODE_176_length_449_cov_0.714286 (length 449)
+test/test:NODE_177_length_449_cov_0.698758 (length 449)
+test/test:NODE_178_length_448_cov_1.401869 (length 448)
+test/test:NODE_179_length_448_cov_0.775701 (length 448)
+test/test:NODE_180_length_447_cov_1.159375 (length 447)
+test/test:NODE_181_length_447_cov_1.059375 (length 447)
+test/test:NODE_182_length_447_cov_0.728125 (length 447)
+test/test:NODE_183_length_446_cov_0.789969 (length 446)
+test/test:NODE_184_length_446_cov_0.730408 (length 446)
+test/test:NODE_185_length_446_cov_0.727273 (length 446)
+test/test:NODE_186_length_446_cov_0.699060 (length 446)
+test/test:NODE_187_length_446_cov_0.652038 (length 446)
+test/test:NODE_188_length_446_cov_0.485893 (length 446)
+test/test:NODE_189_length_445_cov_0.773585 (length 445)
+test/test:NODE_190_length_445_cov_0.751572 (length 445)
+test/test:NODE_191_length_442_cov_0.841270 (length 442)
+test/test:NODE_192_length_441_cov_0.716561 (length 441)
+test/test:NODE_193_length_440_cov_0.795527 (length 440)
+test/test:NODE_194_length_440_cov_0.766773 (length 440)
+test/test:NODE_195_length_440_cov_0.741214 (length 440)
+test/test:NODE_196_length_439_cov_1.160256 (length 439)
+test/test:NODE_197_length_439_cov_0.733974 (length 439)
+test/test:NODE_198_length_437_cov_0.758065 (length 437)
+test/test:NODE_199_length_437_cov_0.748387 (length 437)
+test/test:NODE_200_length_437_cov_0.674194 (length 437)
+test/test:NODE_201_length_436_cov_0.912621 (length 436)
+test/test:NODE_202_length_435_cov_0.730519 (length 435)
+test/test:NODE_203_length_435_cov_0.668831 (length 435)
+test/test:NODE_204_length_435_cov_0.659091 (length 435)
+test/test:NODE_205_length_435_cov_0.607143 (length 435)
+test/test:NODE_206_length_434_cov_1.413681 (length 434)
+test/test:NODE_207_length_434_cov_0.680782 (length 434)
+test/test:NODE_208_length_432_cov_1.754098 (length 432)
+test/test:NODE_209_length_432_cov_0.845902 (length 432)
+test/test:NODE_210_length_432_cov_0.711475 (length 432)
+test/test:NODE_211_length_431_cov_0.828947 (length 431)
+test/test:NODE_212_length_431_cov_0.664474 (length 431)
+test/test:NODE_213_length_431_cov_0.664474 (length 431)
+test/test:NODE_214_length_430_cov_1.498350 (length 430)
+test/test:NODE_215_length_430_cov_0.841584 (length 430)
+test/test:NODE_216_length_429_cov_0.983444 (length 429)
+test/test:NODE_217_length_429_cov_0.738411 (length 429)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::217 technique are not set as TSA
+test/test:NODE_1_length_59360_cov_12.132865 (length 59360)
+test/test:NODE_2_length_8267_cov_12.469287 (length 8267)
+test/test:NODE_3_length_4168_cov_1.682009 (length 4168)
+test/test:NODE_4_length_3086_cov_5.644137 (length 3086)
+test/test:NODE_5_length_2039_cov_1.130753 (length 2039)
+test/test:NODE_6_length_1728_cov_2.865084 (length 1728)
+test/test:NODE_7_length_1704_cov_1.275840 (length 1704)
+test/test:NODE_8_length_1430_cov_1.813507 (length 1430)
+test/test:NODE_9_length_1327_cov_1.492500 (length 1327)
+test/test:NODE_10_length_1061_cov_1.462527 (length 1061)
+test/test:NODE_11_length_1004_cov_0.841505 (length 1004)
+test/test:NODE_12_length_1002_cov_0.898286 (length 1002)
+test/test:NODE_13_length_905_cov_0.673522 (length 905)
+test/test:NODE_14_length_904_cov_0.897040 (length 904)
+test/test:NODE_15_length_893_cov_0.992167 (length 893)
+test/test:NODE_16_length_850_cov_1.000000 (length 850)
+test/test:NODE_17_length_839_cov_0.639045 (length 839)
+test/test:NODE_18_length_820_cov_46.272727 (length 820)
+test/test:NODE_19_length_816_cov_1.181422 (length 816)
+test/test:NODE_20_length_808_cov_0.957416 (length 808)
+test/test:NODE_21_length_789_cov_1.084592 (length 789)
+test/test:NODE_22_length_773_cov_0.698142 (length 773)
+test/test:NODE_23_length_767_cov_0.554688 (length 767)
+test/test:NODE_24_length_751_cov_0.641026 (length 751)
+test/test:NODE_25_length_749_cov_1.041801 (length 749)
+test/test:NODE_26_length_738_cov_0.945990 (length 738)
+test/test:NODE_27_length_722_cov_0.648739 (length 722)
+test/test:NODE_28_length_721_cov_1.149832 (length 721)
+test/test:NODE_29_length_712_cov_0.931624 (length 712)
+test/test:NODE_30_length_704_cov_0.649913 (length 704)
+test/test:NODE_31_length_704_cov_0.648180 (length 704)
+test/test:NODE_32_length_698_cov_1.253940 (length 698)
+test/test:NODE_33_length_698_cov_0.500876 (length 698)
+test/test:NODE_34_length_694_cov_0.892416 (length 694)
+test/test:NODE_35_length_694_cov_0.652557 (length 694)
+test/test:NODE_36_length_693_cov_0.712014 (length 693)
+test/test:NODE_37_length_674_cov_0.703839 (length 674)
+test/test:NODE_38_length_661_cov_0.803371 (length 661)
+test/test:NODE_39_length_660_cov_0.898687 (length 660)
+test/test:NODE_40_length_659_cov_0.921053 (length 659)
+test/test:NODE_41_length_657_cov_0.528302 (length 657)
+test/test:NODE_42_length_651_cov_0.761450 (length 651)
+test/test:NODE_43_length_646_cov_0.552987 (length 646)
+test/test:NODE_44_length_634_cov_0.832347 (length 634)
+test/test:NODE_45_length_634_cov_0.729783 (length 634)
+test/test:NODE_46_length_633_cov_0.992095 (length 633)
+test/test:NODE_47_length_620_cov_0.742394 (length 620)
+test/test:NODE_48_length_617_cov_0.665306 (length 617)
+test/test:NODE_49_length_611_cov_0.605372 (length 611)
+test/test:NODE_50_length_609_cov_1.205394 (length 609)
+test/test:NODE_51_length_606_cov_0.776618 (length 606)
+test/test:NODE_52_length_602_cov_0.829474 (length 602)
+test/test:NODE_53_length_601_cov_0.738397 (length 601)
+test/test:NODE_54_length_598_cov_0.670913 (length 598)
+test/test:NODE_55_length_595_cov_0.621795 (length 595)
+test/test:NODE_56_length_588_cov_0.694143 (length 588)
+test/test:NODE_57_length_587_cov_0.850000 (length 587)
+test/test:NODE_58_length_577_cov_0.940000 (length 577)
+test/test:NODE_59_length_575_cov_0.776786 (length 575)
+test/test:NODE_60_length_574_cov_0.798658 (length 574)
+test/test:NODE_61_length_573_cov_0.744395 (length 573)
+test/test:NODE_62_length_569_cov_0.760181 (length 569)
+test/test:NODE_63_length_566_cov_0.660592 (length 566)
+test/test:NODE_64_length_563_cov_0.841743 (length 563)
+test/test:NODE_65_length_562_cov_0.891954 (length 562)
+test/test:NODE_66_length_560_cov_0.824480 (length 560)
+test/test:NODE_67_length_556_cov_0.857809 (length 556)
+test/test:NODE_68_length_554_cov_0.707260 (length 554)
+test/test:NODE_69_length_553_cov_0.894366 (length 553)
+test/test:NODE_70_length_551_cov_0.625000 (length 551)
+test/test:NODE_71_length_545_cov_1.294258 (length 545)
+test/test:NODE_72_length_545_cov_0.636364 (length 545)
+test/test:NODE_73_length_545_cov_0.523923 (length 545)
+test/test:NODE_74_length_540_cov_0.970944 (length 540)
+test/test:NODE_75_length_539_cov_0.691748 (length 539)
+test/test:NODE_76_length_534_cov_0.375921 (length 534)
+test/test:NODE_77_length_531_cov_1.284653 (length 531)
+test/test:NODE_78_length_531_cov_0.801980 (length 531)
+test/test:NODE_79_length_526_cov_1.002506 (length 526)
+test/test:NODE_80_length_526_cov_0.929825 (length 526)
+test/test:NODE_81_length_526_cov_0.804511 (length 526)
+test/test:NODE_82_length_525_cov_0.718593 (length 525)
+test/test:NODE_83_length_524_cov_0.591940 (length 524)
+test/test:NODE_84_length_522_cov_1.230380 (length 522)
+test/test:NODE_85_length_522_cov_0.830380 (length 522)
+test/test:NODE_86_length_521_cov_0.672589 (length 521)
+test/test:NODE_87_length_520_cov_1.010178 (length 520)
+test/test:NODE_88_length_514_cov_1.018088 (length 514)
+test/test:NODE_89_length_513_cov_0.917098 (length 513)
+test/test:NODE_90_length_512_cov_0.935065 (length 512)
+test/test:NODE_91_length_512_cov_0.568831 (length 512)
+test/test:NODE_92_length_510_cov_0.861619 (length 510)
+test/test:NODE_93_length_510_cov_0.697128 (length 510)
+test/test:NODE_94_length_508_cov_1.023622 (length 508)
+test/test:NODE_95_length_507_cov_1.434211 (length 507)
+test/test:NODE_96_length_507_cov_0.828947 (length 507)
+test/test:NODE_97_length_505_cov_0.669312 (length 505)
+test/test:NODE_98_length_505_cov_0.629630 (length 505)
+test/test:NODE_99_length_503_cov_0.981383 (length 503)
+test/test:NODE_100_length_503_cov_0.585106 (length 503)
+test/test:NODE_101_length_501_cov_1.066845 (length 501)
+test/test:NODE_102_length_501_cov_0.954545 (length 501)
+test/test:NODE_103_length_500_cov_1.107239 (length 500)
+test/test:NODE_104_length_498_cov_0.622642 (length 498)
+test/test:NODE_105_length_496_cov_1.073171 (length 496)
+test/test:NODE_106_length_494_cov_1.059946 (length 494)
+test/test:NODE_107_length_494_cov_0.880109 (length 494)
+test/test:NODE_108_length_494_cov_0.713896 (length 494)
+test/test:NODE_109_length_493_cov_0.926230 (length 493)
+test/test:NODE_110_length_492_cov_0.753425 (length 492)
+test/test:NODE_111_length_492_cov_0.731507 (length 492)
+test/test:NODE_112_length_492_cov_0.715068 (length 492)
+test/test:NODE_113_length_491_cov_0.348901 (length 491)
+test/test:NODE_114_length_490_cov_0.966942 (length 490)
+test/test:NODE_115_length_490_cov_0.876033 (length 490)
+test/test:NODE_116_length_490_cov_0.752066 (length 490)
+test/test:NODE_117_length_489_cov_0.762431 (length 489)
+test/test:NODE_118_length_488_cov_0.880886 (length 488)
+test/test:NODE_119_length_486_cov_0.735376 (length 486)
+test/test:NODE_120_length_486_cov_0.643454 (length 486)
+test/test:NODE_121_length_485_cov_0.776536 (length 485)
+test/test:NODE_122_length_485_cov_0.592179 (length 485)
+test/test:NODE_123_length_484_cov_0.803922 (length 484)
+test/test:NODE_124_length_483_cov_1.480337 (length 483)
+test/test:NODE_125_length_483_cov_0.794944 (length 483)
+test/test:NODE_126_length_483_cov_0.592697 (length 483)
+test/test:NODE_127_length_482_cov_1.270423 (length 482)
+test/test:NODE_128_length_482_cov_0.892958 (length 482)
+test/test:NODE_129_length_481_cov_1.022599 (length 481)
+test/test:NODE_130_length_480_cov_1.025496 (length 480)
+test/test:NODE_131_length_479_cov_0.755682 (length 479)
+test/test:NODE_132_length_479_cov_0.755682 (length 479)
+test/test:NODE_133_length_478_cov_0.880342 (length 478)
+test/test:NODE_134_length_477_cov_1.708571 (length 477)
+test/test:NODE_135_length_476_cov_0.865330 (length 476)
+test/test:NODE_136_length_475_cov_0.724138 (length 475)
+test/test:NODE_137_length_474_cov_1.354467 (length 474)
+test/test:NODE_138_length_474_cov_1.020173 (length 474)
+test/test:NODE_139_length_474_cov_0.763689 (length 474)
+test/test:NODE_140_length_473_cov_0.921965 (length 473)
+test/test:NODE_141_length_472_cov_0.907246 (length 472)
+test/test:NODE_142_length_472_cov_0.797101 (length 472)
+test/test:NODE_143_length_472_cov_0.771014 (length 472)
+test/test:NODE_144_length_471_cov_0.991279 (length 471)
+test/test:NODE_145_length_471_cov_0.863372 (length 471)
+test/test:NODE_146_length_470_cov_0.647230 (length 470)
+test/test:NODE_147_length_470_cov_0.635569 (length 470)
+test/test:NODE_148_length_467_cov_0.867647 (length 467)
+test/test:NODE_149_length_467_cov_0.647059 (length 467)
+test/test:NODE_150_length_466_cov_1.150442 (length 466)
+test/test:NODE_151_length_464_cov_0.771513 (length 464)
+test/test:NODE_152_length_463_cov_0.776786 (length 463)
+test/test:NODE_153_length_463_cov_0.752976 (length 463)
+test/test:NODE_154_length_463_cov_0.750000 (length 463)
+test/test:NODE_155_length_462_cov_1.083582 (length 462)
+test/test:NODE_156_length_462_cov_0.543284 (length 462)
+test/test:NODE_157_length_461_cov_1.191617 (length 461)
+test/test:NODE_158_length_461_cov_0.865269 (length 461)
+test/test:NODE_159_length_459_cov_1.620482 (length 459)
+test/test:NODE_160_length_459_cov_0.765060 (length 459)
+test/test:NODE_161_length_457_cov_0.924242 (length 457)
+test/test:NODE_162_length_457_cov_0.648485 (length 457)
+test/test:NODE_163_length_456_cov_0.683891 (length 456)
+test/test:NODE_164_length_456_cov_0.604863 (length 456)
+test/test:NODE_165_length_454_cov_0.782875 (length 454)
+test/test:NODE_166_length_454_cov_0.752294 (length 454)
+test/test:NODE_167_length_454_cov_0.678899 (length 454)
+test/test:NODE_168_length_453_cov_0.776074 (length 453)
+test/test:NODE_169_length_453_cov_0.677914 (length 453)
+test/test:NODE_170_length_452_cov_0.947692 (length 452)
+test/test:NODE_171_length_452_cov_0.756923 (length 452)
+test/test:NODE_172_length_452_cov_0.507692 (length 452)
+test/test:NODE_173_length_450_cov_0.953560 (length 450)
+test/test:NODE_174_length_450_cov_0.690402 (length 450)
+test/test:NODE_175_length_449_cov_0.819876 (length 449)
+test/test:NODE_176_length_449_cov_0.714286 (length 449)
+test/test:NODE_177_length_449_cov_0.698758 (length 449)
+test/test:NODE_178_length_448_cov_1.401869 (length 448)
+test/test:NODE_179_length_448_cov_0.775701 (length 448)
+test/test:NODE_180_length_447_cov_1.159375 (length 447)
+test/test:NODE_181_length_447_cov_1.059375 (length 447)
+test/test:NODE_182_length_447_cov_0.728125 (length 447)
+test/test:NODE_183_length_446_cov_0.789969 (length 446)
+test/test:NODE_184_length_446_cov_0.730408 (length 446)
+test/test:NODE_185_length_446_cov_0.727273 (length 446)
+test/test:NODE_186_length_446_cov_0.699060 (length 446)
+test/test:NODE_187_length_446_cov_0.652038 (length 446)
+test/test:NODE_188_length_446_cov_0.485893 (length 446)
+test/test:NODE_189_length_445_cov_0.773585 (length 445)
+test/test:NODE_190_length_445_cov_0.751572 (length 445)
+test/test:NODE_191_length_442_cov_0.841270 (length 442)
+test/test:NODE_192_length_441_cov_0.716561 (length 441)
+test/test:NODE_193_length_440_cov_0.795527 (length 440)
+test/test:NODE_194_length_440_cov_0.766773 (length 440)
+test/test:NODE_195_length_440_cov_0.741214 (length 440)
+test/test:NODE_196_length_439_cov_1.160256 (length 439)
+test/test:NODE_197_length_439_cov_0.733974 (length 439)
+test/test:NODE_198_length_437_cov_0.758065 (length 437)
+test/test:NODE_199_length_437_cov_0.748387 (length 437)
+test/test:NODE_200_length_437_cov_0.674194 (length 437)
+test/test:NODE_201_length_436_cov_0.912621 (length 436)
+test/test:NODE_202_length_435_cov_0.730519 (length 435)
+test/test:NODE_203_length_435_cov_0.668831 (length 435)
+test/test:NODE_204_length_435_cov_0.659091 (length 435)
+test/test:NODE_205_length_435_cov_0.607143 (length 435)
+test/test:NODE_206_length_434_cov_1.413681 (length 434)
+test/test:NODE_207_length_434_cov_0.680782 (length 434)
+test/test:NODE_208_length_432_cov_1.754098 (length 432)
+test/test:NODE_209_length_432_cov_0.845902 (length 432)
+test/test:NODE_210_length_432_cov_0.711475 (length 432)
+test/test:NODE_211_length_431_cov_0.828947 (length 431)
+test/test:NODE_212_length_431_cov_0.664474 (length 431)
+test/test:NODE_213_length_431_cov_0.664474 (length 431)
+test/test:NODE_214_length_430_cov_1.498350 (length 430)
+test/test:NODE_215_length_430_cov_0.841584 (length 430)
+test/test:NODE_216_length_429_cov_0.983444 (length 429)
+test/test:NODE_217_length_429_cov_0.738411 (length 429)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::217 sequences do not include structured comments.
+test/test:NODE_1_length_59360_cov_12.132865 (length 59360)
+test/test:NODE_2_length_8267_cov_12.469287 (length 8267)
+test/test:NODE_3_length_4168_cov_1.682009 (length 4168)
+test/test:NODE_4_length_3086_cov_5.644137 (length 3086)
+test/test:NODE_5_length_2039_cov_1.130753 (length 2039)
+test/test:NODE_6_length_1728_cov_2.865084 (length 1728)
+test/test:NODE_7_length_1704_cov_1.275840 (length 1704)
+test/test:NODE_8_length_1430_cov_1.813507 (length 1430)
+test/test:NODE_9_length_1327_cov_1.492500 (length 1327)
+test/test:NODE_10_length_1061_cov_1.462527 (length 1061)
+test/test:NODE_11_length_1004_cov_0.841505 (length 1004)
+test/test:NODE_12_length_1002_cov_0.898286 (length 1002)
+test/test:NODE_13_length_905_cov_0.673522 (length 905)
+test/test:NODE_14_length_904_cov_0.897040 (length 904)
+test/test:NODE_15_length_893_cov_0.992167 (length 893)
+test/test:NODE_16_length_850_cov_1.000000 (length 850)
+test/test:NODE_17_length_839_cov_0.639045 (length 839)
+test/test:NODE_18_length_820_cov_46.272727 (length 820)
+test/test:NODE_19_length_816_cov_1.181422 (length 816)
+test/test:NODE_20_length_808_cov_0.957416 (length 808)
+test/test:NODE_21_length_789_cov_1.084592 (length 789)
+test/test:NODE_22_length_773_cov_0.698142 (length 773)
+test/test:NODE_23_length_767_cov_0.554688 (length 767)
+test/test:NODE_24_length_751_cov_0.641026 (length 751)
+test/test:NODE_25_length_749_cov_1.041801 (length 749)
+test/test:NODE_26_length_738_cov_0.945990 (length 738)
+test/test:NODE_27_length_722_cov_0.648739 (length 722)
+test/test:NODE_28_length_721_cov_1.149832 (length 721)
+test/test:NODE_29_length_712_cov_0.931624 (length 712)
+test/test:NODE_30_length_704_cov_0.649913 (length 704)
+test/test:NODE_31_length_704_cov_0.648180 (length 704)
+test/test:NODE_32_length_698_cov_1.253940 (length 698)
+test/test:NODE_33_length_698_cov_0.500876 (length 698)
+test/test:NODE_34_length_694_cov_0.892416 (length 694)
+test/test:NODE_35_length_694_cov_0.652557 (length 694)
+test/test:NODE_36_length_693_cov_0.712014 (length 693)
+test/test:NODE_37_length_674_cov_0.703839 (length 674)
+test/test:NODE_38_length_661_cov_0.803371 (length 661)
+test/test:NODE_39_length_660_cov_0.898687 (length 660)
+test/test:NODE_40_length_659_cov_0.921053 (length 659)
+test/test:NODE_41_length_657_cov_0.528302 (length 657)
+test/test:NODE_42_length_651_cov_0.761450 (length 651)
+test/test:NODE_43_length_646_cov_0.552987 (length 646)
+test/test:NODE_44_length_634_cov_0.832347 (length 634)
+test/test:NODE_45_length_634_cov_0.729783 (length 634)
+test/test:NODE_46_length_633_cov_0.992095 (length 633)
+test/test:NODE_47_length_620_cov_0.742394 (length 620)
+test/test:NODE_48_length_617_cov_0.665306 (length 617)
+test/test:NODE_49_length_611_cov_0.605372 (length 611)
+test/test:NODE_50_length_609_cov_1.205394 (length 609)
+test/test:NODE_51_length_606_cov_0.776618 (length 606)
+test/test:NODE_52_length_602_cov_0.829474 (length 602)
+test/test:NODE_53_length_601_cov_0.738397 (length 601)
+test/test:NODE_54_length_598_cov_0.670913 (length 598)
+test/test:NODE_55_length_595_cov_0.621795 (length 595)
+test/test:NODE_56_length_588_cov_0.694143 (length 588)
+test/test:NODE_57_length_587_cov_0.850000 (length 587)
+test/test:NODE_58_length_577_cov_0.940000 (length 577)
+test/test:NODE_59_length_575_cov_0.776786 (length 575)
+test/test:NODE_60_length_574_cov_0.798658 (length 574)
+test/test:NODE_61_length_573_cov_0.744395 (length 573)
+test/test:NODE_62_length_569_cov_0.760181 (length 569)
+test/test:NODE_63_length_566_cov_0.660592 (length 566)
+test/test:NODE_64_length_563_cov_0.841743 (length 563)
+test/test:NODE_65_length_562_cov_0.891954 (length 562)
+test/test:NODE_66_length_560_cov_0.824480 (length 560)
+test/test:NODE_67_length_556_cov_0.857809 (length 556)
+test/test:NODE_68_length_554_cov_0.707260 (length 554)
+test/test:NODE_69_length_553_cov_0.894366 (length 553)
+test/test:NODE_70_length_551_cov_0.625000 (length 551)
+test/test:NODE_71_length_545_cov_1.294258 (length 545)
+test/test:NODE_72_length_545_cov_0.636364 (length 545)
+test/test:NODE_73_length_545_cov_0.523923 (length 545)
+test/test:NODE_74_length_540_cov_0.970944 (length 540)
+test/test:NODE_75_length_539_cov_0.691748 (length 539)
+test/test:NODE_76_length_534_cov_0.375921 (length 534)
+test/test:NODE_77_length_531_cov_1.284653 (length 531)
+test/test:NODE_78_length_531_cov_0.801980 (length 531)
+test/test:NODE_79_length_526_cov_1.002506 (length 526)
+test/test:NODE_80_length_526_cov_0.929825 (length 526)
+test/test:NODE_81_length_526_cov_0.804511 (length 526)
+test/test:NODE_82_length_525_cov_0.718593 (length 525)
+test/test:NODE_83_length_524_cov_0.591940 (length 524)
+test/test:NODE_84_length_522_cov_1.230380 (length 522)
+test/test:NODE_85_length_522_cov_0.830380 (length 522)
+test/test:NODE_86_length_521_cov_0.672589 (length 521)
+test/test:NODE_87_length_520_cov_1.010178 (length 520)
+test/test:NODE_88_length_514_cov_1.018088 (length 514)
+test/test:NODE_89_length_513_cov_0.917098 (length 513)
+test/test:NODE_90_length_512_cov_0.935065 (length 512)
+test/test:NODE_91_length_512_cov_0.568831 (length 512)
+test/test:NODE_92_length_510_cov_0.861619 (length 510)
+test/test:NODE_93_length_510_cov_0.697128 (length 510)
+test/test:NODE_94_length_508_cov_1.023622 (length 508)
+test/test:NODE_95_length_507_cov_1.434211 (length 507)
+test/test:NODE_96_length_507_cov_0.828947 (length 507)
+test/test:NODE_97_length_505_cov_0.669312 (length 505)
+test/test:NODE_98_length_505_cov_0.629630 (length 505)
+test/test:NODE_99_length_503_cov_0.981383 (length 503)
+test/test:NODE_100_length_503_cov_0.585106 (length 503)
+test/test:NODE_101_length_501_cov_1.066845 (length 501)
+test/test:NODE_102_length_501_cov_0.954545 (length 501)
+test/test:NODE_103_length_500_cov_1.107239 (length 500)
+test/test:NODE_104_length_498_cov_0.622642 (length 498)
+test/test:NODE_105_length_496_cov_1.073171 (length 496)
+test/test:NODE_106_length_494_cov_1.059946 (length 494)
+test/test:NODE_107_length_494_cov_0.880109 (length 494)
+test/test:NODE_108_length_494_cov_0.713896 (length 494)
+test/test:NODE_109_length_493_cov_0.926230 (length 493)
+test/test:NODE_110_length_492_cov_0.753425 (length 492)
+test/test:NODE_111_length_492_cov_0.731507 (length 492)
+test/test:NODE_112_length_492_cov_0.715068 (length 492)
+test/test:NODE_113_length_491_cov_0.348901 (length 491)
+test/test:NODE_114_length_490_cov_0.966942 (length 490)
+test/test:NODE_115_length_490_cov_0.876033 (length 490)
+test/test:NODE_116_length_490_cov_0.752066 (length 490)
+test/test:NODE_117_length_489_cov_0.762431 (length 489)
+test/test:NODE_118_length_488_cov_0.880886 (length 488)
+test/test:NODE_119_length_486_cov_0.735376 (length 486)
+test/test:NODE_120_length_486_cov_0.643454 (length 486)
+test/test:NODE_121_length_485_cov_0.776536 (length 485)
+test/test:NODE_122_length_485_cov_0.592179 (length 485)
+test/test:NODE_123_length_484_cov_0.803922 (length 484)
+test/test:NODE_124_length_483_cov_1.480337 (length 483)
+test/test:NODE_125_length_483_cov_0.794944 (length 483)
+test/test:NODE_126_length_483_cov_0.592697 (length 483)
+test/test:NODE_127_length_482_cov_1.270423 (length 482)
+test/test:NODE_128_length_482_cov_0.892958 (length 482)
+test/test:NODE_129_length_481_cov_1.022599 (length 481)
+test/test:NODE_130_length_480_cov_1.025496 (length 480)
+test/test:NODE_131_length_479_cov_0.755682 (length 479)
+test/test:NODE_132_length_479_cov_0.755682 (length 479)
+test/test:NODE_133_length_478_cov_0.880342 (length 478)
+test/test:NODE_134_length_477_cov_1.708571 (length 477)
+test/test:NODE_135_length_476_cov_0.865330 (length 476)
+test/test:NODE_136_length_475_cov_0.724138 (length 475)
+test/test:NODE_137_length_474_cov_1.354467 (length 474)
+test/test:NODE_138_length_474_cov_1.020173 (length 474)
+test/test:NODE_139_length_474_cov_0.763689 (length 474)
+test/test:NODE_140_length_473_cov_0.921965 (length 473)
+test/test:NODE_141_length_472_cov_0.907246 (length 472)
+test/test:NODE_142_length_472_cov_0.797101 (length 472)
+test/test:NODE_143_length_472_cov_0.771014 (length 472)
+test/test:NODE_144_length_471_cov_0.991279 (length 471)
+test/test:NODE_145_length_471_cov_0.863372 (length 471)
+test/test:NODE_146_length_470_cov_0.647230 (length 470)
+test/test:NODE_147_length_470_cov_0.635569 (length 470)
+test/test:NODE_148_length_467_cov_0.867647 (length 467)
+test/test:NODE_149_length_467_cov_0.647059 (length 467)
+test/test:NODE_150_length_466_cov_1.150442 (length 466)
+test/test:NODE_151_length_464_cov_0.771513 (length 464)
+test/test:NODE_152_length_463_cov_0.776786 (length 463)
+test/test:NODE_153_length_463_cov_0.752976 (length 463)
+test/test:NODE_154_length_463_cov_0.750000 (length 463)
+test/test:NODE_155_length_462_cov_1.083582 (length 462)
+test/test:NODE_156_length_462_cov_0.543284 (length 462)
+test/test:NODE_157_length_461_cov_1.191617 (length 461)
+test/test:NODE_158_length_461_cov_0.865269 (length 461)
+test/test:NODE_159_length_459_cov_1.620482 (length 459)
+test/test:NODE_160_length_459_cov_0.765060 (length 459)
+test/test:NODE_161_length_457_cov_0.924242 (length 457)
+test/test:NODE_162_length_457_cov_0.648485 (length 457)
+test/test:NODE_163_length_456_cov_0.683891 (length 456)
+test/test:NODE_164_length_456_cov_0.604863 (length 456)
+test/test:NODE_165_length_454_cov_0.782875 (length 454)
+test/test:NODE_166_length_454_cov_0.752294 (length 454)
+test/test:NODE_167_length_454_cov_0.678899 (length 454)
+test/test:NODE_168_length_453_cov_0.776074 (length 453)
+test/test:NODE_169_length_453_cov_0.677914 (length 453)
+test/test:NODE_170_length_452_cov_0.947692 (length 452)
+test/test:NODE_171_length_452_cov_0.756923 (length 452)
+test/test:NODE_172_length_452_cov_0.507692 (length 452)
+test/test:NODE_173_length_450_cov_0.953560 (length 450)
+test/test:NODE_174_length_450_cov_0.690402 (length 450)
+test/test:NODE_175_length_449_cov_0.819876 (length 449)
+test/test:NODE_176_length_449_cov_0.714286 (length 449)
+test/test:NODE_177_length_449_cov_0.698758 (length 449)
+test/test:NODE_178_length_448_cov_1.401869 (length 448)
+test/test:NODE_179_length_448_cov_0.775701 (length 448)
+test/test:NODE_180_length_447_cov_1.159375 (length 447)
+test/test:NODE_181_length_447_cov_1.059375 (length 447)
+test/test:NODE_182_length_447_cov_0.728125 (length 447)
+test/test:NODE_183_length_446_cov_0.789969 (length 446)
+test/test:NODE_184_length_446_cov_0.730408 (length 446)
+test/test:NODE_185_length_446_cov_0.727273 (length 446)
+test/test:NODE_186_length_446_cov_0.699060 (length 446)
+test/test:NODE_187_length_446_cov_0.652038 (length 446)
+test/test:NODE_188_length_446_cov_0.485893 (length 446)
+test/test:NODE_189_length_445_cov_0.773585 (length 445)
+test/test:NODE_190_length_445_cov_0.751572 (length 445)
+test/test:NODE_191_length_442_cov_0.841270 (length 442)
+test/test:NODE_192_length_441_cov_0.716561 (length 441)
+test/test:NODE_193_length_440_cov_0.795527 (length 440)
+test/test:NODE_194_length_440_cov_0.766773 (length 440)
+test/test:NODE_195_length_440_cov_0.741214 (length 440)
+test/test:NODE_196_length_439_cov_1.160256 (length 439)
+test/test:NODE_197_length_439_cov_0.733974 (length 439)
+test/test:NODE_198_length_437_cov_0.758065 (length 437)
+test/test:NODE_199_length_437_cov_0.748387 (length 437)
+test/test:NODE_200_length_437_cov_0.674194 (length 437)
+test/test:NODE_201_length_436_cov_0.912621 (length 436)
+test/test:NODE_202_length_435_cov_0.730519 (length 435)
+test/test:NODE_203_length_435_cov_0.668831 (length 435)
+test/test:NODE_204_length_435_cov_0.659091 (length 435)
+test/test:NODE_205_length_435_cov_0.607143 (length 435)
+test/test:NODE_206_length_434_cov_1.413681 (length 434)
+test/test:NODE_207_length_434_cov_0.680782 (length 434)
+test/test:NODE_208_length_432_cov_1.754098 (length 432)
+test/test:NODE_209_length_432_cov_0.845902 (length 432)
+test/test:NODE_210_length_432_cov_0.711475 (length 432)
+test/test:NODE_211_length_431_cov_0.828947 (length 431)
+test/test:NODE_212_length_431_cov_0.664474 (length 431)
+test/test:NODE_213_length_431_cov_0.664474 (length 431)
+test/test:NODE_214_length_430_cov_1.498350 (length 430)
+test/test:NODE_215_length_430_cov_0.841584 (length 430)
+test/test:NODE_216_length_429_cov_0.983444 (length 429)
+test/test:NODE_217_length_429_cov_0.738411 (length 429)
+
+DiscRep_ALL:MISSING_PROJECT::414 sequences do not include project.
+test/test:NODE_1_length_59360_cov_12.132865 (length 59360)
+test/test:NODE_1_length_59360_cov_12.132865_1 (length 142)
+test/test:NODE_1_length_59360_cov_12.132865_2 (length 59)
+test/test:NODE_1_length_59360_cov_12.132865_3 (length 286)
+test/test:NODE_1_length_59360_cov_12.132865_4 (length 112)
+test/test:NODE_1_length_59360_cov_12.132865_5 (length 76)
+test/test:NODE_1_length_59360_cov_12.132865_6 (length 37)
+test/test:NODE_1_length_59360_cov_12.132865_7 (length 71)
+test/test:NODE_1_length_59360_cov_12.132865_8 (length 136)
+test/test:NODE_1_length_59360_cov_12.132865_9 (length 101)
+test/test:NODE_1_length_59360_cov_12.132865_10 (length 146)
+test/test:NODE_1_length_59360_cov_12.132865_11 (length 94)
+test/test:NODE_1_length_59360_cov_12.132865_12 (length 73)
+test/test:NODE_1_length_59360_cov_12.132865_13 (length 144)
+test/test:NODE_1_length_59360_cov_12.132865_14 (length 103)
+test/test:NODE_1_length_59360_cov_12.132865_15 (length 178)
+test/test:NODE_1_length_59360_cov_12.132865_16 (length 46)
+test/test:NODE_1_length_59360_cov_12.132865_17 (length 121)
+test/test:NODE_1_length_59360_cov_12.132865_18 (length 187)
+test/test:NODE_1_length_59360_cov_12.132865_19 (length 659)
+test/test:NODE_1_length_59360_cov_12.132865_20 (length 166)
+test/test:NODE_1_length_59360_cov_12.132865_21 (length 259)
+test/test:NODE_1_length_59360_cov_12.132865_22 (length 387)
+test/test:NODE_1_length_59360_cov_12.132865_23 (length 86)
+test/test:NODE_1_length_59360_cov_12.132865_24 (length 1145)
+test/test:NODE_1_length_59360_cov_12.132865_25 (length 170)
+test/test:NODE_1_length_59360_cov_12.132865_26 (length 70)
+test/test:NODE_1_length_59360_cov_12.132865_27 (length 136)
+test/test:NODE_1_length_59360_cov_12.132865_28 (length 237)
+test/test:NODE_1_length_59360_cov_12.132865_29 (length 383)
+test/test:NODE_1_length_59360_cov_12.132865_30 (length 449)
+test/test:NODE_1_length_59360_cov_12.132865_31 (length 234)
+test/test:NODE_1_length_59360_cov_12.132865_32 (length 176)
+test/test:NODE_1_length_59360_cov_12.132865_33 (length 129)
+test/test:NODE_1_length_59360_cov_12.132865_34 (length 164)
+test/test:NODE_1_length_59360_cov_12.132865_35 (length 1016)
+test/test:NODE_1_length_59360_cov_12.132865_36 (length 402)
+test/test:NODE_1_length_59360_cov_12.132865_37 (length 198)
+test/test:NODE_1_length_59360_cov_12.132865_38 (length 731)
+test/test:NODE_1_length_59360_cov_12.132865_39 (length 217)
+test/test:NODE_1_length_59360_cov_12.132865_40 (length 76)
+test/test:NODE_1_length_59360_cov_12.132865_41 (length 351)
+test/test:NODE_1_length_59360_cov_12.132865_42 (length 695)
+test/test:NODE_1_length_59360_cov_12.132865_43 (length 316)
+test/test:NODE_1_length_59360_cov_12.132865_44 (length 435)
+test/test:NODE_1_length_59360_cov_12.132865_45 (length 131)
+test/test:NODE_1_length_59360_cov_12.132865_46 (length 116)
+test/test:NODE_1_length_59360_cov_12.132865_47 (length 217)
+test/test:NODE_1_length_59360_cov_12.132865_48 (length 85)
+test/test:NODE_1_length_59360_cov_12.132865_49 (length 110)
+test/test:NODE_1_length_59360_cov_12.132865_50 (length 144)
+test/test:NODE_1_length_59360_cov_12.132865_51 (length 434)
+test/test:NODE_1_length_59360_cov_12.132865_52 (length 69)
+test/test:NODE_1_length_59360_cov_12.132865_53 (length 72)
+test/test:NODE_1_length_59360_cov_12.132865_54 (length 227)
+test/test:NODE_1_length_59360_cov_12.132865_55 (length 90)
+test/test:NODE_1_length_59360_cov_12.132865_56 (length 424)
+test/test:NODE_1_length_59360_cov_12.132865_57 (length 114)
+test/test:NODE_1_length_59360_cov_12.132865_58 (length 52)
+test/test:NODE_1_length_59360_cov_12.132865_59 (length 194)
+test/test:NODE_1_length_59360_cov_12.132865_60 (length 181)
+test/test:NODE_1_length_59360_cov_12.132865_61 (length 153)
+test/test:NODE_1_length_59360_cov_12.132865_62 (length 82)
+test/test:NODE_1_length_59360_cov_12.132865_63 (length 195)
+test/test:NODE_1_length_59360_cov_12.132865_64 (length 161)
+test/test:NODE_1_length_59360_cov_12.132865_65 (length 82)
+test/test:NODE_1_length_59360_cov_12.132865_66 (length 225)
+test/test:NODE_1_length_59360_cov_12.132865_67 (length 324)
+test/test:NODE_1_length_59360_cov_12.132865_68 (length 147)
+test/test:NODE_1_length_59360_cov_12.132865_69 (length 187)
+test/test:NODE_1_length_59360_cov_12.132865_70 (length 168)
+test/test:NODE_1_length_59360_cov_12.132865_71 (length 159)
+test/test:NODE_1_length_59360_cov_12.132865_72 (length 136)
+test/test:NODE_1_length_59360_cov_12.132865_73 (length 87)
+test/test:NODE_1_length_59360_cov_12.132865_74 (length 120)
+test/test:NODE_1_length_59360_cov_12.132865_75 (length 149)
+test/test:NODE_1_length_59360_cov_12.132865_76 (length 88)
+test/test:NODE_1_length_59360_cov_12.132865_77 (length 107)
+test/test:NODE_1_length_59360_cov_12.132865_78 (length 125)
+test/test:NODE_1_length_59360_cov_12.132865_79 (length 71)
+test/test:NODE_1_length_59360_cov_12.132865_80 (length 219)
+test/test:NODE_1_length_59360_cov_12.132865_81 (length 125)
+test/test:NODE_1_length_59360_cov_12.132865_82 (length 94)
+test/test:NODE_2_length_8267_cov_12.469287 (length 8267)
+test/test:NODE_2_length_8267_cov_12.469287_1 (length 214)
+test/test:NODE_2_length_8267_cov_12.469287_2 (length 261)
+test/test:NODE_2_length_8267_cov_12.469287_3 (length 166)
+test/test:NODE_2_length_8267_cov_12.469287_4 (length 279)
+test/test:NODE_2_length_8267_cov_12.469287_5 (length 115)
+test/test:NODE_2_length_8267_cov_12.469287_6 (length 210)
+test/test:NODE_2_length_8267_cov_12.469287_7 (length 259)
+test/test:NODE_2_length_8267_cov_12.469287_8 (length 78)
+test/test:NODE_2_length_8267_cov_12.469287_9 (length 184)
+test/test:NODE_2_length_8267_cov_12.469287_10 (length 266)
+test/test:NODE_2_length_8267_cov_12.469287_11 (length 131)
+test/test:NODE_3_length_4168_cov_1.682009 (length 4168)
+test/test:NODE_4_length_3086_cov_5.644137 (length 3086)
+test/test:NODE_4_length_3086_cov_5.644137_1 (length 294)
+test/test:NODE_4_length_3086_cov_5.644137_2 (length 491)
+test/test:NODE_5_length_2039_cov_1.130753 (length 2039)
+test/test:NODE_5_length_2039_cov_1.130753_1 (length 134)
+test/test:NODE_5_length_2039_cov_1.130753_2 (length 188)
+test/test:NODE_6_length_1728_cov_2.865084 (length 1728)
+test/test:NODE_6_length_1728_cov_2.865084_1 (length 72)
+test/test:NODE_6_length_1728_cov_2.865084_2 (length 326)
+test/test:NODE_7_length_1704_cov_1.275840 (length 1704)
+test/test:NODE_7_length_1704_cov_1.275840_1 (length 288)
+test/test:NODE_7_length_1704_cov_1.275840_2 (length 99)
+test/test:NODE_8_length_1430_cov_1.813507 (length 1430)
+test/test:NODE_9_length_1327_cov_1.492500 (length 1327)
+test/test:NODE_9_length_1327_cov_1.492500_1 (length 65)
+test/test:NODE_9_length_1327_cov_1.492500_2 (length 121)
+test/test:NODE_10_length_1061_cov_1.462527 (length 1061)
+test/test:NODE_11_length_1004_cov_0.841505 (length 1004)
+test/test:NODE_11_length_1004_cov_0.841505_1 (length 56)
+test/test:NODE_11_length_1004_cov_0.841505_2 (length 191)
+test/test:NODE_12_length_1002_cov_0.898286 (length 1002)
+test/test:NODE_12_length_1002_cov_0.898286_1 (length 105)
+test/test:NODE_13_length_905_cov_0.673522 (length 905)
+test/test:NODE_14_length_904_cov_0.897040 (length 904)
+test/test:NODE_14_length_904_cov_0.897040_1 (length 157)
+test/test:NODE_14_length_904_cov_0.897040_2 (length 122)
+test/test:NODE_15_length_893_cov_0.992167 (length 893)
+test/test:NODE_16_length_850_cov_1.000000 (length 850)
+test/test:NODE_16_length_850_cov_1.000000_1 (length 172)
+test/test:NODE_17_length_839_cov_0.639045 (length 839)
+test/test:NODE_17_length_839_cov_0.639045_1 (length 102)
+test/test:NODE_17_length_839_cov_0.639045_2 (length 72)
+test/test:NODE_18_length_820_cov_46.272727 (length 820)
+test/test:NODE_18_length_820_cov_46.272727_1 (length 234)
+test/test:NODE_19_length_816_cov_1.181422 (length 816)
+test/test:NODE_20_length_808_cov_0.957416 (length 808)
+test/test:NODE_20_length_808_cov_0.957416_1 (length 95)
+test/test:NODE_21_length_789_cov_1.084592 (length 789)
+test/test:NODE_21_length_789_cov_1.084592_1 (length 164)
+test/test:NODE_22_length_773_cov_0.698142 (length 773)
+test/test:NODE_22_length_773_cov_0.698142_1 (length 164)
+test/test:NODE_22_length_773_cov_0.698142_2 (length 80)
+test/test:NODE_23_length_767_cov_0.554688 (length 767)
+test/test:NODE_23_length_767_cov_0.554688_1 (length 217)
+test/test:NODE_24_length_751_cov_0.641026 (length 751)
+test/test:NODE_25_length_749_cov_1.041801 (length 749)
+test/test:NODE_25_length_749_cov_1.041801_1 (length 165)
+test/test:NODE_26_length_738_cov_0.945990 (length 738)
+test/test:NODE_27_length_722_cov_0.648739 (length 722)
+test/test:NODE_27_length_722_cov_0.648739_1 (length 69)
+test/test:NODE_28_length_721_cov_1.149832 (length 721)
+test/test:NODE_28_length_721_cov_1.149832_1 (length 211)
+test/test:NODE_29_length_712_cov_0.931624 (length 712)
+test/test:NODE_30_length_704_cov_0.649913 (length 704)
+test/test:NODE_31_length_704_cov_0.648180 (length 704)
+test/test:NODE_32_length_698_cov_1.253940 (length 698)
+test/test:NODE_33_length_698_cov_0.500876 (length 698)
+test/test:NODE_33_length_698_cov_0.500876_1 (length 98)
+test/test:NODE_34_length_694_cov_0.892416 (length 694)
+test/test:NODE_35_length_694_cov_0.652557 (length 694)
+test/test:NODE_36_length_693_cov_0.712014 (length 693)
+test/test:NODE_36_length_693_cov_0.712014_1 (length 62)
+test/test:NODE_37_length_674_cov_0.703839 (length 674)
+test/test:NODE_38_length_661_cov_0.803371 (length 661)
+test/test:NODE_38_length_661_cov_0.803371_1 (length 110)
+test/test:NODE_39_length_660_cov_0.898687 (length 660)
+test/test:NODE_39_length_660_cov_0.898687_1 (length 87)
+test/test:NODE_40_length_659_cov_0.921053 (length 659)
+test/test:NODE_41_length_657_cov_0.528302 (length 657)
+test/test:NODE_42_length_651_cov_0.761450 (length 651)
+test/test:NODE_42_length_651_cov_0.761450_1 (length 54)
+test/test:NODE_43_length_646_cov_0.552987 (length 646)
+test/test:NODE_43_length_646_cov_0.552987_1 (length 98)
+test/test:NODE_44_length_634_cov_0.832347 (length 634)
+test/test:NODE_44_length_634_cov_0.832347_1 (length 181)
+test/test:NODE_45_length_634_cov_0.729783 (length 634)
+test/test:NODE_45_length_634_cov_0.729783_1 (length 88)
+test/test:NODE_46_length_633_cov_0.992095 (length 633)
+test/test:NODE_47_length_620_cov_0.742394 (length 620)
+test/test:NODE_48_length_617_cov_0.665306 (length 617)
+test/test:NODE_48_length_617_cov_0.665306_1 (length 75)
+test/test:NODE_49_length_611_cov_0.605372 (length 611)
+test/test:NODE_50_length_609_cov_1.205394 (length 609)
+test/test:NODE_51_length_606_cov_0.776618 (length 606)
+test/test:NODE_51_length_606_cov_0.776618_1 (length 132)
+test/test:NODE_52_length_602_cov_0.829474 (length 602)
+test/test:NODE_52_length_602_cov_0.829474_1 (length 85)
+test/test:NODE_53_length_601_cov_0.738397 (length 601)
+test/test:NODE_53_length_601_cov_0.738397_1 (length 65)
+test/test:NODE_54_length_598_cov_0.670913 (length 598)
+test/test:NODE_55_length_595_cov_0.621795 (length 595)
+test/test:NODE_56_length_588_cov_0.694143 (length 588)
+test/test:NODE_57_length_587_cov_0.850000 (length 587)
+test/test:NODE_57_length_587_cov_0.850000_1 (length 99)
+test/test:NODE_58_length_577_cov_0.940000 (length 577)
+test/test:NODE_58_length_577_cov_0.940000_1 (length 72)
+test/test:NODE_59_length_575_cov_0.776786 (length 575)
+test/test:NODE_60_length_574_cov_0.798658 (length 574)
+test/test:NODE_60_length_574_cov_0.798658_1 (length 58)
+test/test:NODE_61_length_573_cov_0.744395 (length 573)
+test/test:NODE_61_length_573_cov_0.744395_1 (length 63)
+test/test:NODE_62_length_569_cov_0.760181 (length 569)
+test/test:NODE_62_length_569_cov_0.760181_1 (length 72)
+test/test:NODE_63_length_566_cov_0.660592 (length 566)
+test/test:NODE_64_length_563_cov_0.841743 (length 563)
+test/test:NODE_65_length_562_cov_0.891954 (length 562)
+test/test:NODE_65_length_562_cov_0.891954_1 (length 70)
+test/test:NODE_66_length_560_cov_0.824480 (length 560)
+test/test:NODE_66_length_560_cov_0.824480_1 (length 173)
+test/test:NODE_67_length_556_cov_0.857809 (length 556)
+test/test:NODE_67_length_556_cov_0.857809_1 (length 112)
+test/test:NODE_68_length_554_cov_0.707260 (length 554)
+test/test:NODE_68_length_554_cov_0.707260_1 (length 91)
+test/test:NODE_69_length_553_cov_0.894366 (length 553)
+test/test:NODE_69_length_553_cov_0.894366_1 (length 57)
+test/test:NODE_69_length_553_cov_0.894366_2 (length 55)
+test/test:NODE_70_length_551_cov_0.625000 (length 551)
+test/test:NODE_71_length_545_cov_1.294258 (length 545)
+test/test:NODE_71_length_545_cov_1.294258_1 (length 150)
+test/test:NODE_72_length_545_cov_0.636364 (length 545)
+test/test:NODE_73_length_545_cov_0.523923 (length 545)
+test/test:NODE_74_length_540_cov_0.970944 (length 540)
+test/test:NODE_74_length_540_cov_0.970944_1 (length 65)
+test/test:NODE_75_length_539_cov_0.691748 (length 539)
+test/test:NODE_76_length_534_cov_0.375921 (length 534)
+test/test:NODE_76_length_534_cov_0.375921_1 (length 116)
+test/test:NODE_77_length_531_cov_1.284653 (length 531)
+test/test:NODE_77_length_531_cov_1.284653_1 (length 85)
+test/test:NODE_78_length_531_cov_0.801980 (length 531)
+test/test:NODE_78_length_531_cov_0.801980_1 (length 46)
+test/test:NODE_79_length_526_cov_1.002506 (length 526)
+test/test:NODE_80_length_526_cov_0.929825 (length 526)
+test/test:NODE_81_length_526_cov_0.804511 (length 526)
+test/test:NODE_82_length_525_cov_0.718593 (length 525)
+test/test:NODE_83_length_524_cov_0.591940 (length 524)
+test/test:NODE_84_length_522_cov_1.230380 (length 522)
+test/test:NODE_85_length_522_cov_0.830380 (length 522)
+test/test:NODE_86_length_521_cov_0.672589 (length 521)
+test/test:NODE_86_length_521_cov_0.672589_1 (length 70)
+test/test:NODE_87_length_520_cov_1.010178 (length 520)
+test/test:NODE_87_length_520_cov_1.010178_1 (length 77)
+test/test:NODE_88_length_514_cov_1.018088 (length 514)
+test/test:NODE_89_length_513_cov_0.917098 (length 513)
+test/test:NODE_90_length_512_cov_0.935065 (length 512)
+test/test:NODE_91_length_512_cov_0.568831 (length 512)
+test/test:NODE_91_length_512_cov_0.568831_1 (length 57)
+test/test:NODE_92_length_510_cov_0.861619 (length 510)
+test/test:NODE_92_length_510_cov_0.861619_1 (length 130)
+test/test:NODE_93_length_510_cov_0.697128 (length 510)
+test/test:NODE_94_length_508_cov_1.023622 (length 508)
+test/test:NODE_94_length_508_cov_1.023622_1 (length 98)
+test/test:NODE_95_length_507_cov_1.434211 (length 507)
+test/test:NODE_96_length_507_cov_0.828947 (length 507)
+test/test:NODE_97_length_505_cov_0.669312 (length 505)
+test/test:NODE_98_length_505_cov_0.629630 (length 505)
+test/test:NODE_99_length_503_cov_0.981383 (length 503)
+test/test:NODE_100_length_503_cov_0.585106 (length 503)
+test/test:NODE_101_length_501_cov_1.066845 (length 501)
+test/test:NODE_101_length_501_cov_1.066845_1 (length 74)
+test/test:NODE_102_length_501_cov_0.954545 (length 501)
+test/test:NODE_103_length_500_cov_1.107239 (length 500)
+test/test:NODE_103_length_500_cov_1.107239_1 (length 86)
+test/test:NODE_104_length_498_cov_0.622642 (length 498)
+test/test:NODE_104_length_498_cov_0.622642_1 (length 135)
+test/test:NODE_105_length_496_cov_1.073171 (length 496)
+test/test:NODE_105_length_496_cov_1.073171_1 (length 135)
+test/test:NODE_106_length_494_cov_1.059946 (length 494)
+test/test:NODE_107_length_494_cov_0.880109 (length 494)
+test/test:NODE_108_length_494_cov_0.713896 (length 494)
+test/test:NODE_108_length_494_cov_0.713896_1 (length 73)
+test/test:NODE_109_length_493_cov_0.926230 (length 493)
+test/test:NODE_109_length_493_cov_0.926230_1 (length 93)
+test/test:NODE_110_length_492_cov_0.753425 (length 492)
+test/test:NODE_111_length_492_cov_0.731507 (length 492)
+test/test:NODE_111_length_492_cov_0.731507_1 (length 142)
+test/test:NODE_112_length_492_cov_0.715068 (length 492)
+test/test:NODE_112_length_492_cov_0.715068_1 (length 99)
+test/test:NODE_113_length_491_cov_0.348901 (length 491)
+test/test:NODE_113_length_491_cov_0.348901_1 (length 45)
+test/test:NODE_114_length_490_cov_0.966942 (length 490)
+test/test:NODE_115_length_490_cov_0.876033 (length 490)
+test/test:NODE_116_length_490_cov_0.752066 (length 490)
+test/test:NODE_117_length_489_cov_0.762431 (length 489)
+test/test:NODE_117_length_489_cov_0.762431_1 (length 128)
+test/test:NODE_118_length_488_cov_0.880886 (length 488)
+test/test:NODE_119_length_486_cov_0.735376 (length 486)
+test/test:NODE_119_length_486_cov_0.735376_1 (length 97)
+test/test:NODE_120_length_486_cov_0.643454 (length 486)
+test/test:NODE_121_length_485_cov_0.776536 (length 485)
+test/test:NODE_122_length_485_cov_0.592179 (length 485)
+test/test:NODE_123_length_484_cov_0.803922 (length 484)
+test/test:NODE_124_length_483_cov_1.480337 (length 483)
+test/test:NODE_125_length_483_cov_0.794944 (length 483)
+test/test:NODE_125_length_483_cov_0.794944_1 (length 84)
+test/test:NODE_126_length_483_cov_0.592697 (length 483)
+test/test:NODE_126_length_483_cov_0.592697_1 (length 108)
+test/test:NODE_127_length_482_cov_1.270423 (length 482)
+test/test:NODE_128_length_482_cov_0.892958 (length 482)
+test/test:NODE_128_length_482_cov_0.892958_1 (length 65)
+test/test:NODE_129_length_481_cov_1.022599 (length 481)
+test/test:NODE_130_length_480_cov_1.025496 (length 480)
+test/test:NODE_131_length_479_cov_0.755682 (length 479)
+test/test:NODE_132_length_479_cov_0.755682 (length 479)
+test/test:NODE_133_length_478_cov_0.880342 (length 478)
+test/test:NODE_134_length_477_cov_1.708571 (length 477)
+test/test:NODE_135_length_476_cov_0.865330 (length 476)
+test/test:NODE_135_length_476_cov_0.865330_1 (length 57)
+test/test:NODE_136_length_475_cov_0.724138 (length 475)
+test/test:NODE_137_length_474_cov_1.354467 (length 474)
+test/test:NODE_138_length_474_cov_1.020173 (length 474)
+test/test:NODE_139_length_474_cov_0.763689 (length 474)
+test/test:NODE_140_length_473_cov_0.921965 (length 473)
+test/test:NODE_140_length_473_cov_0.921965_1 (length 77)
+test/test:NODE_141_length_472_cov_0.907246 (length 472)
+test/test:NODE_142_length_472_cov_0.797101 (length 472)
+test/test:NODE_143_length_472_cov_0.771014 (length 472)
+test/test:NODE_143_length_472_cov_0.771014_1 (length 88)
+test/test:NODE_144_length_471_cov_0.991279 (length 471)
+test/test:NODE_145_length_471_cov_0.863372 (length 471)
+test/test:NODE_145_length_471_cov_0.863372_1 (length 79)
+test/test:NODE_146_length_470_cov_0.647230 (length 470)
+test/test:NODE_147_length_470_cov_0.635569 (length 470)
+test/test:NODE_148_length_467_cov_0.867647 (length 467)
+test/test:NODE_149_length_467_cov_0.647059 (length 467)
+test/test:NODE_150_length_466_cov_1.150442 (length 466)
+test/test:NODE_150_length_466_cov_1.150442_1 (length 130)
+test/test:NODE_151_length_464_cov_0.771513 (length 464)
+test/test:NODE_152_length_463_cov_0.776786 (length 463)
+test/test:NODE_153_length_463_cov_0.752976 (length 463)
+test/test:NODE_154_length_463_cov_0.750000 (length 463)
+test/test:NODE_155_length_462_cov_1.083582 (length 462)
+test/test:NODE_155_length_462_cov_1.083582_1 (length 83)
+test/test:NODE_156_length_462_cov_0.543284 (length 462)
+test/test:NODE_156_length_462_cov_0.543284_1 (length 83)
+test/test:NODE_157_length_461_cov_1.191617 (length 461)
+test/test:NODE_158_length_461_cov_0.865269 (length 461)
+test/test:NODE_158_length_461_cov_0.865269_1 (length 77)
+test/test:NODE_159_length_459_cov_1.620482 (length 459)
+test/test:NODE_160_length_459_cov_0.765060 (length 459)
+test/test:NODE_160_length_459_cov_0.765060_1 (length 82)
+test/test:NODE_161_length_457_cov_0.924242 (length 457)
+test/test:NODE_161_length_457_cov_0.924242_1 (length 79)
+test/test:NODE_162_length_457_cov_0.648485 (length 457)
+test/test:NODE_163_length_456_cov_0.683891 (length 456)
+test/test:NODE_163_length_456_cov_0.683891_1 (length 73)
+test/test:NODE_164_length_456_cov_0.604863 (length 456)
+test/test:NODE_165_length_454_cov_0.782875 (length 454)
+test/test:NODE_165_length_454_cov_0.782875_1 (length 138)
+test/test:NODE_166_length_454_cov_0.752294 (length 454)
+test/test:NODE_167_length_454_cov_0.678899 (length 454)
+test/test:NODE_168_length_453_cov_0.776074 (length 453)
+test/test:NODE_169_length_453_cov_0.677914 (length 453)
+test/test:NODE_170_length_452_cov_0.947692 (length 452)
+test/test:NODE_171_length_452_cov_0.756923 (length 452)
+test/test:NODE_172_length_452_cov_0.507692 (length 452)
+test/test:NODE_173_length_450_cov_0.953560 (length 450)
+test/test:NODE_173_length_450_cov_0.953560_1 (length 63)
+test/test:NODE_174_length_450_cov_0.690402 (length 450)
+test/test:NODE_174_length_450_cov_0.690402_1 (length 140)
+test/test:NODE_175_length_449_cov_0.819876 (length 449)
+test/test:NODE_176_length_449_cov_0.714286 (length 449)
+test/test:NODE_176_length_449_cov_0.714286_1 (length 83)
+test/test:NODE_177_length_449_cov_0.698758 (length 449)
+test/test:NODE_177_length_449_cov_0.698758_1 (length 83)
+test/test:NODE_178_length_448_cov_1.401869 (length 448)
+test/test:NODE_179_length_448_cov_0.775701 (length 448)
+test/test:NODE_179_length_448_cov_0.775701_1 (length 88)
+test/test:NODE_180_length_447_cov_1.159375 (length 447)
+test/test:NODE_181_length_447_cov_1.059375 (length 447)
+test/test:NODE_181_length_447_cov_1.059375_1 (length 96)
+test/test:NODE_182_length_447_cov_0.728125 (length 447)
+test/test:NODE_183_length_446_cov_0.789969 (length 446)
+test/test:NODE_183_length_446_cov_0.789969_1 (length 79)
+test/test:NODE_184_length_446_cov_0.730408 (length 446)
+test/test:NODE_185_length_446_cov_0.727273 (length 446)
+test/test:NODE_186_length_446_cov_0.699060 (length 446)
+test/test:NODE_187_length_446_cov_0.652038 (length 446)
+test/test:NODE_188_length_446_cov_0.485893 (length 446)
+test/test:NODE_189_length_445_cov_0.773585 (length 445)
+test/test:NODE_189_length_445_cov_0.773585_1 (length 49)
+test/test:NODE_190_length_445_cov_0.751572 (length 445)
+test/test:NODE_191_length_442_cov_0.841270 (length 442)
+test/test:NODE_191_length_442_cov_0.841270_1 (length 109)
+test/test:NODE_192_length_441_cov_0.716561 (length 441)
+test/test:NODE_193_length_440_cov_0.795527 (length 440)
+test/test:NODE_194_length_440_cov_0.766773 (length 440)
+test/test:NODE_194_length_440_cov_0.766773_1 (length 139)
+test/test:NODE_195_length_440_cov_0.741214 (length 440)
+test/test:NODE_196_length_439_cov_1.160256 (length 439)
+test/test:NODE_197_length_439_cov_0.733974 (length 439)
+test/test:NODE_198_length_437_cov_0.758065 (length 437)
+test/test:NODE_199_length_437_cov_0.748387 (length 437)
+test/test:NODE_200_length_437_cov_0.674194 (length 437)
+test/test:NODE_201_length_436_cov_0.912621 (length 436)
+test/test:NODE_201_length_436_cov_0.912621_1 (length 91)
+test/test:NODE_202_length_435_cov_0.730519 (length 435)
+test/test:NODE_202_length_435_cov_0.730519_1 (length 49)
+test/test:NODE_202_length_435_cov_0.730519_2 (length 82)
+test/test:NODE_203_length_435_cov_0.668831 (length 435)
+test/test:NODE_204_length_435_cov_0.659091 (length 435)
+test/test:NODE_204_length_435_cov_0.659091_1 (length 52)
+test/test:NODE_205_length_435_cov_0.607143 (length 435)
+test/test:NODE_205_length_435_cov_0.607143_1 (length 94)
+test/test:NODE_206_length_434_cov_1.413681 (length 434)
+test/test:NODE_207_length_434_cov_0.680782 (length 434)
+test/test:NODE_208_length_432_cov_1.754098 (length 432)
+test/test:NODE_209_length_432_cov_0.845902 (length 432)
+test/test:NODE_209_length_432_cov_0.845902_1 (length 99)
+test/test:NODE_210_length_432_cov_0.711475 (length 432)
+test/test:NODE_211_length_431_cov_0.828947 (length 431)
+test/test:NODE_212_length_431_cov_0.664474 (length 431)
+test/test:NODE_213_length_431_cov_0.664474 (length 431)
+test/test:NODE_213_length_431_cov_0.664474_1 (length 98)
+test/test:NODE_214_length_430_cov_1.498350 (length 430)
+test/test:NODE_215_length_430_cov_0.841584 (length 430)
+test/test:NODE_216_length_429_cov_0.983444 (length 429)
+test/test:NODE_217_length_429_cov_0.738411 (length 429)
+test/test:NODE_217_length_429_cov_0.738411_1 (length 78)
+
+FATAL: DiscRep_ALL:RRNA_NAME_CONFLICTS::1 rRNA product names are not standard. Correct the names to the standard, eg "16S g "16S ribosomal RNA"
+test/test:rRNA	16S ribosomal RNA (partial)	NODE_10_length_1061_cov_1.462527:c1061-2	PHLKGFML_00109
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::217 Molinfos are missing field technique
+test/test:NODE_1_length_59360_cov_12.132865 (length 59360)
+test/test:NODE_2_length_8267_cov_12.469287 (length 8267)
+test/test:NODE_3_length_4168_cov_1.682009 (length 4168)
+test/test:NODE_4_length_3086_cov_5.644137 (length 3086)
+test/test:NODE_5_length_2039_cov_1.130753 (length 2039)
+test/test:NODE_6_length_1728_cov_2.865084 (length 1728)
+test/test:NODE_7_length_1704_cov_1.275840 (length 1704)
+test/test:NODE_8_length_1430_cov_1.813507 (length 1430)
+test/test:NODE_9_length_1327_cov_1.492500 (length 1327)
+test/test:NODE_10_length_1061_cov_1.462527 (length 1061)
+test/test:NODE_11_length_1004_cov_0.841505 (length 1004)
+test/test:NODE_12_length_1002_cov_0.898286 (length 1002)
+test/test:NODE_13_length_905_cov_0.673522 (length 905)
+test/test:NODE_14_length_904_cov_0.897040 (length 904)
+test/test:NODE_15_length_893_cov_0.992167 (length 893)
+test/test:NODE_16_length_850_cov_1.000000 (length 850)
+test/test:NODE_17_length_839_cov_0.639045 (length 839)
+test/test:NODE_18_length_820_cov_46.272727 (length 820)
+test/test:NODE_19_length_816_cov_1.181422 (length 816)
+test/test:NODE_20_length_808_cov_0.957416 (length 808)
+test/test:NODE_21_length_789_cov_1.084592 (length 789)
+test/test:NODE_22_length_773_cov_0.698142 (length 773)
+test/test:NODE_23_length_767_cov_0.554688 (length 767)
+test/test:NODE_24_length_751_cov_0.641026 (length 751)
+test/test:NODE_25_length_749_cov_1.041801 (length 749)
+test/test:NODE_26_length_738_cov_0.945990 (length 738)
+test/test:NODE_27_length_722_cov_0.648739 (length 722)
+test/test:NODE_28_length_721_cov_1.149832 (length 721)
+test/test:NODE_29_length_712_cov_0.931624 (length 712)
+test/test:NODE_30_length_704_cov_0.649913 (length 704)
+test/test:NODE_31_length_704_cov_0.648180 (length 704)
+test/test:NODE_32_length_698_cov_1.253940 (length 698)
+test/test:NODE_33_length_698_cov_0.500876 (length 698)
+test/test:NODE_34_length_694_cov_0.892416 (length 694)
+test/test:NODE_35_length_694_cov_0.652557 (length 694)
+test/test:NODE_36_length_693_cov_0.712014 (length 693)
+test/test:NODE_37_length_674_cov_0.703839 (length 674)
+test/test:NODE_38_length_661_cov_0.803371 (length 661)
+test/test:NODE_39_length_660_cov_0.898687 (length 660)
+test/test:NODE_40_length_659_cov_0.921053 (length 659)
+test/test:NODE_41_length_657_cov_0.528302 (length 657)
+test/test:NODE_42_length_651_cov_0.761450 (length 651)
+test/test:NODE_43_length_646_cov_0.552987 (length 646)
+test/test:NODE_44_length_634_cov_0.832347 (length 634)
+test/test:NODE_45_length_634_cov_0.729783 (length 634)
+test/test:NODE_46_length_633_cov_0.992095 (length 633)
+test/test:NODE_47_length_620_cov_0.742394 (length 620)
+test/test:NODE_48_length_617_cov_0.665306 (length 617)
+test/test:NODE_49_length_611_cov_0.605372 (length 611)
+test/test:NODE_50_length_609_cov_1.205394 (length 609)
+test/test:NODE_51_length_606_cov_0.776618 (length 606)
+test/test:NODE_52_length_602_cov_0.829474 (length 602)
+test/test:NODE_53_length_601_cov_0.738397 (length 601)
+test/test:NODE_54_length_598_cov_0.670913 (length 598)
+test/test:NODE_55_length_595_cov_0.621795 (length 595)
+test/test:NODE_56_length_588_cov_0.694143 (length 588)
+test/test:NODE_57_length_587_cov_0.850000 (length 587)
+test/test:NODE_58_length_577_cov_0.940000 (length 577)
+test/test:NODE_59_length_575_cov_0.776786 (length 575)
+test/test:NODE_60_length_574_cov_0.798658 (length 574)
+test/test:NODE_61_length_573_cov_0.744395 (length 573)
+test/test:NODE_62_length_569_cov_0.760181 (length 569)
+test/test:NODE_63_length_566_cov_0.660592 (length 566)
+test/test:NODE_64_length_563_cov_0.841743 (length 563)
+test/test:NODE_65_length_562_cov_0.891954 (length 562)
+test/test:NODE_66_length_560_cov_0.824480 (length 560)
+test/test:NODE_67_length_556_cov_0.857809 (length 556)
+test/test:NODE_68_length_554_cov_0.707260 (length 554)
+test/test:NODE_69_length_553_cov_0.894366 (length 553)
+test/test:NODE_70_length_551_cov_0.625000 (length 551)
+test/test:NODE_71_length_545_cov_1.294258 (length 545)
+test/test:NODE_72_length_545_cov_0.636364 (length 545)
+test/test:NODE_73_length_545_cov_0.523923 (length 545)
+test/test:NODE_74_length_540_cov_0.970944 (length 540)
+test/test:NODE_75_length_539_cov_0.691748 (length 539)
+test/test:NODE_76_length_534_cov_0.375921 (length 534)
+test/test:NODE_77_length_531_cov_1.284653 (length 531)
+test/test:NODE_78_length_531_cov_0.801980 (length 531)
+test/test:NODE_79_length_526_cov_1.002506 (length 526)
+test/test:NODE_80_length_526_cov_0.929825 (length 526)
+test/test:NODE_81_length_526_cov_0.804511 (length 526)
+test/test:NODE_82_length_525_cov_0.718593 (length 525)
+test/test:NODE_83_length_524_cov_0.591940 (length 524)
+test/test:NODE_84_length_522_cov_1.230380 (length 522)
+test/test:NODE_85_length_522_cov_0.830380 (length 522)
+test/test:NODE_86_length_521_cov_0.672589 (length 521)
+test/test:NODE_87_length_520_cov_1.010178 (length 520)
+test/test:NODE_88_length_514_cov_1.018088 (length 514)
+test/test:NODE_89_length_513_cov_0.917098 (length 513)
+test/test:NODE_90_length_512_cov_0.935065 (length 512)
+test/test:NODE_91_length_512_cov_0.568831 (length 512)
+test/test:NODE_92_length_510_cov_0.861619 (length 510)
+test/test:NODE_93_length_510_cov_0.697128 (length 510)
+test/test:NODE_94_length_508_cov_1.023622 (length 508)
+test/test:NODE_95_length_507_cov_1.434211 (length 507)
+test/test:NODE_96_length_507_cov_0.828947 (length 507)
+test/test:NODE_97_length_505_cov_0.669312 (length 505)
+test/test:NODE_98_length_505_cov_0.629630 (length 505)
+test/test:NODE_99_length_503_cov_0.981383 (length 503)
+test/test:NODE_100_length_503_cov_0.585106 (length 503)
+test/test:NODE_101_length_501_cov_1.066845 (length 501)
+test/test:NODE_102_length_501_cov_0.954545 (length 501)
+test/test:NODE_103_length_500_cov_1.107239 (length 500)
+test/test:NODE_104_length_498_cov_0.622642 (length 498)
+test/test:NODE_105_length_496_cov_1.073171 (length 496)
+test/test:NODE_106_length_494_cov_1.059946 (length 494)
+test/test:NODE_107_length_494_cov_0.880109 (length 494)
+test/test:NODE_108_length_494_cov_0.713896 (length 494)
+test/test:NODE_109_length_493_cov_0.926230 (length 493)
+test/test:NODE_110_length_492_cov_0.753425 (length 492)
+test/test:NODE_111_length_492_cov_0.731507 (length 492)
+test/test:NODE_112_length_492_cov_0.715068 (length 492)
+test/test:NODE_113_length_491_cov_0.348901 (length 491)
+test/test:NODE_114_length_490_cov_0.966942 (length 490)
+test/test:NODE_115_length_490_cov_0.876033 (length 490)
+test/test:NODE_116_length_490_cov_0.752066 (length 490)
+test/test:NODE_117_length_489_cov_0.762431 (length 489)
+test/test:NODE_118_length_488_cov_0.880886 (length 488)
+test/test:NODE_119_length_486_cov_0.735376 (length 486)
+test/test:NODE_120_length_486_cov_0.643454 (length 486)
+test/test:NODE_121_length_485_cov_0.776536 (length 485)
+test/test:NODE_122_length_485_cov_0.592179 (length 485)
+test/test:NODE_123_length_484_cov_0.803922 (length 484)
+test/test:NODE_124_length_483_cov_1.480337 (length 483)
+test/test:NODE_125_length_483_cov_0.794944 (length 483)
+test/test:NODE_126_length_483_cov_0.592697 (length 483)
+test/test:NODE_127_length_482_cov_1.270423 (length 482)
+test/test:NODE_128_length_482_cov_0.892958 (length 482)
+test/test:NODE_129_length_481_cov_1.022599 (length 481)
+test/test:NODE_130_length_480_cov_1.025496 (length 480)
+test/test:NODE_131_length_479_cov_0.755682 (length 479)
+test/test:NODE_132_length_479_cov_0.755682 (length 479)
+test/test:NODE_133_length_478_cov_0.880342 (length 478)
+test/test:NODE_134_length_477_cov_1.708571 (length 477)
+test/test:NODE_135_length_476_cov_0.865330 (length 476)
+test/test:NODE_136_length_475_cov_0.724138 (length 475)
+test/test:NODE_137_length_474_cov_1.354467 (length 474)
+test/test:NODE_138_length_474_cov_1.020173 (length 474)
+test/test:NODE_139_length_474_cov_0.763689 (length 474)
+test/test:NODE_140_length_473_cov_0.921965 (length 473)
+test/test:NODE_141_length_472_cov_0.907246 (length 472)
+test/test:NODE_142_length_472_cov_0.797101 (length 472)
+test/test:NODE_143_length_472_cov_0.771014 (length 472)
+test/test:NODE_144_length_471_cov_0.991279 (length 471)
+test/test:NODE_145_length_471_cov_0.863372 (length 471)
+test/test:NODE_146_length_470_cov_0.647230 (length 470)
+test/test:NODE_147_length_470_cov_0.635569 (length 470)
+test/test:NODE_148_length_467_cov_0.867647 (length 467)
+test/test:NODE_149_length_467_cov_0.647059 (length 467)
+test/test:NODE_150_length_466_cov_1.150442 (length 466)
+test/test:NODE_151_length_464_cov_0.771513 (length 464)
+test/test:NODE_152_length_463_cov_0.776786 (length 463)
+test/test:NODE_153_length_463_cov_0.752976 (length 463)
+test/test:NODE_154_length_463_cov_0.750000 (length 463)
+test/test:NODE_155_length_462_cov_1.083582 (length 462)
+test/test:NODE_156_length_462_cov_0.543284 (length 462)
+test/test:NODE_157_length_461_cov_1.191617 (length 461)
+test/test:NODE_158_length_461_cov_0.865269 (length 461)
+test/test:NODE_159_length_459_cov_1.620482 (length 459)
+test/test:NODE_160_length_459_cov_0.765060 (length 459)
+test/test:NODE_161_length_457_cov_0.924242 (length 457)
+test/test:NODE_162_length_457_cov_0.648485 (length 457)
+test/test:NODE_163_length_456_cov_0.683891 (length 456)
+test/test:NODE_164_length_456_cov_0.604863 (length 456)
+test/test:NODE_165_length_454_cov_0.782875 (length 454)
+test/test:NODE_166_length_454_cov_0.752294 (length 454)
+test/test:NODE_167_length_454_cov_0.678899 (length 454)
+test/test:NODE_168_length_453_cov_0.776074 (length 453)
+test/test:NODE_169_length_453_cov_0.677914 (length 453)
+test/test:NODE_170_length_452_cov_0.947692 (length 452)
+test/test:NODE_171_length_452_cov_0.756923 (length 452)
+test/test:NODE_172_length_452_cov_0.507692 (length 452)
+test/test:NODE_173_length_450_cov_0.953560 (length 450)
+test/test:NODE_174_length_450_cov_0.690402 (length 450)
+test/test:NODE_175_length_449_cov_0.819876 (length 449)
+test/test:NODE_176_length_449_cov_0.714286 (length 449)
+test/test:NODE_177_length_449_cov_0.698758 (length 449)
+test/test:NODE_178_length_448_cov_1.401869 (length 448)
+test/test:NODE_179_length_448_cov_0.775701 (length 448)
+test/test:NODE_180_length_447_cov_1.159375 (length 447)
+test/test:NODE_181_length_447_cov_1.059375 (length 447)
+test/test:NODE_182_length_447_cov_0.728125 (length 447)
+test/test:NODE_183_length_446_cov_0.789969 (length 446)
+test/test:NODE_184_length_446_cov_0.730408 (length 446)
+test/test:NODE_185_length_446_cov_0.727273 (length 446)
+test/test:NODE_186_length_446_cov_0.699060 (length 446)
+test/test:NODE_187_length_446_cov_0.652038 (length 446)
+test/test:NODE_188_length_446_cov_0.485893 (length 446)
+test/test:NODE_189_length_445_cov_0.773585 (length 445)
+test/test:NODE_190_length_445_cov_0.751572 (length 445)
+test/test:NODE_191_length_442_cov_0.841270 (length 442)
+test/test:NODE_192_length_441_cov_0.716561 (length 441)
+test/test:NODE_193_length_440_cov_0.795527 (length 440)
+test/test:NODE_194_length_440_cov_0.766773 (length 440)
+test/test:NODE_195_length_440_cov_0.741214 (length 440)
+test/test:NODE_196_length_439_cov_1.160256 (length 439)
+test/test:NODE_197_length_439_cov_0.733974 (length 439)
+test/test:NODE_198_length_437_cov_0.758065 (length 437)
+test/test:NODE_199_length_437_cov_0.748387 (length 437)
+test/test:NODE_200_length_437_cov_0.674194 (length 437)
+test/test:NODE_201_length_436_cov_0.912621 (length 436)
+test/test:NODE_202_length_435_cov_0.730519 (length 435)
+test/test:NODE_203_length_435_cov_0.668831 (length 435)
+test/test:NODE_204_length_435_cov_0.659091 (length 435)
+test/test:NODE_205_length_435_cov_0.607143 (length 435)
+test/test:NODE_206_length_434_cov_1.413681 (length 434)
+test/test:NODE_207_length_434_cov_0.680782 (length 434)
+test/test:NODE_208_length_432_cov_1.754098 (length 432)
+test/test:NODE_209_length_432_cov_0.845902 (length 432)
+test/test:NODE_210_length_432_cov_0.711475 (length 432)
+test/test:NODE_211_length_431_cov_0.828947 (length 431)
+test/test:NODE_212_length_431_cov_0.664474 (length 431)
+test/test:NODE_213_length_431_cov_0.664474 (length 431)
+test/test:NODE_214_length_430_cov_1.498350 (length 430)
+test/test:NODE_215_length_430_cov_0.841584 (length 430)
+test/test:NODE_216_length_429_cov_0.983444 (length 429)
+test/test:NODE_217_length_429_cov_0.738411 (length 429)
+
+DiscRep_ALL:SEQ_ID_PHRASES::Sequence Ids contain unacceptable phrases (cov_, length, node, paired, or trimmed)
+

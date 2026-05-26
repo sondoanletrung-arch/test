@@ -1,10 +1,10 @@
-# 🦠 Bacterial Genome Assembly & Annotation Pipeline
+# Bacterial Genome Assembly & Annotation Pipeline
 
 Một workflow tự động hóa viết bằng **Nextflow (DSL2)**, chuyên dụng cho việc lắp ráp de novo và chú thích hệ gen vi khuẩn từ dữ liệu giải trình tự thế hệ mới (short-read Illumina PE).
 
 ---
 
-## 📊 Sơ đồ luồng công việc
+## Sơ đồ luồng công việc
 
 ```
 Raw Reads (FASTQ PE)
@@ -36,18 +36,18 @@ Raw Reads (FASTQ PE)
 
 ---
 
-## 💻 Yêu cầu hệ thống
+## Yêu cầu hệ thống
 
-| Phần mềm |
-|----------|
-| Linux/Ubuntu hoặc macOS | — |
-| Java | 11 hoặc 17 |
-| Nextflow | ≥ 22.10.x |
+| Phần mềm | Phiên bản |
+|----------|-----------|
+| Linux/Ubuntu | 20.04.6 |
+| Java | 17.0.18 |
+| Nextflow | 26.04.1  |
 | Docker **hoặc** Singularity **hoặc** Conda |
 
 ---
 
-## 🚀 Hướng dẫn khởi chạy nhanh
+## Hướng dẫn khởi chạy nhanh
 
 ### Bước 1 — Tải pipeline về máy
 
@@ -92,7 +92,7 @@ nextflow run testmain.nf -profile conda
 
 ---
 
-## 📁 Cấu trúc thư mục đầu ra
+## Cấu trúc thư mục đầu ra
 
 Sau khi pipeline chạy xong, kết quả được lưu trong thư mục `results/`:
 
@@ -115,7 +115,7 @@ results/
 
 ---
 
-## ⚙️ Cấu hình tài nguyên
+## Cấu hình tài nguyên
 
 Tài nguyên mặc định cho từng bước được định nghĩa trong `nextflow.config`:
 
@@ -133,7 +133,7 @@ nextflow run testmain.nf -profile docker --outdir my_results
 
 ---
 
-## 🐳 Thông tin Container & Conda
+## Thông tin Container & Conda
 
 | Tool | Conda package | Docker/Singularity image |
 |------|---------------|--------------------------|
@@ -143,7 +143,7 @@ nextflow run testmain.nf -profile docker --outdir my_results
 
 ---
 
-## 🗂️ Cấu trúc project
+## Cấu trúc project
 
 ```
 .
@@ -156,22 +156,3 @@ nextflow run testmain.nf -profile docker --outdir my_results
 └── assets/
     └── real10k/         # Dữ liệu test (10k reads)
 ```
-
----
-
-## ❓ Câu hỏi thường gặp
-
-**Q: Pipeline có hỗ trợ single-end reads không?**
-A: Hiện tại chỉ hỗ trợ paired-end (PE) Illumina reads.
-
-**Q: Tôi có thể chạy nhiều mẫu cùng lúc không?**
-A: Có. Thêm nhiều dòng vào `samplesheet.csv`, Nextflow sẽ tự động xử lý song song.
-
-**Q: Nextflow lưu kết quả tạm ở đâu?**
-A: Trong thư mục `work/`. Có thể xóa sau khi pipeline hoàn tất bằng `nextflow clean -f`.
-
----
-
-## 📜 License
-
-Dự án này được phân phối theo giấy phép MIT.

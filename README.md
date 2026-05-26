@@ -156,3 +156,30 @@ nextflow run testmain.nf -profile docker --outdir my_results
 └── assets/
     └── real10k/         # Dữ liệu test (10k reads)
 ```
+## Tác giả
+ 
+**Đoàn Lê Trung Sơn**
+- 📧 Email: sondoanletrung@gmail.com
+- 🐙 GitHub: [@sondoanletrung-arch](https://github.com/sondoanletrung-arch)
+ 
+Nếu bạn gặp lỗi hoặc có câu hỏi, vui lòng:
+- Liên hệ trực tiếp qua email.
+---
+ 
+## Citation
+ 
+Pipeline này sử dụng các công cụ sau
+ 
+**Fastp:**
+> Chen, S., Zhou, Y., Chen, Y., & Gu, J. (2018). fastp: an ultra-fast all-in-one FASTQ preprocessor. *Bioinformatics*, 34(17), i884–i890. https://doi.org/10.1093/bioinformatics/bty560
+ 
+**SPAdes:**
+> Bankevich, A., Nurk, S., Antipov, D., et al. (2012). SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing. *Journal of Computational Biology*, 19(5), 455–477. https://doi.org/10.1089/cmb.2012.0021
+ 
+**Prokka:**
+> Seemann, T. (2014). Prokka: rapid prokaryotic genome annotation. *Bioinformatics*, 30(14), 2068–2069. https://doi.org/10.1093/bioinformatics/btu153
+ 
+**Nextflow:**
+> Di Tommaso, P., Chatzou, M., Floden, E. W., et al. (2017). Nextflow enables reproducible computational workflows. *Nature Biotechnology*, 35(4), 316–319. https://doi.org/10.1038/nbt.3820
+ 
+---

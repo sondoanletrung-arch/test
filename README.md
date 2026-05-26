@@ -62,7 +62,7 @@ Tạo file `samplesheet.csv` (tab-separated) trong thư mục gốc của projec
 
 ```
 sample	fastq_1	fastq_2	genus	species	strain
-test	assets/real10k/DRR121928_1_10k.fastq.gz	assets/real10k/DRR121928_2_10k.fastq.gz	Escherichia	coli	K-12
+test	/path/to/S1_R1.fastq.gz	/path/to/S1_R2.fastq.gz	Escherichia	coli	K-12
 ```
 
 | Cột | Mô tả |

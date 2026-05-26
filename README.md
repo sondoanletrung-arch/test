@@ -58,11 +58,12 @@ cd test
 
 ### Bước 2 — Chuẩn bị samplesheet
 
-Tạo file `samplesheet.csv` (tab-separated) trong thư mục gốc của project theo mẫu sau:
+Tạo file `samplesheet.csv` trong thư mục gốc của project theo mẫu sau:
 
 ```
-sample	fastq_1	fastq_2	genus	species	strain
-test	/path/to/S1_R1.fastq.gz	/path/to/S1_R2.fastq.gz	Escherichia	coli	K-12
+sample,fastq_1,fastq_2,genus,name
+Sample_01,/path/to/S1_R1.fastq.gz,/path/to/S1_R2.fastq.gz,Edwardsiella,coli,UNKNOWN
+
 ```
 
 | Cột | Mô tả |
@@ -73,7 +74,8 @@ test	/path/to/S1_R1.fastq.gz	/path/to/S1_R2.fastq.gz	Escherichia	coli	K-12
 | `genus` | Chi vi khuẩn (dùng cho Prokka) |
 | `species` | Loài vi khuẩn (dùng cho Prokka) |
 | `strain` | Chủng vi khuẩn (dùng cho Prokka) |
-# Lưu ý: Cột genus,species, strain có thể bỏ trống hoặc "UNKNOWN"
+
+Lưu ý: Cột genus,species, strain có thể bỏ trống hoặc "UNKNOWN"
 
 ### Bước 3 — Chạy pipeline
 
@@ -125,11 +127,7 @@ Tài nguyên mặc định cho từng bước được định nghĩa trong `nex
 | SPAdes | 2 | 4 GB |
 | PROKKA | 2 | — |
 
-Để thay đổi, chỉnh sửa trực tiếp trong file `nextflow.config` hoặc truyền tham số khi chạy:
-
-```bash
-nextflow run testmain.nf -profile docker --outdir my_results
-```
+Để thay đổi, chỉnh sửa trực tiếp trong file `nextflow.config`.
 
 ---
 

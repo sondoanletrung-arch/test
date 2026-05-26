@@ -157,8 +157,8 @@ Tài nguyên mặc định cho từng bước được định nghĩa trong `nex
 ## Tác giả
  
 **Đoàn Lê Trung Sơn**
-- 📧 Email: sondoanletrung@gmail.com
-- 🐙 GitHub: [@sondoanletrung-arch](https://github.com/sondoanletrung-arch)
+- Email: sondoanletrung@gmail.com
+- GitHub: [@sondoanletrung-arch](https://github.com/sondoanletrung-arch)
  
 Nếu bạn gặp lỗi hoặc có câu hỏi, vui lòng:
 - Liên hệ trực tiếp qua email.
@@ -169,15 +169,14 @@ Nếu bạn gặp lỗi hoặc có câu hỏi, vui lòng:
 Pipeline này sử dụng các công cụ sau
  
 **Fastp:**
-> Chen, S., Zhou, Y., Chen, Y., & Gu, J. (2018). fastp: an ultra-fast all-in-one FASTQ preprocessor. *Bioinformatics*, 34(17), i884–i890. https://doi.org/10.1093/bioinformatics/bty560
+> Chen, S., Zhou, Y., Chen, Y., & Gu, J. (2018). fastp: an ultra-fast all-in-one FASTQ preprocessor. Bioinformatics (Oxford, England), 34(17), i884–i890. https://doi.org/10.1093/bioinformatics/bty560
  
 **SPAdes:**
-> Bankevich, A., Nurk, S., Antipov, D., et al. (2012). SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing. *Journal of Computational Biology*, 19(5), 455–477. https://doi.org/10.1089/cmb.2012.0021
+> Bankevich, A., Nurk, S., Antipov, D., Gurevich, A. A., Dvorkin, M., Kulikov, A. S., Lesin, V. M., Nikolenko, S. I., Pham, S., Prjibelski, A. D., Pyshkin, A. V., Sirotkin, A. V., Vyahhi, N., Tesler, G., Alekseyev, M. A., & Pevzner, P. A. (2012). SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. Journal of computational biology : a journal of computational molecular cell biology, 19(5), 455–477. https://doi.org/10.1089/cmb.2012.0021
  
 **Prokka:**
-> Seemann, T. (2014). Prokka: rapid prokaryotic genome annotation. *Bioinformatics*, 30(14), 2068–2069. https://doi.org/10.1093/bioinformatics/btu153
- 
+> Seemann T. (2014). Prokka: rapid prokaryotic genome annotation. Bioinformatics (Oxford, England), 30(14), 2068–2069. https://doi.org/10.1093/bioinformatics/btu153
 **Nextflow:**
-> Di Tommaso, P., Chatzou, M., Floden, E. W., et al. (2017). Nextflow enables reproducible computational workflows. *Nature Biotechnology*, 35(4), 316–319. https://doi.org/10.1038/nbt.3820
+> Di Tommaso, P., Chatzou, M., Floden, E. W., Barja, P. P., Palumbo, E., & Notredame, C. (2017). Nextflow enables reproducible computational workflows. Nature biotechnology, 35(4), 316–319. https://doi.org/10.1038/nbt.3820
  
 ---
